@@ -9,15 +9,6 @@ fmgd_switchcontroller_fortilinksettings_nacports -- NAC specific configuration.
 
 .. versionadded:: 1.0.0
 
-.. warning::
-   Starting in version 3.0.0, all input arguments will be named using the underscore naming convention (snake_case).
-  
-   - Argument name before 3.0.0: ``var-name``, ``var name``, ``var.name``
-   - New argument name starting in 3.0.0: ``var_name``
-  
-   FortiManager Ansible v2.4+ supports both previous argument name and new underscore name.
-   You will receive deprecation warnings if you keep using the previous argument name.
-   You can ignore the warning by setting deprecation_warnings=False in ansible.cfg.
 
 .. contents::
    :local:
@@ -43,7 +34,7 @@ FortiManager Version Compatibility
 ----------------------------------
 .. raw:: html
 
- <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.2.6 -> v7.2.8</code>, <code class="docutils literal notranslate">v7.4.3 -> latest</code></p>
+ <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.2.6 -> v7.2.9</code>, <code class="docutils literal notranslate">v7.4.3 -> latest</code></p>
 
 
 
@@ -62,49 +53,49 @@ Parameters
  <li><span class="li-head">workspace_locking_timeout</span> - The maximum time in seconds to wait for other users to release workspace lock. <span class="li-normal">type: integer</span> <span class="li-required">required: false</span>  <span class="li-normal">default: 300</span> </li>
  <li><span class="li-head">device</span> - The parameter in requested url <span class="li-normal">type: str</span> <span class="li-required">required: true</span> </li>
  <li><span class="li-head">vdom</span> - The parameter in requested url <span class="li-normal">type: str</span> <span class="li-required">required: true</span> </li>
- <li><span class="li-head">fortilink-settings</span> - The parameter in requested url <span class="li-normal">type: str</span> <span class="li-required">required: true</span> </li>
+ <li><span class="li-head">fortilink_settings</span> - The parameter in requested url <span class="li-normal">type: str</span> <span class="li-required">required: true</span> </li>
  <li><span class="li-head">switchcontroller_fortilinksettings_nacports</span> - NAC specific configuration. <span class="li-normal">type: dict</span></li>
  <ul class="ul-self">
  <li><span class="li-head">lan_segment</span> <b>(Alias name: lan-segment)</b>  Enable/disable lan segment feature on the fortilink interface. <span class="li-normal">type: str</span> <span class="li-normal">choices: [disabled, enabled]</span> 
  <a id='label0' href="javascript:ContentClick('label1', 'label0');" onmouseover="ContentPreview('label1');" onmouseout="ContentUnpreview('label1');" title="click to collapse or expand..."> more... </a>
  <div id="label1" style="display:none">
- <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.2.6 -> v7.2.8</code>, <code class="docutils literal notranslate">v7.4.3 -> latest</code></p>
+ <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.2.6 -> v7.2.9</code>, <code class="docutils literal notranslate">v7.4.3 -> latest</code></p>
  </div>
  </li>
  <li><span class="li-head">member_change</span> <b>(Alias name: member-change)</b>  Member change. <span class="li-normal">type: int</span>
  <a id='label2' href="javascript:ContentClick('label3', 'label2');" onmouseover="ContentPreview('label3');" onmouseout="ContentUnpreview('label3');" title="click to collapse or expand..."> more... </a>
  <div id="label3" style="display:none">
- <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.2.6 -> v7.2.8</code>, <code class="docutils literal notranslate">v7.4.3 -> latest</code></p>
+ <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.2.6 -> v7.2.9</code>, <code class="docutils literal notranslate">v7.4.3 -> latest</code></p>
  </div>
  </li>
  <li><span class="li-head">nac_lan_interface</span> <b>(Alias name: nac-lan-interface)</b>  Configure nac lan interface. <span class="li-normal">type: list</span>
  <a id='label4' href="javascript:ContentClick('label5', 'label4');" onmouseover="ContentPreview('label5');" onmouseout="ContentUnpreview('label5');" title="click to collapse or expand..."> more... </a>
  <div id="label5" style="display:none">
- <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.2.6 -> v7.2.8</code>, <code class="docutils literal notranslate">v7.4.3 -> latest</code></p>
+ <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.2.6 -> v7.2.9</code>, <code class="docutils literal notranslate">v7.4.3 -> latest</code></p>
  </div>
  </li>
  <li><span class="li-head">nac_segment_vlans</span> <b>(Alias name: nac-segment-vlans)</b>  Configure nac segment vlans. <span class="li-normal">type: list</span>
  <a id='label6' href="javascript:ContentClick('label7', 'label6');" onmouseover="ContentPreview('label7');" onmouseout="ContentUnpreview('label7');" title="click to collapse or expand..."> more... </a>
  <div id="label7" style="display:none">
- <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.2.6 -> v7.2.8</code>, <code class="docutils literal notranslate">v7.4.3 -> latest</code></p>
+ <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.2.6 -> v7.2.9</code>, <code class="docutils literal notranslate">v7.4.3 -> latest</code></p>
  </div>
  </li>
  <li><span class="li-head">onboarding_vlan</span> <b>(Alias name: onboarding-vlan)</b>  Default nac onboarding vlan when nac devices are discovered. <span class="li-normal">type: list</span>
  <a id='label8' href="javascript:ContentClick('label9', 'label8');" onmouseover="ContentPreview('label9');" onmouseout="ContentUnpreview('label9');" title="click to collapse or expand..."> more... </a>
  <div id="label9" style="display:none">
- <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.2.6 -> v7.2.8</code>, <code class="docutils literal notranslate">v7.4.3 -> latest</code></p>
+ <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.2.6 -> v7.2.9</code>, <code class="docutils literal notranslate">v7.4.3 -> latest</code></p>
  </div>
  </li>
  <li><span class="li-head">parent_key</span> <b>(Alias name: parent-key)</b>  Parent key. <span class="li-normal">type: str</span>
  <a id='label10' href="javascript:ContentClick('label11', 'label10');" onmouseover="ContentPreview('label11');" onmouseout="ContentUnpreview('label11');" title="click to collapse or expand..."> more... </a>
  <div id="label11" style="display:none">
- <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.2.6 -> v7.2.8</code>, <code class="docutils literal notranslate">v7.4.3 -> latest</code></p>
+ <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.2.6 -> v7.2.9</code>, <code class="docutils literal notranslate">v7.4.3 -> latest</code></p>
  </div>
  </li>
  <li><span class="li-head">bounce_nac_port</span> <b>(Alias name: bounce-nac-port)</b>  Enable/disable bouncing (administratively bring the link down, up) of a switch port when nac mode is configured on the port. <span class="li-normal">type: str</span> <span class="li-normal">choices: [disable, enable]</span> 
  <a id='label12' href="javascript:ContentClick('label13', 'label12');" onmouseover="ContentPreview('label13');" onmouseout="ContentUnpreview('label13');" title="click to collapse or expand..."> more... </a>
  <div id="label13" style="display:none">
- <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.2.6 -> v7.2.8</code>, <code class="docutils literal notranslate">v7.4.3 -> latest</code></p>
+ <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.2.6 -> v7.2.9</code>, <code class="docutils literal notranslate">v7.4.3 -> latest</code></p>
  </div>
  </li>
  </ul>
@@ -134,7 +125,7 @@ Examples
       ansible_httpapi_port: 443
     tasks:
       - name: NAC specific configuration.
-        fortinet.fortimanager.fmgd_switchcontroller_fortilinksettings_nacports:
+        fortinet.fmgdevice.fmgd_switchcontroller_fortilinksettings_nacports:
           # bypass_validation: false
           workspace_locking_adom: <value in [global, custom adom including root]>
           workspace_locking_timeout: 300
@@ -144,13 +135,13 @@ Examples
           vdom: <your own value>
           fortilink_settings: <your own value>
           switchcontroller_fortilinksettings_nacports:
-            lan_segment: <value in [disabled, enabled]>
-            member_change: <integer>
-            nac_lan_interface: <list or string>
-            nac_segment_vlans: <list or string>
-            onboarding_vlan: <list or string>
-            parent_key: <string>
-            bounce_nac_port: <value in [disable, enable]>
+            # lan_segment: <value in [disabled, enabled]>
+            # member_change: <integer>
+            # nac_lan_interface: <list or string>
+            # nac_segment_vlans: <list or string>
+            # onboarding_vlan: <list or string>
+            # parent_key: <string>
+            # bounce_nac_port: <value in [disable, enable]>
 
 
 Return Values

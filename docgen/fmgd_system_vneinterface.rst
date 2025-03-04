@@ -9,15 +9,6 @@ fmgd_system_vneinterface -- Configure virtual network enabler tunnels.
 
 .. versionadded:: 1.0.0
 
-.. warning::
-   Starting in version 3.0.0, all input arguments will be named using the underscore naming convention (snake_case).
-  
-   - Argument name before 3.0.0: ``var-name``, ``var name``, ``var.name``
-   - New argument name starting in 3.0.0: ``var_name``
-  
-   FortiManager Ansible v2.4+ supports both previous argument name and new underscore name.
-   You will receive deprecation warnings if you keep using the previous argument name.
-   You can ignore the warning by setting deprecation_warnings=False in ansible.cfg.
 
 .. contents::
    :local:
@@ -158,7 +149,7 @@ Examples
       ansible_httpapi_port: 443
     tasks:
       - name: Configure virtual network enabler tunnels.
-        fortinet.fortimanager.fmgd_system_vneinterface:
+        fortinet.fmgdevice.fmgd_system_vneinterface:
           # bypass_validation: false
           workspace_locking_adom: <value in [global, custom adom including root]>
           workspace_locking_timeout: 300
@@ -168,17 +159,17 @@ Examples
           vdom: <your own value>
           state: present # <value in [present, absent]>
           system_vneinterface:
-            auto_asic_offload: <value in [disable, enable]>
-            bmr_hostname: <list or string>
-            br: <string>
-            http_password: <list or string>
-            http_username: <string>
-            interface: <list or string>
-            ipv4_address: <list or string>
-            mode: <value in [map-e, fixed-ip, ds-lite]>
-            name: <string>
-            ssl_certificate: <list or string>
-            update_url: <string>
+            name: "your value" # Required variable, string
+            # auto_asic_offload: <value in [disable, enable]>
+            # bmr_hostname: <list or string>
+            # br: <string>
+            # http_password: <list or string>
+            # http_username: <string>
+            # interface: <list or string>
+            # ipv4_address: <list or string>
+            # mode: <value in [map-e, fixed-ip, ds-lite]>
+            # ssl_certificate: <list or string>
+            # update_url: <string>
 
 
 Return Values

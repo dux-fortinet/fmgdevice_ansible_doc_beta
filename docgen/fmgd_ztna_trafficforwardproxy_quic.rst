@@ -9,15 +9,6 @@ fmgd_ztna_trafficforwardproxy_quic -- QUIC setting.
 
 .. versionadded:: 1.0.0
 
-.. warning::
-   Starting in version 3.0.0, all input arguments will be named using the underscore naming convention (snake_case).
-  
-   - Argument name before 3.0.0: ``var-name``, ``var name``, ``var.name``
-   - New argument name starting in 3.0.0: ``var_name``
-  
-   FortiManager Ansible v2.4+ supports both previous argument name and new underscore name.
-   You will receive deprecation warnings if you keep using the previous argument name.
-   You can ignore the warning by setting deprecation_warnings=False in ansible.cfg.
 
 .. contents::
    :local:
@@ -62,7 +53,7 @@ Parameters
  <li><span class="li-head">workspace_locking_timeout</span> - The maximum time in seconds to wait for other users to release workspace lock. <span class="li-normal">type: integer</span> <span class="li-required">required: false</span>  <span class="li-normal">default: 300</span> </li>
  <li><span class="li-head">device</span> - The parameter in requested url <span class="li-normal">type: str</span> <span class="li-required">required: true</span> </li>
  <li><span class="li-head">vdom</span> - The parameter in requested url <span class="li-normal">type: str</span> <span class="li-required">required: true</span> </li>
- <li><span class="li-head">traffic-forward-proxy</span> - The parameter in requested url <span class="li-normal">type: str</span> <span class="li-required">required: true</span> </li>
+ <li><span class="li-head">traffic_forward_proxy</span> - The parameter in requested url <span class="li-normal">type: str</span> <span class="li-required">required: true</span> </li>
  <li><span class="li-head">ztna_trafficforwardproxy_quic</span> - QUIC setting. <span class="li-normal">type: dict</span></li>
  <ul class="ul-self">
  <li><span class="li-head">ack_delay_exponent</span> <b>(Alias name: ack-delay-exponent)</b>  Ack delay exponent (1 - 20, default = 3). <span class="li-normal">type: int</span>
@@ -140,7 +131,7 @@ Examples
       ansible_httpapi_port: 443
     tasks:
       - name: QUIC setting.
-        fortinet.fortimanager.fmgd_ztna_trafficforwardproxy_quic:
+        fortinet.fmgdevice.fmgd_ztna_trafficforwardproxy_quic:
           # bypass_validation: false
           workspace_locking_adom: <value in [global, custom adom including root]>
           workspace_locking_timeout: 300
@@ -150,14 +141,14 @@ Examples
           vdom: <your own value>
           traffic_forward_proxy: <your own value>
           ztna_trafficforwardproxy_quic:
-            ack_delay_exponent: <integer>
-            active_connection_id_limit: <integer>
-            active_migration: <value in [disable, enable]>
-            grease_quic_bit: <value in [disable, enable]>
-            max_ack_delay: <integer>
-            max_datagram_frame_size: <integer>
-            max_idle_timeout: <integer>
-            max_udp_payload_size: <integer>
+            # ack_delay_exponent: <integer>
+            # active_connection_id_limit: <integer>
+            # active_migration: <value in [disable, enable]>
+            # grease_quic_bit: <value in [disable, enable]>
+            # max_ack_delay: <integer>
+            # max_datagram_frame_size: <integer>
+            # max_idle_timeout: <integer>
+            # max_udp_payload_size: <integer>
 
 
 Return Values

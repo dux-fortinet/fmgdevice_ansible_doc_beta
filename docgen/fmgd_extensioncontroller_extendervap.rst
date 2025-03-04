@@ -9,15 +9,6 @@ fmgd_extensioncontroller_extendervap -- FortiExtender wifi vap configuration.
 
 .. versionadded:: 1.0.0
 
-.. warning::
-   Starting in version 3.0.0, all input arguments will be named using the underscore naming convention (snake_case).
-  
-   - Argument name before 3.0.0: ``var-name``, ``var name``, ``var.name``
-   - New argument name starting in 3.0.0: ``var_name``
-  
-   FortiManager Ansible v2.4+ supports both previous argument name and new underscore name.
-   You will receive deprecation warnings if you keep using the previous argument name.
-   You can ignore the warning by setting deprecation_warnings=False in ansible.cfg.
 
 .. contents::
    :local:
@@ -218,7 +209,7 @@ Examples
       ansible_httpapi_port: 443
     tasks:
       - name: FortiExtender wifi vap configuration.
-        fortinet.fortimanager.fmgd_extensioncontroller_extendervap:
+        fortinet.fmgdevice.fmgd_extensioncontroller_extendervap:
           # bypass_validation: false
           workspace_locking_adom: <value in [global, custom adom including root]>
           workspace_locking_timeout: 300
@@ -228,33 +219,33 @@ Examples
           vdom: <your own value>
           state: present # <value in [present, absent]>
           extensioncontroller_extendervap:
-            allowaccess:
-              - "http"
-              - "ssh"
-              - "telnet"
-              - "snmp"
-              - "https"
-              - "ping"
-            auth_server_address: <string>
-            auth_server_port: <integer>
-            auth_server_secret: <string>
-            broadcast_ssid: <value in [disable, enable]>
-            bss_color_partial: <value in [disable, enable]>
-            dtim: <integer>
-            end_ip: <string>
-            ip_address: <list or string>
-            max_clients: <integer>
-            mu_mimo: <value in [disable, enable]>
-            name: <string>
-            passphrase: <list or string>
-            pmf: <value in [disabled, optional, required]>
-            rts_threshold: <integer>
-            sae_password: <list or string>
-            security: <value in [OPEN, WPA2-Personal, WPA-WPA2-Personal, ...]>
-            ssid: <string>
-            start_ip: <string>
-            target_wake_time: <value in [disable, enable]>
-            type: <value in [local-vap, lan-ext-vap]>
+            name: "your value" # Required variable, string
+            # allowaccess:
+            #   - "http"
+            #   - "ssh"
+            #   - "telnet"
+            #   - "snmp"
+            #   - "https"
+            #   - "ping"
+            # auth_server_address: <string>
+            # auth_server_port: <integer>
+            # auth_server_secret: <string>
+            # broadcast_ssid: <value in [disable, enable]>
+            # bss_color_partial: <value in [disable, enable]>
+            # dtim: <integer>
+            # end_ip: <string>
+            # ip_address: <list or string>
+            # max_clients: <integer>
+            # mu_mimo: <value in [disable, enable]>
+            # passphrase: <list or string>
+            # pmf: <value in [disabled, optional, required]>
+            # rts_threshold: <integer>
+            # sae_password: <list or string>
+            # security: <value in [OPEN, WPA2-Personal, WPA-WPA2-Personal, ...]>
+            # ssid: <string>
+            # start_ip: <string>
+            # target_wake_time: <value in [disable, enable]>
+            # type: <value in [local-vap, lan-ext-vap]>
 
 
 Return Values

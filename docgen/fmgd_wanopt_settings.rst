@@ -9,15 +9,6 @@ fmgd_wanopt_settings -- Configure WAN optimization settings.
 
 .. versionadded:: 1.0.0
 
-.. warning::
-   Starting in version 3.0.0, all input arguments will be named using the underscore naming convention (snake_case).
-  
-   - Argument name before 3.0.0: ``var-name``, ``var name``, ``var.name``
-   - New argument name starting in 3.0.0: ``var_name``
-  
-   FortiManager Ansible v2.4+ supports both previous argument name and new underscore name.
-   You will receive deprecation warnings if you keep using the previous argument name.
-   You can ignore the warning by setting deprecation_warnings=False in ansible.cfg.
 
 .. contents::
    :local:
@@ -43,7 +34,7 @@ FortiManager Version Compatibility
 ----------------------------------
 .. raw:: html
 
- <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.2.6 -> v7.2.8</code>, <code class="docutils literal notranslate">v7.4.3 -> latest</code></p>
+ <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.2.6 -> v7.2.9</code>, <code class="docutils literal notranslate">v7.4.3 -> latest</code></p>
 
 
 
@@ -67,25 +58,25 @@ Parameters
  <li><span class="li-head">auto_detect_algorithm</span> <b>(Alias name: auto-detect-algorithm)</b>  Auto detection algorithms used in tunnel negotiations. <span class="li-normal">type: str</span> <span class="li-normal">choices: [simple, diff-req-resp]</span> 
  <a id='label0' href="javascript:ContentClick('label1', 'label0');" onmouseover="ContentPreview('label1');" onmouseout="ContentUnpreview('label1');" title="click to collapse or expand..."> more... </a>
  <div id="label1" style="display:none">
- <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.2.6 -> v7.2.8</code>, <code class="docutils literal notranslate">v7.4.3 -> latest</code></p>
+ <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.2.6 -> v7.2.9</code>, <code class="docutils literal notranslate">v7.4.3 -> latest</code></p>
  </div>
  </li>
  <li><span class="li-head">host_id</span> <b>(Alias name: host-id)</b>  Local host id (must also be entered in the remote fortigates peer list). <span class="li-normal">type: str</span>
  <a id='label2' href="javascript:ContentClick('label3', 'label2');" onmouseover="ContentPreview('label3');" onmouseout="ContentUnpreview('label3');" title="click to collapse or expand..."> more... </a>
  <div id="label3" style="display:none">
- <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.2.6 -> v7.2.8</code>, <code class="docutils literal notranslate">v7.4.3 -> latest</code></p>
+ <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.2.6 -> v7.2.9</code>, <code class="docutils literal notranslate">v7.4.3 -> latest</code></p>
  </div>
  </li>
  <li><span class="li-head">tunnel_optimization</span> <b>(Alias name: tunnel-optimization)</b>  Wanopt tunnel optimization option. <span class="li-normal">type: str</span> <span class="li-normal">choices: [memory-usage, balanced, throughput]</span> 
  <a id='label4' href="javascript:ContentClick('label5', 'label4');" onmouseover="ContentPreview('label5');" onmouseout="ContentUnpreview('label5');" title="click to collapse or expand..."> more... </a>
  <div id="label5" style="display:none">
- <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.2.6 -> v7.2.8</code>, <code class="docutils literal notranslate">v7.4.3 -> latest</code></p>
+ <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.2.6 -> v7.2.9</code>, <code class="docutils literal notranslate">v7.4.3 -> latest</code></p>
  </div>
  </li>
  <li><span class="li-head">tunnel_ssl_algorithm</span> <b>(Alias name: tunnel-ssl-algorithm)</b>  Relative strength of encryption algorithms accepted during tunnel negotiation. <span class="li-normal">type: str</span> <span class="li-normal">choices: [high, medium, low]</span> 
  <a id='label6' href="javascript:ContentClick('label7', 'label6');" onmouseover="ContentPreview('label7');" onmouseout="ContentUnpreview('label7');" title="click to collapse or expand..."> more... </a>
  <div id="label7" style="display:none">
- <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.2.6 -> v7.2.8</code>, <code class="docutils literal notranslate">v7.4.3 -> latest</code></p>
+ <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.2.6 -> v7.2.9</code>, <code class="docutils literal notranslate">v7.4.3 -> latest</code></p>
  </div>
  </li>
  </ul>
@@ -115,7 +106,7 @@ Examples
       ansible_httpapi_port: 443
     tasks:
       - name: Configure WAN optimization settings.
-        fortinet.fortimanager.fmgd_wanopt_settings:
+        fortinet.fmgdevice.fmgd_wanopt_settings:
           # bypass_validation: false
           workspace_locking_adom: <value in [global, custom adom including root]>
           workspace_locking_timeout: 300
@@ -124,10 +115,10 @@ Examples
           device: <your own value>
           vdom: <your own value>
           wanopt_settings:
-            auto_detect_algorithm: <value in [simple, diff-req-resp]>
-            host_id: <string>
-            tunnel_optimization: <value in [memory-usage, balanced, throughput]>
-            tunnel_ssl_algorithm: <value in [high, medium, low]>
+            # auto_detect_algorithm: <value in [simple, diff-req-resp]>
+            # host_id: <string>
+            # tunnel_optimization: <value in [memory-usage, balanced, throughput]>
+            # tunnel_ssl_algorithm: <value in [high, medium, low]>
 
 
 Return Values

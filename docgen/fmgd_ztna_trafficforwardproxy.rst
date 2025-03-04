@@ -9,15 +9,6 @@ fmgd_ztna_trafficforwardproxy -- Configure ZTNA traffic forward proxy.
 
 .. versionadded:: 1.0.0
 
-.. warning::
-   Starting in version 3.0.0, all input arguments will be named using the underscore naming convention (snake_case).
-  
-   - Argument name before 3.0.0: ``var-name``, ``var name``, ``var.name``
-   - New argument name starting in 3.0.0: ``var_name``
-  
-   FortiManager Ansible v2.4+ supports both previous argument name and new underscore name.
-   You will receive deprecation warnings if you keep using the previous argument name.
-   You can ignore the warning by setting deprecation_warnings=False in ansible.cfg.
 
 .. contents::
    :local:
@@ -461,6 +452,36 @@ Parameters
  <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.6.0 -> latest</code></p>
  </div>
  </li>
+ <li><span class="li-head">auth_virtual_host</span> <b>(Alias name: auth-virtual-host)</b>  Virtual host for authentication portal. <span class="li-normal">type: list</span>
+ <a id='label130' href="javascript:ContentClick('label131', 'label130');" onmouseover="ContentPreview('label131');" onmouseout="ContentUnpreview('label131');" title="click to collapse or expand..."> more... </a>
+ <div id="label131" style="display:none">
+ <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.6.2 -> latest</code></p>
+ </div>
+ </li>
+ <li><span class="li-head">decrypted_traffic_mirror</span> <b>(Alias name: decrypted-traffic-mirror)</b>  Decrypted traffic mirror. <span class="li-normal">type: list</span>
+ <a id='label132' href="javascript:ContentClick('label133', 'label132');" onmouseover="ContentPreview('label133');" onmouseout="ContentUnpreview('label133');" title="click to collapse or expand..."> more... </a>
+ <div id="label133" style="display:none">
+ <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.6.2 -> latest</code></p>
+ </div>
+ </li>
+ <li><span class="li-head">host</span> Virtual or real host name. <span class="li-normal">type: list</span>
+ <a id='label134' href="javascript:ContentClick('label135', 'label134');" onmouseover="ContentPreview('label135');" onmouseout="ContentUnpreview('label135');" title="click to collapse or expand..."> more... </a>
+ <div id="label135" style="display:none">
+ <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.6.2 -> latest</code></p>
+ </div>
+ </li>
+ <li><span class="li-head">vip</span> Virtual ip name. <span class="li-normal">type: list</span>
+ <a id='label136' href="javascript:ContentClick('label137', 'label136');" onmouseover="ContentPreview('label137');" onmouseout="ContentUnpreview('label137');" title="click to collapse or expand..."> more... </a>
+ <div id="label137" style="display:none">
+ <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.6.2 -> latest</code></p>
+ </div>
+ </li>
+ <li><span class="li-head">vip6</span> Virtual ipv6 name. <span class="li-normal">type: list</span>
+ <a id='label138' href="javascript:ContentClick('label139', 'label138');" onmouseover="ContentPreview('label139');" onmouseout="ContentUnpreview('label139');" title="click to collapse or expand..."> more... </a>
+ <div id="label139" style="display:none">
+ <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.6.2 -> latest</code></p>
+ </div>
+ </li>
  </ul>
  </ul>
 
@@ -488,7 +509,7 @@ Examples
       ansible_httpapi_port: 443
     tasks:
       - name: Configure ZTNA traffic forward proxy.
-        fortinet.fortimanager.fmgd_ztna_trafficforwardproxy:
+        fortinet.fmgdevice.fmgd_ztna_trafficforwardproxy:
           # bypass_validation: false
           workspace_locking_adom: <value in [global, custom adom including root]>
           workspace_locking_timeout: 300
@@ -498,83 +519,86 @@ Examples
           vdom: <your own value>
           state: present # <value in [present, absent]>
           ztna_trafficforwardproxy:
-            auth_portal: <value in [disable, enable]>
-            client_cert: <value in [disable, enable]>
-            comment: <string>
-            empty_cert_action: <value in [accept, block, accept-unmanageable]>
-            h3_support: <value in [disable, enable]>
-            interface: <list or string>
-            log_blocked_traffic: <value in [disable, enable]>
-            name: <string>
-            port: <string>
-            quic:
-              ack_delay_exponent: <integer>
-              active_connection_id_limit: <integer>
-              active_migration: <value in [disable, enable]>
-              grease_quic_bit: <value in [disable, enable]>
-              max_ack_delay: <integer>
-              max_datagram_frame_size: <integer>
-              max_idle_timeout: <integer>
-              max_udp_payload_size: <integer>
-            ssl_accept_ffdhe_groups: <value in [disable, enable]>
-            ssl_algorithm: <value in [high, low, medium, ...]>
-            ssl_certificate: <list or string>
-            ssl_cipher_suites:
-              -
-                cipher: <value in [TLS-RSA-WITH-RC4-128-MD5, TLS-RSA-WITH-RC4-128-SHA, TLS-RSA-WITH-DES-CBC-SHA, ...]>
-                priority: <integer>
-                versions:
-                  - "ssl-3.0"
-                  - "tls-1.0"
-                  - "tls-1.1"
-                  - "tls-1.2"
-                  - "tls-1.3"
-            ssl_client_fallback: <value in [disable, enable]>
-            ssl_client_rekey_count: <integer>
-            ssl_client_renegotiation: <value in [allow, deny, secure]>
-            ssl_client_session_state_max: <integer>
-            ssl_client_session_state_timeout: <integer>
-            ssl_client_session_state_type: <value in [disable, time, count, ...]>
-            ssl_dh_bits: <value in [768, 1024, 1536, ...]>
-            ssl_hpkp: <value in [disable, enable, report-only]>
-            ssl_hpkp_age: <integer>
-            ssl_hpkp_backup: <list or string>
-            ssl_hpkp_include_subdomains: <value in [disable, enable]>
-            ssl_hpkp_primary: <list or string>
-            ssl_hpkp_report_uri: <string>
-            ssl_hsts: <value in [disable, enable]>
-            ssl_hsts_age: <integer>
-            ssl_hsts_include_subdomains: <value in [disable, enable]>
-            ssl_http_location_conversion: <value in [disable, enable]>
-            ssl_http_match_host: <value in [disable, enable]>
-            ssl_max_version: <value in [ssl-3.0, tls-1.0, tls-1.1, ...]>
-            ssl_min_version: <value in [ssl-3.0, tls-1.0, tls-1.1, ...]>
-            ssl_mode: <value in [half, full]>
-            ssl_pfs: <value in [require, deny, allow]>
-            ssl_send_empty_frags: <value in [disable, enable]>
-            ssl_server_algorithm: <value in [high, low, medium, ...]>
-            ssl_server_cipher_suites:
-              -
-                cipher: <value in [TLS-RSA-WITH-RC4-128-MD5, TLS-RSA-WITH-RC4-128-SHA, TLS-RSA-WITH-DES-CBC-SHA, ...]>
-                priority: <integer>
-                versions:
-                  - "ssl-3.0"
-                  - "tls-1.0"
-                  - "tls-1.1"
-                  - "tls-1.2"
-                  - "tls-1.3"
-            ssl_server_max_version: <value in [ssl-3.0, tls-1.0, tls-1.1, ...]>
-            ssl_server_min_version: <value in [ssl-3.0, tls-1.0, tls-1.1, ...]>
-            ssl_server_renegotiation: <value in [disable, enable]>
-            ssl_server_session_state_max: <integer>
-            ssl_server_session_state_timeout: <integer>
-            ssl_server_session_state_type: <value in [disable, time, count, ...]>
-            status: <value in [disable, enable]>
-            svr_pool_multiplex: <value in [disable, enable]>
-            svr_pool_server_max_concurrent_request: <integer>
-            svr_pool_server_max_request: <integer>
-            svr_pool_ttl: <integer>
-            user_agent_detect: <value in [disable, enable]>
+            name: "your value" # Required variable, string
+            # auth_portal: <value in [disable, enable]>
+            # client_cert: <value in [disable, enable]>
+            # comment: <string>
+            # empty_cert_action: <value in [accept, block, accept-unmanageable]>
+            # h3_support: <value in [disable, enable]>
+            # interface: <list or string>
+            # log_blocked_traffic: <value in [disable, enable]>
+            # port: <string>
+            # quic:
+            #   ack_delay_exponent: <integer>
+            #   active_connection_id_limit: <integer>
+            #   active_migration: <value in [disable, enable]>
+            #   grease_quic_bit: <value in [disable, enable]>
+            #   max_ack_delay: <integer>
+            #   max_datagram_frame_size: <integer>
+            #   max_idle_timeout: <integer>
+            #   max_udp_payload_size: <integer>
+            # ssl_accept_ffdhe_groups: <value in [disable, enable]>
+            # ssl_algorithm: <value in [high, low, medium, ...]>
+            # ssl_certificate: <list or string>
+            # ssl_cipher_suites:
+            #   - cipher: <value in [TLS-RSA-WITH-RC4-128-MD5, TLS-RSA-WITH-RC4-128-SHA, TLS-RSA-WITH-DES-CBC-SHA, ...]>
+            #     priority: <integer>
+            #     versions:
+            #       - "ssl-3.0"
+            #       - "tls-1.0"
+            #       - "tls-1.1"
+            #       - "tls-1.2"
+            #       - "tls-1.3"
+            # ssl_client_fallback: <value in [disable, enable]>
+            # ssl_client_rekey_count: <integer>
+            # ssl_client_renegotiation: <value in [allow, deny, secure]>
+            # ssl_client_session_state_max: <integer>
+            # ssl_client_session_state_timeout: <integer>
+            # ssl_client_session_state_type: <value in [disable, time, count, ...]>
+            # ssl_dh_bits: <value in [768, 1024, 1536, ...]>
+            # ssl_hpkp: <value in [disable, enable, report-only]>
+            # ssl_hpkp_age: <integer>
+            # ssl_hpkp_backup: <list or string>
+            # ssl_hpkp_include_subdomains: <value in [disable, enable]>
+            # ssl_hpkp_primary: <list or string>
+            # ssl_hpkp_report_uri: <string>
+            # ssl_hsts: <value in [disable, enable]>
+            # ssl_hsts_age: <integer>
+            # ssl_hsts_include_subdomains: <value in [disable, enable]>
+            # ssl_http_location_conversion: <value in [disable, enable]>
+            # ssl_http_match_host: <value in [disable, enable]>
+            # ssl_max_version: <value in [ssl-3.0, tls-1.0, tls-1.1, ...]>
+            # ssl_min_version: <value in [ssl-3.0, tls-1.0, tls-1.1, ...]>
+            # ssl_mode: <value in [half, full]>
+            # ssl_pfs: <value in [require, deny, allow]>
+            # ssl_send_empty_frags: <value in [disable, enable]>
+            # ssl_server_algorithm: <value in [high, low, medium, ...]>
+            # ssl_server_cipher_suites:
+            #   - cipher: <value in [TLS-RSA-WITH-RC4-128-MD5, TLS-RSA-WITH-RC4-128-SHA, TLS-RSA-WITH-DES-CBC-SHA, ...]>
+            #     priority: <integer>
+            #     versions:
+            #       - "ssl-3.0"
+            #       - "tls-1.0"
+            #       - "tls-1.1"
+            #       - "tls-1.2"
+            #       - "tls-1.3"
+            # ssl_server_max_version: <value in [ssl-3.0, tls-1.0, tls-1.1, ...]>
+            # ssl_server_min_version: <value in [ssl-3.0, tls-1.0, tls-1.1, ...]>
+            # ssl_server_renegotiation: <value in [disable, enable]>
+            # ssl_server_session_state_max: <integer>
+            # ssl_server_session_state_timeout: <integer>
+            # ssl_server_session_state_type: <value in [disable, time, count, ...]>
+            # status: <value in [disable, enable]>
+            # svr_pool_multiplex: <value in [disable, enable]>
+            # svr_pool_server_max_concurrent_request: <integer>
+            # svr_pool_server_max_request: <integer>
+            # svr_pool_ttl: <integer>
+            # user_agent_detect: <value in [disable, enable]>
+            # auth_virtual_host: <list or string>
+            # decrypted_traffic_mirror: <list or string>
+            # host: <list or string>
+            # vip: <list or string>
+            # vip6: <list or string>
 
 
 Return Values

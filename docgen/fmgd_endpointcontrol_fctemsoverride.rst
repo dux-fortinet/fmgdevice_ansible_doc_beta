@@ -9,15 +9,6 @@ fmgd_endpointcontrol_fctemsoverride -- Configure FortiClient Enterprise Manageme
 
 .. versionadded:: 1.0.0
 
-.. warning::
-   Starting in version 3.0.0, all input arguments will be named using the underscore naming convention (snake_case).
-  
-   - Argument name before 3.0.0: ``var-name``, ``var name``, ``var.name``
-   - New argument name starting in 3.0.0: ``var_name``
-  
-   FortiManager Ansible v2.4+ supports both previous argument name and new underscore name.
-   You will receive deprecation warnings if you keep using the previous argument name.
-   You can ignore the warning by setting deprecation_warnings=False in ansible.cfg.
 
 .. contents::
    :local:
@@ -260,7 +251,7 @@ Examples
       ansible_httpapi_port: 443
     tasks:
       - name: Configure FortiClient Enterprise Management Server
-        fortinet.fortimanager.fmgd_endpointcontrol_fctemsoverride:
+        fortinet.fmgdevice.fmgd_endpointcontrol_fctemsoverride:
           # bypass_validation: false
           workspace_locking_adom: <value in [global, custom adom including root]>
           workspace_locking_timeout: 300
@@ -270,45 +261,45 @@ Examples
           vdom: <your own value>
           state: present # <value in [present, absent]>
           endpointcontrol_fctemsoverride:
-            call_timeout: <integer>
-            capabilities:
-              - "fabric-auth"
-              - "silent-approval"
-              - "websocket"
-              - "websocket-malware"
-              - "push-ca-certs"
-              - "common-tags-api"
-              - "tenant-id"
-              - "single-vdom-connector"
-              - "client-avatars"
-              - "fgt-sysinfo-api"
-              - "ztna-server-info"
-            certificate_fingerprint: <string>
-            cloud_authentication_access_key: <string>
-            dirty_reason: <value in [none, mismatched-ems-sn]>
-            ems_id: <integer>
-            fortinetone_cloud_authentication: <value in [disable, enable]>
-            https_port: <integer>
-            interface: <list or string>
-            interface_select_method: <value in [auto, sdwan, specify]>
-            name: <string>
-            out_of_sync_threshold: <integer>
-            preserve_ssl_session: <value in [disable, enable]>
-            pull_avatars: <value in [disable, enable]>
-            pull_malware_hash: <value in [disable, enable]>
-            pull_sysinfo: <value in [disable, enable]>
-            pull_tags: <value in [disable, enable]>
-            pull_vulnerabilities: <value in [disable, enable]>
-            send_tags_to_all_vdoms: <value in [disable, enable]>
-            serial_number: <string>
-            server: <string>
-            source_ip: <string>
-            status: <value in [disable, enable]>
-            tenant_id: <string>
-            trust_ca_cn: <value in [disable, enable]>
-            verified_cn: <string>
-            verifying_ca: <list or string>
-            websocket_override: <value in [disable, enable]>
+            name: "your value" # Required variable, string
+            # call_timeout: <integer>
+            # capabilities:
+            #   - "fabric-auth"
+            #   - "silent-approval"
+            #   - "websocket"
+            #   - "websocket-malware"
+            #   - "push-ca-certs"
+            #   - "common-tags-api"
+            #   - "tenant-id"
+            #   - "single-vdom-connector"
+            #   - "client-avatars"
+            #   - "fgt-sysinfo-api"
+            #   - "ztna-server-info"
+            # certificate_fingerprint: <string>
+            # cloud_authentication_access_key: <string>
+            # dirty_reason: <value in [none, mismatched-ems-sn]>
+            # ems_id: <integer>
+            # fortinetone_cloud_authentication: <value in [disable, enable]>
+            # https_port: <integer>
+            # interface: <list or string>
+            # interface_select_method: <value in [auto, sdwan, specify]>
+            # out_of_sync_threshold: <integer>
+            # preserve_ssl_session: <value in [disable, enable]>
+            # pull_avatars: <value in [disable, enable]>
+            # pull_malware_hash: <value in [disable, enable]>
+            # pull_sysinfo: <value in [disable, enable]>
+            # pull_tags: <value in [disable, enable]>
+            # pull_vulnerabilities: <value in [disable, enable]>
+            # send_tags_to_all_vdoms: <value in [disable, enable]>
+            # serial_number: <string>
+            # server: <string>
+            # source_ip: <string>
+            # status: <value in [disable, enable]>
+            # tenant_id: <string>
+            # trust_ca_cn: <value in [disable, enable]>
+            # verified_cn: <string>
+            # verifying_ca: <list or string>
+            # websocket_override: <value in [disable, enable]>
 
 
 Return Values

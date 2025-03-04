@@ -9,7 +9,7 @@ The modules to manipulate FortiManager objects are invoking ``move/clone`` metho
    :glob: 
    :maxdepth: 1
 
-   fmgr_move.rst
-   fmgr_clone.rst
-   fmgr_rename.rst
+   fmgd_move.rst
+   fmgd_clone.rst
+   fmgd_rename.rst
 

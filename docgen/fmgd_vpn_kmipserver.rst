@@ -9,15 +9,6 @@ fmgd_vpn_kmipserver -- KMIP server entry configuration.
 
 .. versionadded:: 1.0.0
 
-.. warning::
-   Starting in version 3.0.0, all input arguments will be named using the underscore naming convention (snake_case).
-  
-   - Argument name before 3.0.0: ``var-name``, ``var name``, ``var.name``
-   - New argument name starting in 3.0.0: ``var_name``
-  
-   FortiManager Ansible v2.4+ supports both previous argument name and new underscore name.
-   You will receive deprecation warnings if you keep using the previous argument name.
-   You can ignore the warning by setting deprecation_warnings=False in ansible.cfg.
 
 .. contents::
    :local:
@@ -151,6 +142,12 @@ Parameters
  <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.4.3 -> latest</code></p>
  </div>
  </li>
+ <li><span class="li-head">vrf_select</span> <b>(Alias name: vrf-select)</b>  Vrf id used for connection to server. <span class="li-normal">type: int</span>
+ <a id='label28' href="javascript:ContentClick('label29', 'label28');" onmouseover="ContentPreview('label29');" onmouseout="ContentUnpreview('label29');" title="click to collapse or expand..."> more... </a>
+ <div id="label29" style="display:none">
+ <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.6.2 -> latest</code></p>
+ </div>
+ </li>
  </ul>
  </ul>
 
@@ -178,7 +175,7 @@ Examples
       ansible_httpapi_port: 443
     tasks:
       - name: KMIP server entry configuration.
-        fortinet.fortimanager.fmgd_vpn_kmipserver:
+        fortinet.fmgdevice.fmgd_vpn_kmipserver:
           # bypass_validation: false
           workspace_locking_adom: <value in [global, custom adom including root]>
           workspace_locking_timeout: 300
@@ -188,21 +185,21 @@ Examples
           vdom: <your own value>
           state: present # <value in [present, absent]>
           vpn_kmipserver:
-            interface: <list or string>
-            interface_select_method: <value in [auto, sdwan, specify]>
-            name: <string>
-            password: <list or string>
-            server_identity_check: <value in [disable, enable]>
-            server_list:
-              -
-                cert: <list or string>
-                id: <integer>
-                port: <integer>
-                server: <string>
-                status: <value in [disable, enable]>
-            source_ip: <string>
-            ssl_min_proto_version: <value in [default, TLSv1, TLSv1-1, ...]>
-            username: <string>
+            name: "your value" # Required variable, string
+            # interface: <list or string>
+            # interface_select_method: <value in [auto, sdwan, specify]>
+            # password: <list or string>
+            # server_identity_check: <value in [disable, enable]>
+            # server_list:
+            #   - cert: <list or string>
+            #     id: <integer>
+            #     port: <integer>
+            #     server: <string>
+            #     status: <value in [disable, enable]>
+            # source_ip: <string>
+            # ssl_min_proto_version: <value in [default, TLSv1, TLSv1-1, ...]>
+            # username: <string>
+            # vrf_select: <integer>
 
 
 Return Values

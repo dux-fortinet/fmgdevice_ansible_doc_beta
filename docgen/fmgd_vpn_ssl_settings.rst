@@ -9,15 +9,6 @@ fmgd_vpn_ssl_settings -- Configure SSL VPN.
 
 .. versionadded:: 1.0.0
 
-.. warning::
-   Starting in version 3.0.0, all input arguments will be named using the underscore naming convention (snake_case).
-  
-   - Argument name before 3.0.0: ``var-name``, ``var name``, ``var.name``
-   - New argument name starting in 3.0.0: ``var_name``
-  
-   FortiManager Ansible v2.4+ supports both previous argument name and new underscore name.
-   You will receive deprecation warnings if you keep using the previous argument name.
-   You can ignore the warning by setting deprecation_warnings=False in ansible.cfg.
 
 .. contents::
    :local:
@@ -67,7 +58,7 @@ Parameters
  <li><span class="li-head">algorithm</span> Force the ssl vpn security level. <span class="li-normal">type: str</span> <span class="li-normal">choices: [default, high, low, medium]</span> 
  <a id='label0' href="javascript:ContentClick('label1', 'label0');" onmouseover="ContentPreview('label1');" onmouseout="ContentUnpreview('label1');" title="click to collapse or expand..."> more... </a>
  <div id="label1" style="display:none">
- <p>Supported Version Ranges: <code class="docutils literal notranslate">v6.2.6 -> v6.2.13</code>, <code class="docutils literal notranslate">v6.4.2 -> v7.2.1</code>, <code class="docutils literal notranslate">v7.2.6 -> v7.2.8</code>, <code class="docutils literal notranslate">v7.4.3 -> latest</code></p>
+ <p>Supported Version Ranges: <code class="docutils literal notranslate">v6.2.6 -> v6.2.13</code>, <code class="docutils literal notranslate">v6.4.2 -> v7.2.1</code>, <code class="docutils literal notranslate">v7.2.6 -> v7.2.9</code>, <code class="docutils literal notranslate">v7.4.3 -> latest</code></p>
  </div>
  </li>
  <li><span class="li-head">auth_session_check_source_ip</span> <b>(Alias name: auth-session-check-source-ip)</b>  Enable/disable checking of source ip for authentication session. <span class="li-normal">type: str</span> <span class="li-normal">choices: [disable, enable]</span> 
@@ -651,7 +642,7 @@ Examples
       ansible_httpapi_port: 443
     tasks:
       - name: Configure SSL VPN.
-        fortinet.fortimanager.fmgd_vpn_ssl_settings:
+        fortinet.fmgdevice.fmgd_vpn_ssl_settings:
           # bypass_validation: false
           workspace_locking_adom: <value in [global, custom adom including root]>
           workspace_locking_timeout: 300
@@ -660,123 +651,122 @@ Examples
           device: <your own value>
           vdom: <your own value>
           vpn_ssl_settings:
-            algorithm: <value in [default, high, low, ...]>
-            auth_session_check_source_ip: <value in [disable, enable]>
-            auth_timeout: <integer>
-            authentication_rule:
-              -
-                auth: <value in [any, local, radius, ...]>
-                cipher: <value in [any, high, medium]>
-                client_cert: <value in [disable, enable]>
-                groups: <list or string>
-                id: <integer>
-                portal: <string>
-                realm: <string>
-                source_address: <list or string>
-                source_address_negate: <value in [disable, enable]>
-                source_address6: <list or string>
-                source_address6_negate: <value in [disable, enable]>
-                source_interface: <list or string>
-                user_peer: <string>
-                users: <list or string>
-            auto_tunnel_static_route: <value in [disable, enable]>
-            banned_cipher:
-              - "RSA"
-              - "DH"
-              - "DHE"
-              - "ECDH"
-              - "ECDHE"
-              - "DSS"
-              - "ECDSA"
-              - "AES"
-              - "AESGCM"
-              - "CAMELLIA"
-              - "3DES"
-              - "SHA1"
-              - "SHA256"
-              - "SHA384"
-              - "STATIC"
-              - "CHACHA20"
-              - "ARIA"
-              - "AESCCM"
-            check_referer: <value in [disable, enable]>
-            default_portal: <string>
-            deflate_compression_level: <integer>
-            deflate_min_data_size: <integer>
-            dns_server1: <string>
-            dns_server2: <string>
-            dns_suffix: <string>
-            dtls_hello_timeout: <integer>
-            dtls_max_proto_ver: <value in [dtls1-0, dtls1-2]>
-            dtls_min_proto_ver: <value in [dtls1-0, dtls1-2]>
-            dtls_tunnel: <value in [disable, enable]>
-            encode_2f_sequence: <value in [disable, enable]>
-            encrypt_and_store_password: <value in [disable, enable]>
-            force_two_factor_auth: <value in [disable, enable]>
-            header_x_forwarded_for: <value in [pass, add, remove]>
-            hsts_include_subdomains: <value in [disable, enable]>
-            http_compression: <value in [disable, enable]>
-            http_only_cookie: <value in [disable, enable]>
-            http_request_body_timeout: <integer>
-            http_request_header_timeout: <integer>
-            https_redirect: <value in [disable, enable]>
-            idle_timeout: <integer>
-            ipv6_dns_server1: <string>
-            ipv6_dns_server2: <string>
-            ipv6_wins_server1: <string>
-            ipv6_wins_server2: <string>
-            login_attempt_limit: <integer>
-            login_block_time: <integer>
-            login_timeout: <integer>
-            port: <integer>
-            port_precedence: <value in [disable, enable]>
-            reqclientcert: <value in [disable, enable]>
-            route_source_interface: <value in [disable, enable]>
-            servercert: <string>
-            source_address: <list or string>
-            source_address_negate: <value in [disable, enable]>
-            source_address6: <list or string>
-            source_address6_negate: <value in [disable, enable]>
-            source_interface: <list or string>
-            ssl_client_renegotiation: <value in [disable, enable]>
-            ssl_insert_empty_fragment: <value in [disable, enable]>
-            ssl_max_proto_ver: <value in [tls1-0, tls1-1, tls1-2, ...]>
-            ssl_min_proto_ver: <value in [tls1-0, tls1-1, tls1-2, ...]>
-            tlsv1_0: <value in [disable, enable]>
-            tlsv1_1: <value in [disable, enable]>
-            tlsv1_2: <value in [disable, enable]>
-            tlsv1_3: <value in [disable, enable]>
-            transform_backward_slashes: <value in [disable, enable]>
-            tunnel_connect_without_reauth: <value in [disable, enable]>
-            tunnel_ip_pools: <list or string>
-            tunnel_ipv6_pools: <list or string>
-            tunnel_user_session_timeout: <integer>
-            unsafe_legacy_renegotiation: <value in [disable, enable]>
-            url_obscuration: <value in [disable, enable]>
-            user_peer: <string>
-            wins_server1: <string>
-            wins_server2: <string>
-            x_content_type_options: <value in [disable, enable]>
-            sslv3: <value in [disable, enable]>
-            ssl_big_buffer: <value in [disable, enable]>
-            client_sigalgs: <value in [no-rsa-pss, all]>
-            ciphersuite:
-              - "TLS-AES-128-GCM-SHA256"
-              - "TLS-AES-256-GCM-SHA384"
-              - "TLS-CHACHA20-POLY1305-SHA256"
-              - "TLS-AES-128-CCM-SHA256"
-              - "TLS-AES-128-CCM-8-SHA256"
-            dual_stack_mode: <value in [disable, enable]>
-            tunnel_addr_assigned_method: <value in [first-available, round-robin]>
-            browser_language_detection: <value in [disable, enable]>
-            saml_redirect_port: <integer>
-            status: <value in [disable, enable]>
-            web_mode_snat: <value in [disable, enable]>
-            ztna_trusted_client: <value in [disable, enable]>
-            dtls_heartbeat_fail_count: <integer>
-            dtls_heartbeat_idle_timeout: <integer>
-            dtls_heartbeat_interval: <integer>
-            server_hostname: <string>
+            # algorithm: <value in [default, high, low, ...]>
+            # auth_session_check_source_ip: <value in [disable, enable]>
+            # auth_timeout: <integer>
+            # authentication_rule:
+            #   - auth: <value in [any, local, radius, ...]>
+            #     cipher: <value in [any, high, medium]>
+            #     client_cert: <value in [disable, enable]>
+            #     groups: <list or string>
+            #     id: <integer>
+            #     portal: <string>
+            #     realm: <string>
+            #     source_address: <list or string>
+            #     source_address_negate: <value in [disable, enable]>
+            #     source_address6: <list or string>
+            #     source_address6_negate: <value in [disable, enable]>
+            #     source_interface: <list or string>
+            #     user_peer: <string>
+            #     users: <list or string>
+            # auto_tunnel_static_route: <value in [disable, enable]>
+            # banned_cipher:
+            #   - "RSA"
+            #   - "DH"
+            #   - "DHE"
+            #   - "ECDH"
+            #   - "ECDHE"
+            #   - "DSS"
+            #   - "ECDSA"
+            #   - "AES"
+            #   - "AESGCM"
+            #   - "CAMELLIA"
+            #   - "3DES"
+            #   - "SHA1"
+            #   - "SHA256"
+            #   - "SHA384"
+            #   - "STATIC"
+            #   - "CHACHA20"
+            #   - "ARIA"
+            #   - "AESCCM"
+            # check_referer: <value in [disable, enable]>
+            # default_portal: <string>
+            # deflate_compression_level: <integer>
+            # deflate_min_data_size: <integer>
+            # dns_server1: <string>
+            # dns_server2: <string>
+            # dns_suffix: <string>
+            # dtls_hello_timeout: <integer>
+            # dtls_max_proto_ver: <value in [dtls1-0, dtls1-2]>
+            # dtls_min_proto_ver: <value in [dtls1-0, dtls1-2]>
+            # dtls_tunnel: <value in [disable, enable]>
+            # encode_2f_sequence: <value in [disable, enable]>
+            # encrypt_and_store_password: <value in [disable, enable]>
+            # force_two_factor_auth: <value in [disable, enable]>
+            # header_x_forwarded_for: <value in [pass, add, remove]>
+            # hsts_include_subdomains: <value in [disable, enable]>
+            # http_compression: <value in [disable, enable]>
+            # http_only_cookie: <value in [disable, enable]>
+            # http_request_body_timeout: <integer>
+            # http_request_header_timeout: <integer>
+            # https_redirect: <value in [disable, enable]>
+            # idle_timeout: <integer>
+            # ipv6_dns_server1: <string>
+            # ipv6_dns_server2: <string>
+            # ipv6_wins_server1: <string>
+            # ipv6_wins_server2: <string>
+            # login_attempt_limit: <integer>
+            # login_block_time: <integer>
+            # login_timeout: <integer>
+            # port: <integer>
+            # port_precedence: <value in [disable, enable]>
+            # reqclientcert: <value in [disable, enable]>
+            # route_source_interface: <value in [disable, enable]>
+            # servercert: <string>
+            # source_address: <list or string>
+            # source_address_negate: <value in [disable, enable]>
+            # source_address6: <list or string>
+            # source_address6_negate: <value in [disable, enable]>
+            # source_interface: <list or string>
+            # ssl_client_renegotiation: <value in [disable, enable]>
+            # ssl_insert_empty_fragment: <value in [disable, enable]>
+            # ssl_max_proto_ver: <value in [tls1-0, tls1-1, tls1-2, ...]>
+            # ssl_min_proto_ver: <value in [tls1-0, tls1-1, tls1-2, ...]>
+            # tlsv1_0: <value in [disable, enable]>
+            # tlsv1_1: <value in [disable, enable]>
+            # tlsv1_2: <value in [disable, enable]>
+            # tlsv1_3: <value in [disable, enable]>
+            # transform_backward_slashes: <value in [disable, enable]>
+            # tunnel_connect_without_reauth: <value in [disable, enable]>
+            # tunnel_ip_pools: <list or string>
+            # tunnel_ipv6_pools: <list or string>
+            # tunnel_user_session_timeout: <integer>
+            # unsafe_legacy_renegotiation: <value in [disable, enable]>
+            # url_obscuration: <value in [disable, enable]>
+            # user_peer: <string>
+            # wins_server1: <string>
+            # wins_server2: <string>
+            # x_content_type_options: <value in [disable, enable]>
+            # sslv3: <value in [disable, enable]>
+            # ssl_big_buffer: <value in [disable, enable]>
+            # client_sigalgs: <value in [no-rsa-pss, all]>
+            # ciphersuite:
+            #   - "TLS-AES-128-GCM-SHA256"
+            #   - "TLS-AES-256-GCM-SHA384"
+            #   - "TLS-CHACHA20-POLY1305-SHA256"
+            #   - "TLS-AES-128-CCM-SHA256"
+            #   - "TLS-AES-128-CCM-8-SHA256"
+            # dual_stack_mode: <value in [disable, enable]>
+            # tunnel_addr_assigned_method: <value in [first-available, round-robin]>
+            # browser_language_detection: <value in [disable, enable]>
+            # saml_redirect_port: <integer>
+            # status: <value in [disable, enable]>
+            # web_mode_snat: <value in [disable, enable]>
+            # ztna_trusted_client: <value in [disable, enable]>
+            # dtls_heartbeat_fail_count: <integer>
+            # dtls_heartbeat_idle_timeout: <integer>
+            # dtls_heartbeat_interval: <integer>
+            # server_hostname: <string>
 
 
 Return Values

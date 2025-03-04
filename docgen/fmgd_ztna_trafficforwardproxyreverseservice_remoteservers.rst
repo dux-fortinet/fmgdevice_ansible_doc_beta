@@ -9,15 +9,6 @@ fmgd_ztna_trafficforwardproxyreverseservice_remoteservers -- Connector Remote se
 
 .. versionadded:: 1.0.0
 
-.. warning::
-   Starting in version 3.0.0, all input arguments will be named using the underscore naming convention (snake_case).
-  
-   - Argument name before 3.0.0: ``var-name``, ``var name``, ``var.name``
-   - New argument name starting in 3.0.0: ``var_name``
-  
-   FortiManager Ansible v2.4+ supports both previous argument name and new underscore name.
-   You will receive deprecation warnings if you keep using the previous argument name.
-   You can ignore the warning by setting deprecation_warnings=False in ansible.cfg.
 
 .. contents::
    :local:
@@ -140,7 +131,7 @@ Examples
       ansible_httpapi_port: 443
     tasks:
       - name: Connector Remote server
-        fortinet.fortimanager.fmgd_ztna_trafficforwardproxyreverseservice_remoteservers:
+        fortinet.fmgdevice.fmgd_ztna_trafficforwardproxyreverseservice_remoteservers:
           # bypass_validation: false
           workspace_locking_adom: <value in [global, custom adom including root]>
           workspace_locking_timeout: 300
@@ -150,14 +141,14 @@ Examples
           vdom: <your own value>
           state: present # <value in [present, absent]>
           ztna_trafficforwardproxyreverseservice_remoteservers:
-            address: <string>
-            certificate: <list or string>
-            health_check_interval: <integer>
-            name: <string>
-            port: <integer>
-            ssl_max_version: <value in [tls-1.1, tls-1.2, tls-1.3]>
-            status: <value in [disable, enable]>
-            trusted_server_ca: <list or string>
+            name: "your value" # Required variable, string
+            # address: <string>
+            # certificate: <list or string>
+            # health_check_interval: <integer>
+            # port: <integer>
+            # ssl_max_version: <value in [tls-1.1, tls-1.2, tls-1.3]>
+            # status: <value in [disable, enable]>
+            # trusted_server_ca: <list or string>
 
 
 Return Values

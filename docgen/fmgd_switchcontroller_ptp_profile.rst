@@ -9,15 +9,6 @@ fmgd_switchcontroller_ptp_profile -- Global PTP profile.
 
 .. versionadded:: 1.0.0
 
-.. warning::
-   Starting in version 3.0.0, all input arguments will be named using the underscore naming convention (snake_case).
-  
-   - Argument name before 3.0.0: ``var-name``, ``var name``, ``var.name``
-   - New argument name starting in 3.0.0: ``var_name``
-  
-   FortiManager Ansible v2.4+ supports both previous argument name and new underscore name.
-   You will receive deprecation warnings if you keep using the previous argument name.
-   You can ignore the warning by setting deprecation_warnings=False in ansible.cfg.
 
 .. contents::
    :local:
@@ -134,7 +125,7 @@ Examples
       ansible_httpapi_port: 443
     tasks:
       - name: Global PTP profile.
-        fortinet.fortimanager.fmgd_switchcontroller_ptp_profile:
+        fortinet.fmgdevice.fmgd_switchcontroller_ptp_profile:
           # bypass_validation: false
           workspace_locking_adom: <value in [global, custom adom including root]>
           workspace_locking_timeout: 300
@@ -144,13 +135,13 @@ Examples
           vdom: <your own value>
           state: present # <value in [present, absent]>
           switchcontroller_ptp_profile:
-            description: <string>
-            domain: <integer>
-            mode: <value in [transparent-e2e, transparent-p2p]>
-            name: <string>
-            pdelay_req_interval: <value in [1sec, 2sec, 4sec, ...]>
-            ptp_profile: <value in [C37.238-2017]>
-            transport: <value in [l2-mcast]>
+            name: "your value" # Required variable, string
+            # description: <string>
+            # domain: <integer>
+            # mode: <value in [transparent-e2e, transparent-p2p]>
+            # pdelay_req_interval: <value in [1sec, 2sec, 4sec, ...]>
+            # ptp_profile: <value in [C37.238-2017]>
+            # transport: <value in [l2-mcast]>
 
 
 Return Values

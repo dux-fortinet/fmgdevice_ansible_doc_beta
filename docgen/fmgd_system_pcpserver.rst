@@ -9,15 +9,6 @@ fmgd_system_pcpserver -- Configure PCP server information.
 
 .. versionadded:: 1.0.0
 
-.. warning::
-   Starting in version 3.0.0, all input arguments will be named using the underscore naming convention (snake_case).
-  
-   - Argument name before 3.0.0: ``var-name``, ``var name``, ``var.name``
-   - New argument name starting in 3.0.0: ``var_name``
-  
-   FortiManager Ansible v2.4+ supports both previous argument name and new underscore name.
-   You will receive deprecation warnings if you keep using the previous argument name.
-   You can ignore the warning by setting deprecation_warnings=False in ansible.cfg.
 
 .. contents::
    :local:
@@ -219,7 +210,7 @@ Examples
       ansible_httpapi_port: 443
     tasks:
       - name: Configure PCP server information.
-        fortinet.fortimanager.fmgd_system_pcpserver:
+        fortinet.fmgdevice.fmgd_system_pcpserver:
           # bypass_validation: false
           workspace_locking_adom: <value in [global, custom adom including root]>
           workspace_locking_timeout: 300
@@ -228,31 +219,30 @@ Examples
           device: <your own value>
           vdom: <your own value>
           system_pcpserver:
-            pools:
-              -
-                allow_opcode:
-                  - "map"
-                  - "peer"
-                  - "announce"
-                announcement_count: <integer>
-                arp_reply: <value in [disable, enable]>
-                client_mapping_limit: <integer>
-                client_subnet: <list or string>
-                description: <string>
-                ext_intf: <list or string>
-                extip: <string>
-                extport: <string>
-                id: <integer>
-                intl_intf: <list or string>
-                mapping_filter_limit: <integer>
-                maximal_lifetime: <integer>
-                minimal_lifetime: <integer>
-                multicast_announcement: <value in [disable, enable]>
-                name: <string>
-                recycle_delay: <integer>
-                third_party: <value in [disallow, allow]>
-                third_party_subnet: <list or string>
-            status: <value in [disable, enable]>
+            # pools:
+            #   - allow_opcode:
+            #       - "map"
+            #       - "peer"
+            #       - "announce"
+            #     announcement_count: <integer>
+            #     arp_reply: <value in [disable, enable]>
+            #     client_mapping_limit: <integer>
+            #     client_subnet: <list or string>
+            #     description: <string>
+            #     ext_intf: <list or string>
+            #     extip: <string>
+            #     extport: <string>
+            #     id: <integer>
+            #     intl_intf: <list or string>
+            #     mapping_filter_limit: <integer>
+            #     maximal_lifetime: <integer>
+            #     minimal_lifetime: <integer>
+            #     multicast_announcement: <value in [disable, enable]>
+            #     name: <string>
+            #     recycle_delay: <integer>
+            #     third_party: <value in [disallow, allow]>
+            #     third_party_subnet: <list or string>
+            # status: <value in [disable, enable]>
 
 
 Return Values

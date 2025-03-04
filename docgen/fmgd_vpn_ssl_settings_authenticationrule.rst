@@ -9,15 +9,6 @@ fmgd_vpn_ssl_settings_authenticationrule -- Authentication rule for SSL VPN.
 
 .. versionadded:: 1.0.0
 
-.. warning::
-   Starting in version 3.0.0, all input arguments will be named using the underscore naming convention (snake_case).
-  
-   - Argument name before 3.0.0: ``var-name``, ``var name``, ``var.name``
-   - New argument name starting in 3.0.0: ``var_name``
-  
-   FortiManager Ansible v2.4+ supports both previous argument name and new underscore name.
-   You will receive deprecation warnings if you keep using the previous argument name.
-   You can ignore the warning by setting deprecation_warnings=False in ansible.cfg.
 
 .. contents::
    :local:
@@ -176,7 +167,7 @@ Examples
       ansible_httpapi_port: 443
     tasks:
       - name: Authentication rule for SSL VPN.
-        fortinet.fortimanager.fmgd_vpn_ssl_settings_authenticationrule:
+        fortinet.fmgdevice.fmgd_vpn_ssl_settings_authenticationrule:
           # bypass_validation: false
           workspace_locking_adom: <value in [global, custom adom including root]>
           workspace_locking_timeout: 300
@@ -186,20 +177,20 @@ Examples
           vdom: <your own value>
           state: present # <value in [present, absent]>
           vpn_ssl_settings_authenticationrule:
-            auth: <value in [any, local, radius, ...]>
-            cipher: <value in [any, high, medium]>
-            client_cert: <value in [disable, enable]>
-            groups: <list or string>
-            id: <integer>
-            portal: <string>
-            realm: <string>
-            source_address: <list or string>
-            source_address_negate: <value in [disable, enable]>
-            source_address6: <list or string>
-            source_address6_negate: <value in [disable, enable]>
-            source_interface: <list or string>
-            user_peer: <string>
-            users: <list or string>
+            id: 0 # Required variable, integer
+            # auth: <value in [any, local, radius, ...]>
+            # cipher: <value in [any, high, medium]>
+            # client_cert: <value in [disable, enable]>
+            # groups: <list or string>
+            # portal: <string>
+            # realm: <string>
+            # source_address: <list or string>
+            # source_address_negate: <value in [disable, enable]>
+            # source_address6: <list or string>
+            # source_address6_negate: <value in [disable, enable]>
+            # source_interface: <list or string>
+            # user_peer: <string>
+            # users: <list or string>
 
 
 Return Values

@@ -9,15 +9,6 @@ fmgd_ips_settings -- Configure IPS VDOM parameter.
 
 .. versionadded:: 1.0.0
 
-.. warning::
-   Starting in version 3.0.0, all input arguments will be named using the underscore naming convention (snake_case).
-  
-   - Argument name before 3.0.0: ``var-name``, ``var name``, ``var.name``
-   - New argument name starting in 3.0.0: ``var_name``
-  
-   FortiManager Ansible v2.4+ supports both previous argument name and new underscore name.
-   You will receive deprecation warnings if you keep using the previous argument name.
-   You can ignore the warning by setting deprecation_warnings=False in ansible.cfg.
 
 .. contents::
    :local:
@@ -43,7 +34,7 @@ FortiManager Version Compatibility
 ----------------------------------
 .. raw:: html
 
- <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.2.6 -> v7.2.8</code>, <code class="docutils literal notranslate">v7.4.3 -> latest</code></p>
+ <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.2.6 -> v7.2.9</code>, <code class="docutils literal notranslate">v7.4.3 -> latest</code></p>
 
 
 
@@ -67,25 +58,25 @@ Parameters
  <li><span class="li-head">ips_packet_quota</span> <b>(Alias name: ips-packet-quota)</b>  Maximum amount of disk space in mb for logged packets when logging to disk. <span class="li-normal">type: int</span>
  <a id='label0' href="javascript:ContentClick('label1', 'label0');" onmouseover="ContentPreview('label1');" onmouseout="ContentUnpreview('label1');" title="click to collapse or expand..."> more... </a>
  <div id="label1" style="display:none">
- <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.2.6 -> v7.2.8</code>, <code class="docutils literal notranslate">v7.4.3 -> latest</code></p>
+ <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.2.6 -> v7.2.9</code>, <code class="docutils literal notranslate">v7.4.3 -> latest</code></p>
  </div>
  </li>
  <li><span class="li-head">packet_log_history</span> <b>(Alias name: packet-log-history)</b>  Number of packets to capture before and including the one in which the ips signature is detected (1 - 255). <span class="li-normal">type: int</span>
  <a id='label2' href="javascript:ContentClick('label3', 'label2');" onmouseover="ContentPreview('label3');" onmouseout="ContentUnpreview('label3');" title="click to collapse or expand..."> more... </a>
  <div id="label3" style="display:none">
- <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.2.6 -> v7.2.8</code>, <code class="docutils literal notranslate">v7.4.3 -> latest</code></p>
+ <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.2.6 -> v7.2.9</code>, <code class="docutils literal notranslate">v7.4.3 -> latest</code></p>
  </div>
  </li>
  <li><span class="li-head">packet_log_memory</span> <b>(Alias name: packet-log-memory)</b>  Maximum memory can be used by packet log (64 - 8192 kb). <span class="li-normal">type: int</span>
  <a id='label4' href="javascript:ContentClick('label5', 'label4');" onmouseover="ContentPreview('label5');" onmouseout="ContentUnpreview('label5');" title="click to collapse or expand..."> more... </a>
  <div id="label5" style="display:none">
- <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.2.6 -> v7.2.8</code>, <code class="docutils literal notranslate">v7.4.3 -> latest</code></p>
+ <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.2.6 -> v7.2.9</code>, <code class="docutils literal notranslate">v7.4.3 -> latest</code></p>
  </div>
  </li>
  <li><span class="li-head">packet_log_post_attack</span> <b>(Alias name: packet-log-post-attack)</b>  Number of packets to log after the ips signature is detected (0 - 255). <span class="li-normal">type: int</span>
  <a id='label6' href="javascript:ContentClick('label7', 'label6');" onmouseover="ContentPreview('label7');" onmouseout="ContentUnpreview('label7');" title="click to collapse or expand..."> more... </a>
  <div id="label7" style="display:none">
- <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.2.6 -> v7.2.8</code>, <code class="docutils literal notranslate">v7.4.3 -> latest</code></p>
+ <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.2.6 -> v7.2.9</code>, <code class="docutils literal notranslate">v7.4.3 -> latest</code></p>
  </div>
  </li>
  <li><span class="li-head">proxy_inline_ips</span> <b>(Alias name: proxy-inline-ips)</b>  Enable/disable proxy-mode policy inline ips support. <span class="li-normal">type: str</span> <span class="li-normal">choices: [disable, enable]</span> 
@@ -127,7 +118,7 @@ Examples
       ansible_httpapi_port: 443
     tasks:
       - name: Configure IPS VDOM parameter.
-        fortinet.fortimanager.fmgd_ips_settings:
+        fortinet.fmgdevice.fmgd_ips_settings:
           # bypass_validation: false
           workspace_locking_adom: <value in [global, custom adom including root]>
           workspace_locking_timeout: 300
@@ -136,12 +127,12 @@ Examples
           device: <your own value>
           vdom: <your own value>
           ips_settings:
-            ips_packet_quota: <integer>
-            packet_log_history: <integer>
-            packet_log_memory: <integer>
-            packet_log_post_attack: <integer>
-            proxy_inline_ips: <value in [disable, enable]>
-            ha_session_pickup: <value in [connectivity, security]>
+            # ips_packet_quota: <integer>
+            # packet_log_history: <integer>
+            # packet_log_memory: <integer>
+            # packet_log_post_attack: <integer>
+            # proxy_inline_ips: <value in [disable, enable]>
+            # ha_session_pickup: <value in [connectivity, security]>
 
 
 Return Values

@@ -9,15 +9,6 @@ fmgd_wireless_hotspot20_h2qpconncapability -- Configure connection capability.
 
 .. versionadded:: 1.0.0
 
-.. warning::
-   Starting in version 3.0.0, all input arguments will be named using the underscore naming convention (snake_case).
-  
-   - Argument name before 3.0.0: ``var-name``, ``var name``, ``var.name``
-   - New argument name starting in 3.0.0: ``var_name``
-  
-   FortiManager Ansible v2.4+ supports both previous argument name and new underscore name.
-   You will receive deprecation warnings if you keep using the previous argument name.
-   You can ignore the warning by setting deprecation_warnings=False in ansible.cfg.
 
 .. contents::
    :local:
@@ -43,7 +34,7 @@ FortiManager Version Compatibility
 ----------------------------------
 .. raw:: html
 
- <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.2.6 -> v7.2.8</code>, <code class="docutils literal notranslate">v7.4.3 -> latest</code></p>
+ <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.2.6 -> v7.2.9</code>, <code class="docutils literal notranslate">v7.4.3 -> latest</code></p>
 
 
 
@@ -68,73 +59,73 @@ Parameters
  <li><span class="li-head">esp_port</span> <b>(Alias name: esp-port)</b>  Set esp port service (used by ipsec vpns) status. <span class="li-normal">type: str</span> <span class="li-normal">choices: [closed, open, unknown]</span> 
  <a id='label0' href="javascript:ContentClick('label1', 'label0');" onmouseover="ContentPreview('label1');" onmouseout="ContentUnpreview('label1');" title="click to collapse or expand..."> more... </a>
  <div id="label1" style="display:none">
- <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.2.6 -> v7.2.8</code>, <code class="docutils literal notranslate">v7.4.3 -> latest</code></p>
+ <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.2.6 -> v7.2.9</code>, <code class="docutils literal notranslate">v7.4.3 -> latest</code></p>
  </div>
  </li>
  <li><span class="li-head">ftp_port</span> <b>(Alias name: ftp-port)</b>  Set ftp port service status. <span class="li-normal">type: str</span> <span class="li-normal">choices: [closed, open, unknown]</span> 
  <a id='label2' href="javascript:ContentClick('label3', 'label2');" onmouseover="ContentPreview('label3');" onmouseout="ContentUnpreview('label3');" title="click to collapse or expand..."> more... </a>
  <div id="label3" style="display:none">
- <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.2.6 -> v7.2.8</code>, <code class="docutils literal notranslate">v7.4.3 -> latest</code></p>
+ <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.2.6 -> v7.2.9</code>, <code class="docutils literal notranslate">v7.4.3 -> latest</code></p>
  </div>
  </li>
  <li><span class="li-head">http_port</span> <b>(Alias name: http-port)</b>  Set http port service status. <span class="li-normal">type: str</span> <span class="li-normal">choices: [closed, open, unknown]</span> 
  <a id='label4' href="javascript:ContentClick('label5', 'label4');" onmouseover="ContentPreview('label5');" onmouseout="ContentUnpreview('label5');" title="click to collapse or expand..."> more... </a>
  <div id="label5" style="display:none">
- <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.2.6 -> v7.2.8</code>, <code class="docutils literal notranslate">v7.4.3 -> latest</code></p>
+ <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.2.6 -> v7.2.9</code>, <code class="docutils literal notranslate">v7.4.3 -> latest</code></p>
  </div>
  </li>
  <li><span class="li-head">icmp_port</span> <b>(Alias name: icmp-port)</b>  Set icmp port service status. <span class="li-normal">type: str</span> <span class="li-normal">choices: [closed, open, unknown]</span> 
  <a id='label6' href="javascript:ContentClick('label7', 'label6');" onmouseover="ContentPreview('label7');" onmouseout="ContentUnpreview('label7');" title="click to collapse or expand..."> more... </a>
  <div id="label7" style="display:none">
- <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.2.6 -> v7.2.8</code>, <code class="docutils literal notranslate">v7.4.3 -> latest</code></p>
+ <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.2.6 -> v7.2.9</code>, <code class="docutils literal notranslate">v7.4.3 -> latest</code></p>
  </div>
  </li>
  <li><span class="li-head">ikev2_port</span> <b>(Alias name: ikev2-port)</b>  Set ikev2 port service for ipsec vpn status. <span class="li-normal">type: str</span> <span class="li-normal">choices: [closed, open, unknown]</span> 
  <a id='label8' href="javascript:ContentClick('label9', 'label8');" onmouseover="ContentPreview('label9');" onmouseout="ContentUnpreview('label9');" title="click to collapse or expand..."> more... </a>
  <div id="label9" style="display:none">
- <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.2.6 -> v7.2.8</code>, <code class="docutils literal notranslate">v7.4.3 -> latest</code></p>
+ <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.2.6 -> v7.2.9</code>, <code class="docutils literal notranslate">v7.4.3 -> latest</code></p>
  </div>
  </li>
  <li><span class="li-head">ikev2_xx_port</span> <b>(Alias name: ikev2-xx-port)</b>  Set udp port 4500 (which may be used by ikev2 for ipsec vpn) service status. <span class="li-normal">type: str</span> <span class="li-normal">choices: [closed, open, unknown]</span> 
  <a id='label10' href="javascript:ContentClick('label11', 'label10');" onmouseover="ContentPreview('label11');" onmouseout="ContentUnpreview('label11');" title="click to collapse or expand..."> more... </a>
  <div id="label11" style="display:none">
- <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.2.6 -> v7.2.8</code>, <code class="docutils literal notranslate">v7.4.3 -> latest</code></p>
+ <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.2.6 -> v7.2.9</code>, <code class="docutils literal notranslate">v7.4.3 -> latest</code></p>
  </div>
  </li>
  <li><span class="li-head">name</span> Connection capability name. <span class="li-normal">type: str</span>
  <a id='label12' href="javascript:ContentClick('label13', 'label12');" onmouseover="ContentPreview('label13');" onmouseout="ContentUnpreview('label13');" title="click to collapse or expand..."> more... </a>
  <div id="label13" style="display:none">
- <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.2.6 -> v7.2.8</code>, <code class="docutils literal notranslate">v7.4.3 -> latest</code></p>
+ <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.2.6 -> v7.2.9</code>, <code class="docutils literal notranslate">v7.4.3 -> latest</code></p>
  </div>
  </li>
  <li><span class="li-head">pptp_vpn_port</span> <b>(Alias name: pptp-vpn-port)</b>  Set point to point tunneling protocol (pptp) vpn port service status. <span class="li-normal">type: str</span> <span class="li-normal">choices: [closed, open, unknown]</span> 
  <a id='label14' href="javascript:ContentClick('label15', 'label14');" onmouseover="ContentPreview('label15');" onmouseout="ContentUnpreview('label15');" title="click to collapse or expand..."> more... </a>
  <div id="label15" style="display:none">
- <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.2.6 -> v7.2.8</code>, <code class="docutils literal notranslate">v7.4.3 -> latest</code></p>
+ <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.2.6 -> v7.2.9</code>, <code class="docutils literal notranslate">v7.4.3 -> latest</code></p>
  </div>
  </li>
  <li><span class="li-head">ssh_port</span> <b>(Alias name: ssh-port)</b>  Set ssh port service status. <span class="li-normal">type: str</span> <span class="li-normal">choices: [closed, open, unknown]</span> 
  <a id='label16' href="javascript:ContentClick('label17', 'label16');" onmouseover="ContentPreview('label17');" onmouseout="ContentUnpreview('label17');" title="click to collapse or expand..."> more... </a>
  <div id="label17" style="display:none">
- <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.2.6 -> v7.2.8</code>, <code class="docutils literal notranslate">v7.4.3 -> latest</code></p>
+ <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.2.6 -> v7.2.9</code>, <code class="docutils literal notranslate">v7.4.3 -> latest</code></p>
  </div>
  </li>
  <li><span class="li-head">tls_port</span> <b>(Alias name: tls-port)</b>  Set tls vpn (https) port service status. <span class="li-normal">type: str</span> <span class="li-normal">choices: [closed, open, unknown]</span> 
  <a id='label18' href="javascript:ContentClick('label19', 'label18');" onmouseover="ContentPreview('label19');" onmouseout="ContentUnpreview('label19');" title="click to collapse or expand..."> more... </a>
  <div id="label19" style="display:none">
- <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.2.6 -> v7.2.8</code>, <code class="docutils literal notranslate">v7.4.3 -> latest</code></p>
+ <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.2.6 -> v7.2.9</code>, <code class="docutils literal notranslate">v7.4.3 -> latest</code></p>
  </div>
  </li>
  <li><span class="li-head">voip_tcp_port</span> <b>(Alias name: voip-tcp-port)</b>  Set voip tcp port service status. <span class="li-normal">type: str</span> <span class="li-normal">choices: [closed, open, unknown]</span> 
  <a id='label20' href="javascript:ContentClick('label21', 'label20');" onmouseover="ContentPreview('label21');" onmouseout="ContentUnpreview('label21');" title="click to collapse or expand..."> more... </a>
  <div id="label21" style="display:none">
- <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.2.6 -> v7.2.8</code>, <code class="docutils literal notranslate">v7.4.3 -> latest</code></p>
+ <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.2.6 -> v7.2.9</code>, <code class="docutils literal notranslate">v7.4.3 -> latest</code></p>
  </div>
  </li>
  <li><span class="li-head">voip_udp_port</span> <b>(Alias name: voip-udp-port)</b>  Set voip udp port service status. <span class="li-normal">type: str</span> <span class="li-normal">choices: [closed, open, unknown]</span> 
  <a id='label22' href="javascript:ContentClick('label23', 'label22');" onmouseover="ContentPreview('label23');" onmouseout="ContentUnpreview('label23');" title="click to collapse or expand..."> more... </a>
  <div id="label23" style="display:none">
- <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.2.6 -> v7.2.8</code>, <code class="docutils literal notranslate">v7.4.3 -> latest</code></p>
+ <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.2.6 -> v7.2.9</code>, <code class="docutils literal notranslate">v7.4.3 -> latest</code></p>
  </div>
  </li>
  </ul>
@@ -164,7 +155,7 @@ Examples
       ansible_httpapi_port: 443
     tasks:
       - name: Configure connection capability.
-        fortinet.fortimanager.fmgd_wireless_hotspot20_h2qpconncapability:
+        fortinet.fmgdevice.fmgd_wireless_hotspot20_h2qpconncapability:
           # bypass_validation: false
           workspace_locking_adom: <value in [global, custom adom including root]>
           workspace_locking_timeout: 300
@@ -174,18 +165,18 @@ Examples
           vdom: <your own value>
           state: present # <value in [present, absent]>
           wireless_hotspot20_h2qpconncapability:
-            esp_port: <value in [closed, open, unknown]>
-            ftp_port: <value in [closed, open, unknown]>
-            http_port: <value in [closed, open, unknown]>
-            icmp_port: <value in [closed, open, unknown]>
-            ikev2_port: <value in [closed, open, unknown]>
-            ikev2_xx_port: <value in [closed, open, unknown]>
-            name: <string>
-            pptp_vpn_port: <value in [closed, open, unknown]>
-            ssh_port: <value in [closed, open, unknown]>
-            tls_port: <value in [closed, open, unknown]>
-            voip_tcp_port: <value in [closed, open, unknown]>
-            voip_udp_port: <value in [closed, open, unknown]>
+            name: "your value" # Required variable, string
+            # esp_port: <value in [closed, open, unknown]>
+            # ftp_port: <value in [closed, open, unknown]>
+            # http_port: <value in [closed, open, unknown]>
+            # icmp_port: <value in [closed, open, unknown]>
+            # ikev2_port: <value in [closed, open, unknown]>
+            # ikev2_xx_port: <value in [closed, open, unknown]>
+            # pptp_vpn_port: <value in [closed, open, unknown]>
+            # ssh_port: <value in [closed, open, unknown]>
+            # tls_port: <value in [closed, open, unknown]>
+            # voip_tcp_port: <value in [closed, open, unknown]>
+            # voip_udp_port: <value in [closed, open, unknown]>
 
 
 Return Values

@@ -9,15 +9,6 @@ fmgd_vpn_kmipserver_serverlist -- KMIP server list.
 
 .. versionadded:: 1.0.0
 
-.. warning::
-   Starting in version 3.0.0, all input arguments will be named using the underscore naming convention (snake_case).
-  
-   - Argument name before 3.0.0: ``var-name``, ``var name``, ``var.name``
-   - New argument name starting in 3.0.0: ``var_name``
-  
-   FortiManager Ansible v2.4+ supports both previous argument name and new underscore name.
-   You will receive deprecation warnings if you keep using the previous argument name.
-   You can ignore the warning by setting deprecation_warnings=False in ansible.cfg.
 
 .. contents::
    :local:
@@ -63,7 +54,7 @@ Parameters
  <li><span class="li-head">workspace_locking_timeout</span> - The maximum time in seconds to wait for other users to release workspace lock. <span class="li-normal">type: integer</span> <span class="li-required">required: false</span>  <span class="li-normal">default: 300</span> </li>
  <li><span class="li-head">device</span> - The parameter in requested url <span class="li-normal">type: str</span> <span class="li-required">required: true</span> </li>
  <li><span class="li-head">vdom</span> - The parameter in requested url <span class="li-normal">type: str</span> <span class="li-required">required: true</span> </li>
- <li><span class="li-head">kmip-server</span> - The parameter in requested url <span class="li-normal">type: str</span> <span class="li-required">required: true</span> </li>
+ <li><span class="li-head">kmip_server</span> - The parameter in requested url <span class="li-normal">type: str</span> <span class="li-required">required: true</span> </li>
  <li><span class="li-head">vpn_kmipserver_serverlist</span> - KMIP server list. <span class="li-normal">type: dict</span></li>
  <ul class="ul-self">
  <li><span class="li-head">cert</span> Client certificate to use for connectivity to the kmip server. <span class="li-normal">type: list</span>
@@ -123,7 +114,7 @@ Examples
       ansible_httpapi_port: 443
     tasks:
       - name: KMIP server list.
-        fortinet.fortimanager.fmgd_vpn_kmipserver_serverlist:
+        fortinet.fmgdevice.fmgd_vpn_kmipserver_serverlist:
           # bypass_validation: false
           workspace_locking_adom: <value in [global, custom adom including root]>
           workspace_locking_timeout: 300
@@ -134,11 +125,11 @@ Examples
           kmip_server: <your own value>
           state: present # <value in [present, absent]>
           vpn_kmipserver_serverlist:
-            cert: <list or string>
-            id: <integer>
-            port: <integer>
-            server: <string>
-            status: <value in [disable, enable]>
+            id: 0 # Required variable, integer
+            # cert: <list or string>
+            # port: <integer>
+            # server: <string>
+            # status: <value in [disable, enable]>
 
 
 Return Values

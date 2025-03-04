@@ -9,15 +9,6 @@ fmgd_system_sdwan_healthcheckfortiguard_sla -- Service level agreement (SLA).
 
 .. versionadded:: 1.0.0
 
-.. warning::
-   Starting in version 3.0.0, all input arguments will be named using the underscore naming convention (snake_case).
-  
-   - Argument name before 3.0.0: ``var-name``, ``var name``, ``var.name``
-   - New argument name starting in 3.0.0: ``var_name``
-  
-   FortiManager Ansible v2.4+ supports both previous argument name and new underscore name.
-   You will receive deprecation warnings if you keep using the previous argument name.
-   You can ignore the warning by setting deprecation_warnings=False in ansible.cfg.
 
 .. contents::
    :local:
@@ -63,7 +54,7 @@ Parameters
  <li><span class="li-head">workspace_locking_timeout</span> - The maximum time in seconds to wait for other users to release workspace lock. <span class="li-normal">type: integer</span> <span class="li-required">required: false</span>  <span class="li-normal">default: 300</span> </li>
  <li><span class="li-head">device</span> - The parameter in requested url <span class="li-normal">type: str</span> <span class="li-required">required: true</span> </li>
  <li><span class="li-head">vdom</span> - The parameter in requested url <span class="li-normal">type: str</span> <span class="li-required">required: true</span> </li>
- <li><span class="li-head">health-check-fortiguard</span> - The parameter in requested url <span class="li-normal">type: str</span> <span class="li-required">required: true</span> </li>
+ <li><span class="li-head">health_check_fortiguard</span> - The parameter in requested url <span class="li-normal">type: str</span> <span class="li-required">required: true</span> </li>
  <li><span class="li-head">system_sdwan_healthcheckfortiguard_sla</span> - Service level agreement <span class="li-normal">type: dict</span></li>
  <ul class="ul-self">
  <li><span class="li-head">id</span> Sla id. <span class="li-normal">type: int</span>
@@ -141,7 +132,7 @@ Examples
       ansible_httpapi_port: 443
     tasks:
       - name: Service level agreement
-        fortinet.fortimanager.fmgd_system_sdwan_healthcheckfortiguard_sla:
+        fortinet.fmgdevice.fmgd_system_sdwan_healthcheckfortiguard_sla:
           # bypass_validation: false
           workspace_locking_adom: <value in [global, custom adom including root]>
           workspace_locking_timeout: 300
@@ -152,19 +143,19 @@ Examples
           health_check_fortiguard: <your own value>
           state: present # <value in [present, absent]>
           system_sdwan_healthcheckfortiguard_sla:
-            id: <integer>
-            jitter_threshold: <integer>
-            latency_threshold: <integer>
-            link_cost_factor:
-              - "latency"
-              - "jitter"
-              - "packet-loss"
-              - "mos"
-              - "remote"
-            mos_threshold: <string>
-            packetloss_threshold: <integer>
-            priority_in_sla: <integer>
-            priority_out_sla: <integer>
+            id: 0 # Required variable, integer
+            # jitter_threshold: <integer>
+            # latency_threshold: <integer>
+            # link_cost_factor:
+            #   - "latency"
+            #   - "jitter"
+            #   - "packet-loss"
+            #   - "mos"
+            #   - "remote"
+            # mos_threshold: <string>
+            # packetloss_threshold: <integer>
+            # priority_in_sla: <integer>
+            # priority_out_sla: <integer>
 
 
 Return Values

@@ -9,15 +9,6 @@ fmgd_ethernetoam_cfm -- CFM domain configuration.
 
 .. versionadded:: 1.0.0
 
-.. warning::
-   Starting in version 3.0.0, all input arguments will be named using the underscore naming convention (snake_case).
-  
-   - Argument name before 3.0.0: ``var-name``, ``var name``, ``var.name``
-   - New argument name starting in 3.0.0: ``var_name``
-  
-   FortiManager Ansible v2.4+ supports both previous argument name and new underscore name.
-   You will receive deprecation warnings if you keep using the previous argument name.
-   You can ignore the warning by setting deprecation_warnings=False in ansible.cfg.
 
 .. contents::
    :local:
@@ -160,7 +151,7 @@ Examples
       ansible_httpapi_port: 443
     tasks:
       - name: CFM domain configuration.
-        fortinet.fortimanager.fmgd_ethernetoam_cfm:
+        fortinet.fmgdevice.fmgd_ethernetoam_cfm:
           # bypass_validation: false
           workspace_locking_adom: <value in [global, custom adom including root]>
           workspace_locking_timeout: 300
@@ -170,18 +161,17 @@ Examples
           vdom: <your own value>
           state: present # <value in [present, absent]>
           ethernetoam_cfm:
-            domain_id: <integer>
-            domain_level: <integer>
-            domain_name: <string>
-            service:
-              -
-                cos: <integer>
-                interface: <list or string>
-                mepid: <integer>
-                message_interval: <value in [100, 1000, 10000, ...]>
-                sender_id: <value in [None, Hostname]>
-                service_id: <integer>
-                service_name: <string>
+            # domain_id: <integer>
+            # domain_level: <integer>
+            # domain_name: <string>
+            # service:
+            #   - cos: <integer>
+            #     interface: <list or string>
+            #     mepid: <integer>
+            #     message_interval: <value in [100, 1000, 10000, ...]>
+            #     sender_id: <value in [None, Hostname]>
+            #     service_id: <integer>
+            #     service_name: <string>
 
 
 Return Values

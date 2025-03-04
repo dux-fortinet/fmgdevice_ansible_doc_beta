@@ -9,15 +9,6 @@ fmgd_dlp_exactdatamatch_columns -- DLP exact-data-match column types.
 
 .. versionadded:: 1.0.0
 
-.. warning::
-   Starting in version 3.0.0, all input arguments will be named using the underscore naming convention (snake_case).
-  
-   - Argument name before 3.0.0: ``var-name``, ``var name``, ``var.name``
-   - New argument name starting in 3.0.0: ``var_name``
-  
-   FortiManager Ansible v2.4+ supports both previous argument name and new underscore name.
-   You will receive deprecation warnings if you keep using the previous argument name.
-   You can ignore the warning by setting deprecation_warnings=False in ansible.cfg.
 
 .. contents::
    :local:
@@ -63,7 +54,7 @@ Parameters
  <li><span class="li-head">workspace_locking_timeout</span> - The maximum time in seconds to wait for other users to release workspace lock. <span class="li-normal">type: integer</span> <span class="li-required">required: false</span>  <span class="li-normal">default: 300</span> </li>
  <li><span class="li-head">device</span> - The parameter in requested url <span class="li-normal">type: str</span> <span class="li-required">required: true</span> </li>
  <li><span class="li-head">vdom</span> - The parameter in requested url <span class="li-normal">type: str</span> <span class="li-required">required: true</span> </li>
- <li><span class="li-head">exact-data-match</span> - The parameter in requested url <span class="li-normal">type: str</span> <span class="li-required">required: true</span> </li>
+ <li><span class="li-head">exact_data_match</span> - The parameter in requested url <span class="li-normal">type: str</span> <span class="li-required">required: true</span> </li>
  <li><span class="li-head">dlp_exactdatamatch_columns</span> - DLP exact-data-match column types. <span class="li-normal">type: dict</span></li>
  <ul class="ul-self">
  <li><span class="li-head">index</span> Column index. <span class="li-normal">type: int</span>
@@ -111,7 +102,7 @@ Examples
       ansible_httpapi_port: 443
     tasks:
       - name: DLP exact-data-match column types.
-        fortinet.fortimanager.fmgd_dlp_exactdatamatch_columns:
+        fortinet.fmgdevice.fmgd_dlp_exactdatamatch_columns:
           # bypass_validation: false
           workspace_locking_adom: <value in [global, custom adom including root]>
           workspace_locking_timeout: 300
@@ -122,9 +113,9 @@ Examples
           exact_data_match: <your own value>
           state: present # <value in [present, absent]>
           dlp_exactdatamatch_columns:
-            index: <integer>
-            optional: <value in [disable, enable]>
-            type: <list or string>
+            # index: <integer>
+            # optional: <value in [disable, enable]>
+            # type: <list or string>
 
 
 Return Values

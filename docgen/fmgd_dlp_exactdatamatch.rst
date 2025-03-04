@@ -9,15 +9,6 @@ fmgd_dlp_exactdatamatch -- Configure exact-data-match template used by DLP scan.
 
 .. versionadded:: 1.0.0
 
-.. warning::
-   Starting in version 3.0.0, all input arguments will be named using the underscore naming convention (snake_case).
-  
-   - Argument name before 3.0.0: ``var-name``, ``var name``, ``var.name``
-   - New argument name starting in 3.0.0: ``var_name``
-  
-   FortiManager Ansible v2.4+ supports both previous argument name and new underscore name.
-   You will receive deprecation warnings if you keep using the previous argument name.
-   You can ignore the warning by setting deprecation_warnings=False in ansible.cfg.
 
 .. contents::
    :local:
@@ -136,7 +127,7 @@ Examples
       ansible_httpapi_port: 443
     tasks:
       - name: Configure exact-data-match template used by DLP scan.
-        fortinet.fortimanager.fmgd_dlp_exactdatamatch:
+        fortinet.fmgdevice.fmgd_dlp_exactdatamatch:
           # bypass_validation: false
           workspace_locking_adom: <value in [global, custom adom including root]>
           workspace_locking_timeout: 300
@@ -146,14 +137,13 @@ Examples
           vdom: <your own value>
           state: present # <value in [present, absent]>
           dlp_exactdatamatch:
-            columns:
-              -
-                index: <integer>
-                optional: <value in [disable, enable]>
-                type: <list or string>
-            data: <list or string>
-            name: <string>
-            optional: <integer>
+            name: "your value" # Required variable, string
+            # columns:
+            #   - index: <integer>
+            #     optional: <value in [disable, enable]>
+            #     type: <list or string>
+            # data: <list or string>
+            # optional: <integer>
 
 
 Return Values

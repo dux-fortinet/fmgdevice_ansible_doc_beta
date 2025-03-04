@@ -9,15 +9,6 @@ fmgd_switchcontroller_8021xsettings -- Configure global 802.
 
 .. versionadded:: 1.0.0
 
-.. warning::
-   Starting in version 3.0.0, all input arguments will be named using the underscore naming convention (snake_case).
-  
-   - Argument name before 3.0.0: ``var-name``, ``var name``, ``var.name``
-   - New argument name starting in 3.0.0: ``var_name``
-  
-   FortiManager Ansible v2.4+ supports both previous argument name and new underscore name.
-   You will receive deprecation warnings if you keep using the previous argument name.
-   You can ignore the warning by setting deprecation_warnings=False in ansible.cfg.
 
 .. contents::
    :local:
@@ -43,7 +34,7 @@ FortiManager Version Compatibility
 ----------------------------------
 .. raw:: html
 
- <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.2.6 -> v7.2.8</code>, <code class="docutils literal notranslate">v7.4.3 -> latest</code></p>
+ <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.2.6 -> v7.2.9</code>, <code class="docutils literal notranslate">v7.4.3 -> latest</code></p>
 
 
 
@@ -67,13 +58,13 @@ Parameters
  <li><span class="li-head">link_down_auth</span> <b>(Alias name: link-down-auth)</b>  Interface-reauthentication state to set if a link is down. <span class="li-normal">type: str</span> <span class="li-normal">choices: [set-unauth, no-action]</span> 
  <a id='label0' href="javascript:ContentClick('label1', 'label0');" onmouseover="ContentPreview('label1');" onmouseout="ContentUnpreview('label1');" title="click to collapse or expand..."> more... </a>
  <div id="label1" style="display:none">
- <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.2.6 -> v7.2.8</code>, <code class="docutils literal notranslate">v7.4.3 -> latest</code></p>
+ <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.2.6 -> v7.2.9</code>, <code class="docutils literal notranslate">v7.4.3 -> latest</code></p>
  </div>
  </li>
  <li><span class="li-head">mab_reauth</span> <b>(Alias name: mab-reauth)</b>  Enable/disable mab re-authentication. <span class="li-normal">type: str</span> <span class="li-normal">choices: [disable, enable]</span> 
  <a id='label2' href="javascript:ContentClick('label3', 'label2');" onmouseover="ContentPreview('label3');" onmouseout="ContentUnpreview('label3');" title="click to collapse or expand..."> more... </a>
  <div id="label3" style="display:none">
- <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.2.6 -> v7.2.8</code>, <code class="docutils literal notranslate">v7.4.3 -> latest</code></p>
+ <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.2.6 -> v7.2.9</code>, <code class="docutils literal notranslate">v7.4.3 -> latest</code></p>
  </div>
  </li>
  <li><span class="li-head">mac_called_station_delimiter</span> <b>(Alias name: mac-called-station-delimiter)</b>  Mac called station delimiter (default = hyphen). <span class="li-normal">type: str</span> <span class="li-normal">choices: [hyphen, single-hyphen, colon, none]</span> 
@@ -109,19 +100,19 @@ Parameters
  <li><span class="li-head">max_reauth_attempt</span> <b>(Alias name: max-reauth-attempt)</b>  Maximum number of authentication attempts (0 - 15, default = 3). <span class="li-normal">type: int</span>
  <a id='label14' href="javascript:ContentClick('label15', 'label14');" onmouseover="ContentPreview('label15');" onmouseout="ContentUnpreview('label15');" title="click to collapse or expand..."> more... </a>
  <div id="label15" style="display:none">
- <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.2.6 -> v7.2.8</code>, <code class="docutils literal notranslate">v7.4.3 -> latest</code></p>
+ <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.2.6 -> v7.2.9</code>, <code class="docutils literal notranslate">v7.4.3 -> latest</code></p>
  </div>
  </li>
  <li><span class="li-head">reauth_period</span> <b>(Alias name: reauth-period)</b>  Period of time to allow for reauthentication (1 - 1440 sec, default = 60, 0 = disable reauthentication). <span class="li-normal">type: int</span>
  <a id='label16' href="javascript:ContentClick('label17', 'label16');" onmouseover="ContentPreview('label17');" onmouseout="ContentUnpreview('label17');" title="click to collapse or expand..."> more... </a>
  <div id="label17" style="display:none">
- <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.2.6 -> v7.2.8</code>, <code class="docutils literal notranslate">v7.4.3 -> latest</code></p>
+ <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.2.6 -> v7.2.9</code>, <code class="docutils literal notranslate">v7.4.3 -> latest</code></p>
  </div>
  </li>
  <li><span class="li-head">tx_period</span> <b>(Alias name: tx-period)</b>  802. <span class="li-normal">type: int</span>
  <a id='label18' href="javascript:ContentClick('label19', 'label18');" onmouseover="ContentPreview('label19');" onmouseout="ContentUnpreview('label19');" title="click to collapse or expand..."> more... </a>
  <div id="label19" style="display:none">
- <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.2.6 -> v7.2.8</code>, <code class="docutils literal notranslate">v7.4.3 -> latest</code></p>
+ <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.2.6 -> v7.2.9</code>, <code class="docutils literal notranslate">v7.4.3 -> latest</code></p>
  </div>
  </li>
  </ul>
@@ -151,7 +142,7 @@ Examples
       ansible_httpapi_port: 443
     tasks:
       - name: Configure global 802.
-        fortinet.fortimanager.fmgd_switchcontroller_8021xsettings:
+        fortinet.fmgdevice.fmgd_switchcontroller_8021xsettings:
           # bypass_validation: false
           workspace_locking_adom: <value in [global, custom adom including root]>
           workspace_locking_timeout: 300
@@ -160,16 +151,16 @@ Examples
           device: <your own value>
           vdom: <your own value>
           switchcontroller_8021xsettings:
-            link_down_auth: <value in [set-unauth, no-action]>
-            mab_reauth: <value in [disable, enable]>
-            mac_called_station_delimiter: <value in [hyphen, single-hyphen, colon, ...]>
-            mac_calling_station_delimiter: <value in [hyphen, single-hyphen, colon, ...]>
-            mac_case: <value in [uppercase, lowercase]>
-            mac_password_delimiter: <value in [hyphen, single-hyphen, colon, ...]>
-            mac_username_delimiter: <value in [hyphen, single-hyphen, colon, ...]>
-            max_reauth_attempt: <integer>
-            reauth_period: <integer>
-            tx_period: <integer>
+            # link_down_auth: <value in [set-unauth, no-action]>
+            # mab_reauth: <value in [disable, enable]>
+            # mac_called_station_delimiter: <value in [hyphen, single-hyphen, colon, ...]>
+            # mac_calling_station_delimiter: <value in [hyphen, single-hyphen, colon, ...]>
+            # mac_case: <value in [uppercase, lowercase]>
+            # mac_password_delimiter: <value in [hyphen, single-hyphen, colon, ...]>
+            # mac_username_delimiter: <value in [hyphen, single-hyphen, colon, ...]>
+            # max_reauth_attempt: <integer>
+            # reauth_period: <integer>
+            # tx_period: <integer>
 
 
 Return Values

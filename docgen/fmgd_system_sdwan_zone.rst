@@ -9,15 +9,6 @@ fmgd_system_sdwan_zone -- Configure SD-WAN zones.
 
 .. versionadded:: 1.0.0
 
-.. warning::
-   Starting in version 3.0.0, all input arguments will be named using the underscore naming convention (snake_case).
-  
-   - Argument name before 3.0.0: ``var-name``, ``var name``, ``var.name``
-   - New argument name starting in 3.0.0: ``var_name``
-  
-   FortiManager Ansible v2.4+ supports both previous argument name and new underscore name.
-   You will receive deprecation warnings if you keep using the previous argument name.
-   You can ignore the warning by setting deprecation_warnings=False in ansible.cfg.
 
 .. contents::
    :local:
@@ -43,7 +34,7 @@ FortiManager Version Compatibility
 ----------------------------------
 .. raw:: html
 
- <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.2.6 -> v7.2.8</code>, <code class="docutils literal notranslate">v7.4.3 -> latest</code></p>
+ <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.2.6 -> v7.2.9</code>, <code class="docutils literal notranslate">v7.4.3 -> latest</code></p>
 
 
 
@@ -86,13 +77,13 @@ Parameters
  <li><span class="li-head">name</span> Zone name. <span class="li-normal">type: str</span>
  <a id='label6' href="javascript:ContentClick('label7', 'label6');" onmouseover="ContentPreview('label7');" onmouseout="ContentUnpreview('label7');" title="click to collapse or expand..."> more... </a>
  <div id="label7" style="display:none">
- <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.2.6 -> v7.2.8</code>, <code class="docutils literal notranslate">v7.4.3 -> latest</code></p>
+ <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.2.6 -> v7.2.9</code>, <code class="docutils literal notranslate">v7.4.3 -> latest</code></p>
  </div>
  </li>
  <li><span class="li-head">service_sla_tie_break</span> <b>(Alias name: service-sla-tie-break)</b>  Method of selecting member if more than one meets the sla. <span class="li-normal">type: str</span> <span class="li-normal">choices: [cfg-order, fib-best-match, input-device]</span> 
  <a id='label8' href="javascript:ContentClick('label9', 'label8');" onmouseover="ContentPreview('label9');" onmouseout="ContentUnpreview('label9');" title="click to collapse or expand..."> more... </a>
  <div id="label9" style="display:none">
- <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.2.6 -> v7.2.8</code>, <code class="docutils literal notranslate">v7.4.3 -> latest</code></p>
+ <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.2.6 -> v7.2.9</code>, <code class="docutils literal notranslate">v7.4.3 -> latest</code></p>
  </div>
  </li>
  </ul>
@@ -122,7 +113,7 @@ Examples
       ansible_httpapi_port: 443
     tasks:
       - name: Configure SD-WAN zones.
-        fortinet.fortimanager.fmgd_system_sdwan_zone:
+        fortinet.fmgdevice.fmgd_system_sdwan_zone:
           # bypass_validation: false
           workspace_locking_adom: <value in [global, custom adom including root]>
           workspace_locking_timeout: 300
@@ -132,11 +123,11 @@ Examples
           vdom: <your own value>
           state: present # <value in [present, absent]>
           system_sdwan_zone:
-            advpn_health_check: <list or string>
-            advpn_select: <value in [disable, enable]>
-            minimum_sla_meet_members: <integer>
-            name: <string>
-            service_sla_tie_break: <value in [cfg-order, fib-best-match, input-device]>
+            name: "your value" # Required variable, string
+            # advpn_health_check: <list or string>
+            # advpn_select: <value in [disable, enable]>
+            # minimum_sla_meet_members: <integer>
+            # service_sla_tie_break: <value in [cfg-order, fib-best-match, input-device]>
 
 
 Return Values

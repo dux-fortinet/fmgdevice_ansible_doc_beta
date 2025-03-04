@@ -55,94 +55,100 @@ Parameters
     </h2>
     <div class="content"> 
     <ul class="ul-self">
+        <li><span class="li-required">casb_attributematch</span> - available versions:
+          <span class="li-normal">v7.6.2->latest</span>
+        </li>
         <li><span class="li-required">dlp_exactdatamatch_columns</span> - available versions:
           <span class="li-normal">v7.4.3->latest</span>
         </li>
         <li><span class="li-required">firewall_accessproxysshclientcert</span> - available versions:
-          <span class="li-normal">v7.2.6->v7.2.8</span>
+          <span class="li-normal">v7.2.6->v7.2.9</span>
         </li>
         <li><span class="li-required">firewall_sniffer</span> - available versions:
-          <span class="li-normal">v7.2.6->v7.2.8</span>,
+          <span class="li-normal">v7.2.6->v7.2.9</span>,
           <span class="li-normal">v7.4.3->latest</span>
         </li>
         <li><span class="li-required">firewall_ttlpolicy</span> - available versions:
-          <span class="li-normal">v7.2.6->v7.2.8</span>,
+          <span class="li-normal">v7.2.6->v7.2.9</span>,
           <span class="li-normal">v7.4.3->latest</span>
         </li>
         <li><span class="li-required">gtp_apnshaper</span> - available versions:
-          <span class="li-normal">v7.2.6->v7.2.8</span>,
+          <span class="li-normal">v7.2.6->v7.2.9</span>,
           <span class="li-normal">v7.4.3->latest</span>
         </li>
-        <li><span class="li-required">pm_config_device_nsxt_servicechain_serviceindex</span> - available versions:
-          <span class="li-normal">v7.2.6->v7.2.8</span>,
-          <span class="li-normal">v7.4.3->latest</span>
-        </li>
-        <li><span class="li-required">pm_config_device_system_automationstitch_actions</span> - available versions:
-          <span class="li-normal">v7.2.6->v7.2.8</span>,
-          <span class="li-normal">v7.4.3->latest</span>
-        </li>
-        <li><span class="li-required">pm_config_device_system_ipam_rules</span> - available versions:
-          <span class="li-normal">v7.2.6->v7.2.8</span>,
+        <li><span class="li-required">nsxt_servicechain_serviceindex</span> - available versions:
+          <span class="li-normal">v7.2.6->v7.2.9</span>,
           <span class="li-normal">v7.4.3->latest</span>
         </li>
         <li><span class="li-required">report_layout_bodyitem</span> - available versions:
-          <span class="li-normal">v7.2.6->v7.2.8</span>,
+          <span class="li-normal">v7.2.6->v7.2.9</span>,
           <span class="li-normal">v7.4.3->latest</span>
         </li>
         <li><span class="li-required">report_layout_page_footer_footeritem</span> - available versions:
-          <span class="li-normal">v7.2.6->v7.2.8</span>,
+          <span class="li-normal">v7.2.6->v7.2.9</span>,
           <span class="li-normal">v7.4.3->latest</span>
         </li>
         <li><span class="li-required">report_layout_page_header_headeritem</span> - available versions:
-          <span class="li-normal">v7.2.6->v7.2.8</span>,
+          <span class="li-normal">v7.2.6->v7.2.9</span>,
           <span class="li-normal">v7.4.3->latest</span>
         </li>
         <li><span class="li-required">router_policy</span> - available versions:
-          <span class="li-normal">v7.2.6->v7.2.8</span>,
+          <span class="li-normal">v7.2.6->v7.2.9</span>,
           <span class="li-normal">v7.4.3->latest</span>
         </li>
         <li><span class="li-required">router_policy6</span> - available versions:
-          <span class="li-normal">v7.2.6->v7.2.8</span>,
+          <span class="li-normal">v7.2.6->v7.2.9</span>,
           <span class="li-normal">v7.4.3->latest</span>
         </li>
         <li><span class="li-required">switchcontroller_dynamicportpolicy_policy</span> - available versions:
-          <span class="li-normal">v7.2.6->v7.2.8</span>,
+          <span class="li-normal">v7.2.6->v7.2.9</span>,
           <span class="li-normal">v7.4.3->latest</span>
         </li>
         <li><span class="li-required">switchcontroller_managedswitch</span> - available versions:
-          <span class="li-normal">v7.2.6->v7.2.8</span>,
+          <span class="li-normal">v7.2.6->v7.2.9</span>,
+          <span class="li-normal">v7.4.3->latest</span>
+        </li>
+        <li><span class="li-required">system_automationstitch_actions</span> - available versions:
+          <span class="li-normal">v7.2.6->v7.2.9</span>,
+          <span class="li-normal">v7.4.3->latest</span>
+        </li>
+        <li><span class="li-required">system_healthcheckfortiguard</span> - available versions:
+          <span class="li-normal">v7.6.2->latest</span>
+        </li>
+        <li><span class="li-required">system_ipam_rules</span> - available versions:
+          <span class="li-normal">v7.2.6->v7.2.9</span>,
           <span class="li-normal">v7.4.3->latest</span>
         </li>
         <li><span class="li-required">system_sdwan_members</span> - available versions:
-          <span class="li-normal">v7.2.6->v7.2.8</span>,
+          <span class="li-normal">v7.2.6->v7.2.9</span>,
           <span class="li-normal">v7.4.3->latest</span>
         </li>
         <li><span class="li-required">system_sdwan_service</span> - available versions:
-          <span class="li-normal">v7.2.6->v7.2.8</span>,
+          <span class="li-normal">v7.2.6->v7.2.9</span>,
           <span class="li-normal">v7.4.3->latest</span>
         </li>
         <li><span class="li-required">system_sdwan_service_sla</span> - available versions:
-          <span class="li-normal">v7.2.6->v7.2.8</span>,
+          <span class="li-normal">v7.2.6->v7.2.9</span>,
           <span class="li-normal">v7.4.3->latest</span>
         </li>
         <li><span class="li-required">system_sdwan_zone</span> - available versions:
-          <span class="li-normal">v7.2.6->v7.2.8</span>,
+          <span class="li-normal">v7.2.6->v7.2.9</span>,
           <span class="li-normal">v7.4.3->latest</span>
         </li>
         <li><span class="li-required">system_virtualwanlink_members</span> - available versions:
-          <span class="li-normal">v7.2.6->v7.2.8</span>,
+          <span class="li-normal">v7.2.6->v7.2.9</span>,
           <span class="li-normal">v7.4.3->latest</span>
         </li>
         <li><span class="li-required">system_virtualwanlink_service</span> - available versions:
-          <span class="li-normal">v7.2.6->v7.2.8</span>,
+          <span class="li-normal">v7.2.6->v7.2.9</span>,
           <span class="li-normal">v7.4.3->latest</span>
         </li>
         <li><span class="li-required">system_virtualwanlink_service_sla</span> - available versions:
-          <span class="li-normal">v7.2.6->v7.2.8</span>,
+          <span class="li-normal">v7.2.6->v7.2.9</span>,
           <span class="li-normal">v7.4.3->latest</span>
         </li>
         <li><span class="li-required">user_nacpolicy</span> - available versions:
-          <span class="li-normal">v7.2.6->v7.2.8</span>,
+          <span class="li-normal">v7.2.6->v7.2.9</span>,
           <span class="li-normal">v7.4.3->latest</span>
         </li>
         <li><span class="li-required">vpn_kmipserver_serverlist</span> - available versions:
@@ -153,44 +159,47 @@ Parameters
           <span class="li-normal">v6.4.2->latest</span>
         </li>
         <li><span class="li-required">vpnsslweb_userbookmark_bookmarks</span> - available versions:
-          <span class="li-normal">v7.2.6->v7.2.8</span>,
+          <span class="li-normal">v7.2.6->v7.2.9</span>,
           <span class="li-normal">v7.4.3->latest</span>
         </li>
         <li><span class="li-required">vpnsslweb_usergroupbookmark_bookmarks</span> - available versions:
-          <span class="li-normal">v7.2.6->v7.2.8</span>,
+          <span class="li-normal">v7.2.6->v7.2.9</span>,
           <span class="li-normal">v7.4.3->latest</span>
         </li>
         <li><span class="li-required">wireless_accesscontrollist_layer3ipv4rules</span> - available versions:
-          <span class="li-normal">v7.2.6->v7.2.8</span>,
+          <span class="li-normal">v7.2.6->v7.2.9</span>,
           <span class="li-normal">v7.4.3->latest</span>
         </li>
         <li><span class="li-required">wireless_accesscontrollist_layer3ipv6rules</span> - available versions:
-          <span class="li-normal">v7.2.6->v7.2.8</span>,
+          <span class="li-normal">v7.2.6->v7.2.9</span>,
           <span class="li-normal">v7.4.3->latest</span>
         </li>
         <li><span class="li-required">wireless_apcfgprofile_commandlist</span> - available versions:
-          <span class="li-normal">v7.2.6->v7.2.8</span>,
+          <span class="li-normal">v7.2.6->v7.2.9</span>,
           <span class="li-normal">v7.4.3->latest</span>
         </li>
         <li><span class="li-required">wireless_bonjourprofile_policylist</span> - available versions:
-          <span class="li-normal">v7.2.6->v7.2.8</span>,
+          <span class="li-normal">v7.2.6->v7.2.9</span>,
           <span class="li-normal">v7.4.3->latest</span>
         </li>
         <li><span class="li-required">wireless_mpskprofile_mpskgroup</span> - available versions:
-          <span class="li-normal">v7.2.6->v7.2.8</span>,
+          <span class="li-normal">v7.2.6->v7.2.9</span>,
           <span class="li-normal">v7.4.3->latest</span>
         </li>
         <li><span class="li-required">wireless_mpskprofile_mpskgroup_mpskkey</span> - available versions:
-          <span class="li-normal">v7.2.6->v7.2.8</span>,
+          <span class="li-normal">v7.2.6->v7.2.9</span>,
           <span class="li-normal">v7.4.3->latest</span>
         </li>
         <li><span class="li-required">wireless_vap_vlanname</span> - available versions:
-          <span class="li-normal">v7.2.6->v7.2.8</span>,
+          <span class="li-normal">v7.2.6->v7.2.9</span>,
           <span class="li-normal">v7.4.3->latest</span>
         </li>
         <li><span class="li-required">wireless_wtp</span> - available versions:
-          <span class="li-normal">v7.2.6->v7.2.8</span>,
+          <span class="li-normal">v7.2.6->v7.2.9</span>,
           <span class="li-normal">v7.4.3->latest</span>
+        </li>
+        <li><span class="li-required">ztna_webportalbookmark_bookmarks</span> - available versions:
+          <span class="li-normal">v7.6.2->latest</span>
         </li>
     </ul>
     </div>
@@ -204,6 +213,12 @@ Parameters
     </h2>
     <div class="content">
     <ul class="ul-self">
+        <li><span class="li-normal">params for casb_attributematch:</span></li>
+        <ul class="ul-self">
+            <li><span class="li-normal">attribute-match</span></li>
+            <li><span class="li-normal">device</span></li>
+            <li><span class="li-normal">vdom</span></li>
+        </ul>
         <li><span class="li-normal">params for dlp_exactdatamatch_columns:</span></li>
         <ul class="ul-self">
             <li><span class="li-normal">columns</span></li>
@@ -235,22 +250,11 @@ Parameters
             <li><span class="li-normal">device</span></li>
             <li><span class="li-normal">vdom</span></li>
         </ul>
-        <li><span class="li-normal">params for pm_config_device_nsxt_servicechain_serviceindex:</span></li>
+        <li><span class="li-normal">params for nsxt_servicechain_serviceindex:</span></li>
         <ul class="ul-self">
             <li><span class="li-normal">device</span></li>
             <li><span class="li-normal">service-chain</span></li>
             <li><span class="li-normal">service-index</span></li>
-        </ul>
-        <li><span class="li-normal">params for pm_config_device_system_automationstitch_actions:</span></li>
-        <ul class="ul-self">
-            <li><span class="li-normal">actions</span></li>
-            <li><span class="li-normal">automation-stitch</span></li>
-            <li><span class="li-normal">device</span></li>
-        </ul>
-        <li><span class="li-normal">params for pm_config_device_system_ipam_rules:</span></li>
-        <ul class="ul-self">
-            <li><span class="li-normal">device</span></li>
-            <li><span class="li-normal">rules</span></li>
         </ul>
         <li><span class="li-normal">params for report_layout_bodyitem:</span></li>
         <ul class="ul-self">
@@ -297,6 +301,22 @@ Parameters
             <li><span class="li-normal">device</span></li>
             <li><span class="li-normal">managed-switch</span></li>
             <li><span class="li-normal">vdom</span></li>
+        </ul>
+        <li><span class="li-normal">params for system_automationstitch_actions:</span></li>
+        <ul class="ul-self">
+            <li><span class="li-normal">actions</span></li>
+            <li><span class="li-normal">automation-stitch</span></li>
+            <li><span class="li-normal">device</span></li>
+        </ul>
+        <li><span class="li-normal">params for system_healthcheckfortiguard:</span></li>
+        <ul class="ul-self">
+            <li><span class="li-normal">device</span></li>
+            <li><span class="li-normal">health-check-fortiguard</span></li>
+        </ul>
+        <li><span class="li-normal">params for system_ipam_rules:</span></li>
+        <ul class="ul-self">
+            <li><span class="li-normal">device</span></li>
+            <li><span class="li-normal">rules</span></li>
         </ul>
         <li><span class="li-normal">params for system_sdwan_members:</span></li>
         <ul class="ul-self">
@@ -430,6 +450,13 @@ Parameters
             <li><span class="li-normal">device</span></li>
             <li><span class="li-normal">vdom</span></li>
             <li><span class="li-normal">wtp</span></li>
+        </ul>
+        <li><span class="li-normal">params for ztna_webportalbookmark_bookmarks:</span></li>
+        <ul class="ul-self">
+            <li><span class="li-normal">bookmarks</span></li>
+            <li><span class="li-normal">device</span></li>
+            <li><span class="li-normal">vdom</span></li>
+            <li><span class="li-normal">web-portal-bookmark</span></li>
         </ul>
     </ul>
     </div>

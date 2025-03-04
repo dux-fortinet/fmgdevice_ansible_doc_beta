@@ -9,15 +9,6 @@ fmgd_user_scim -- Configure SCIM client entries.
 
 .. versionadded:: 1.0.0
 
-.. warning::
-   Starting in version 3.0.0, all input arguments will be named using the underscore naming convention (snake_case).
-  
-   - Argument name before 3.0.0: ``var-name``, ``var name``, ``var.name``
-   - New argument name starting in 3.0.0: ``var_name``
-  
-   FortiManager Ansible v2.4+ supports both previous argument name and new underscore name.
-   You will receive deprecation warnings if you keep using the previous argument name.
-   You can ignore the warning by setting deprecation_warnings=False in ansible.cfg.
 
 .. contents::
    :local:
@@ -113,6 +104,24 @@ Parameters
  <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.6.0 -> latest</code></p>
  </div>
  </li>
+ <li><span class="li-head">auth_method</span> <b>(Alias name: auth-method)</b>  Tls client authentication methods (default = bearer token). <span class="li-normal">type: str</span> <span class="li-normal">choices: [token, base]</span> 
+ <a id='label16' href="javascript:ContentClick('label17', 'label16');" onmouseover="ContentPreview('label17');" onmouseout="ContentUnpreview('label17');" title="click to collapse or expand..."> more... </a>
+ <div id="label17" style="display:none">
+ <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.6.2 -> latest</code></p>
+ </div>
+ </li>
+ <li><span class="li-head">secret</span> Secret for token verification or base authentication. <span class="li-normal">type: list</span>
+ <a id='label18' href="javascript:ContentClick('label19', 'label18');" onmouseover="ContentPreview('label19');" onmouseout="ContentUnpreview('label19');" title="click to collapse or expand..."> more... </a>
+ <div id="label19" style="display:none">
+ <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.6.2 -> latest</code></p>
+ </div>
+ </li>
+ <li><span class="li-head">token_certificate</span> <b>(Alias name: token-certificate)</b>  Certificate for token verification. <span class="li-normal">type: list</span>
+ <a id='label20' href="javascript:ContentClick('label21', 'label20');" onmouseover="ContentPreview('label21');" onmouseout="ContentUnpreview('label21');" title="click to collapse or expand..."> more... </a>
+ <div id="label21" style="display:none">
+ <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.6.2 -> latest</code></p>
+ </div>
+ </li>
  </ul>
  </ul>
 
@@ -140,7 +149,7 @@ Examples
       ansible_httpapi_port: 443
     tasks:
       - name: Configure SCIM client entries.
-        fortinet.fortimanager.fmgd_user_scim:
+        fortinet.fmgdevice.fmgd_user_scim:
           # bypass_validation: false
           workspace_locking_adom: <value in [global, custom adom including root]>
           workspace_locking_timeout: 300
@@ -150,14 +159,17 @@ Examples
           vdom: <your own value>
           state: present # <value in [present, absent]>
           user_scim:
-            base_url: <string>
-            certificate: <list or string>
-            client_authentication_method: <value in [token, base]>
-            client_identity_check: <value in [disable, enable]>
-            client_secret_token: <string>
-            id: <integer>
-            name: <string>
-            status: <value in [disable, enable]>
+            id: 0 # Required variable, integer
+            # base_url: <string>
+            # certificate: <list or string>
+            # client_authentication_method: <value in [token, base]>
+            # client_identity_check: <value in [disable, enable]>
+            # client_secret_token: <string>
+            # name: <string>
+            # status: <value in [disable, enable]>
+            # auth_method: <value in [token, base]>
+            # secret: <list or string>
+            # token_certificate: <list or string>
 
 
 Return Values

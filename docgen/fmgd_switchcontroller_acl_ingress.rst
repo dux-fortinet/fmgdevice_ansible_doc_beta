@@ -9,15 +9,6 @@ fmgd_switchcontroller_acl_ingress -- Configure ingress ACL policies to be applie
 
 .. versionadded:: 1.0.0
 
-.. warning::
-   Starting in version 3.0.0, all input arguments will be named using the underscore naming convention (snake_case).
-  
-   - Argument name before 3.0.0: ``var-name``, ``var name``, ``var.name``
-   - New argument name starting in 3.0.0: ``var_name``
-  
-   FortiManager Ansible v2.4+ supports both previous argument name and new underscore name.
-   You will receive deprecation warnings if you keep using the previous argument name.
-   You can ignore the warning by setting deprecation_warnings=False in ansible.cfg.
 
 .. contents::
    :local:
@@ -162,7 +153,7 @@ Examples
       ansible_httpapi_port: 443
     tasks:
       - name: Configure ingress ACL policies to be applied on managed FortiSwitch ports.
-        fortinet.fortimanager.fmgd_switchcontroller_acl_ingress:
+        fortinet.fmgdevice.fmgd_switchcontroller_acl_ingress:
           # bypass_validation: false
           workspace_locking_adom: <value in [global, custom adom including root]>
           workspace_locking_timeout: 300
@@ -172,17 +163,17 @@ Examples
           vdom: <your own value>
           state: present # <value in [present, absent]>
           switchcontroller_acl_ingress:
-            action:
-              count: <value in [disable, enable]>
-              drop: <value in [disable, enable]>
-            classifier:
-              dst_ip_prefix: <list or string>
-              dst_mac: <string>
-              src_ip_prefix: <list or string>
-              src_mac: <string>
-              vlan: <integer>
-            description: <string>
-            id: <integer>
+            id: 0 # Required variable, integer
+            # action:
+            #   count: <value in [disable, enable]>
+            #   drop: <value in [disable, enable]>
+            # classifier:
+            #   dst_ip_prefix: <list or string>
+            #   dst_mac: <string>
+            #   src_ip_prefix: <list or string>
+            #   src_mac: <string>
+            #   vlan: <integer>
+            # description: <string>
 
 
 Return Values

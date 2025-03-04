@@ -9,15 +9,6 @@ fmgd_switchcontroller_managedswitch_ports_dhcpsnoopoption82override -- Configure
 
 .. versionadded:: 1.0.0
 
-.. warning::
-   Starting in version 3.0.0, all input arguments will be named using the underscore naming convention (snake_case).
-  
-   - Argument name before 3.0.0: ``var-name``, ``var name``, ``var.name``
-   - New argument name starting in 3.0.0: ``var_name``
-  
-   FortiManager Ansible v2.4+ supports both previous argument name and new underscore name.
-   You will receive deprecation warnings if you keep using the previous argument name.
-   You can ignore the warning by setting deprecation_warnings=False in ansible.cfg.
 
 .. contents::
    :local:
@@ -63,7 +54,7 @@ Parameters
  <li><span class="li-head">workspace_locking_timeout</span> - The maximum time in seconds to wait for other users to release workspace lock. <span class="li-normal">type: integer</span> <span class="li-required">required: false</span>  <span class="li-normal">default: 300</span> </li>
  <li><span class="li-head">device</span> - The parameter in requested url <span class="li-normal">type: str</span> <span class="li-required">required: true</span> </li>
  <li><span class="li-head">vdom</span> - The parameter in requested url <span class="li-normal">type: str</span> <span class="li-required">required: true</span> </li>
- <li><span class="li-head">managed-switch</span> - The parameter in requested url <span class="li-normal">type: str</span> <span class="li-required">required: true</span> </li>
+ <li><span class="li-head">managed_switch</span> - The parameter in requested url <span class="li-normal">type: str</span> <span class="li-required">required: true</span> </li>
  <li><span class="li-head">ports</span> - The parameter in requested url <span class="li-normal">type: str</span> <span class="li-required">required: true</span> </li>
  <li><span class="li-head">switchcontroller_managedswitch_ports_dhcpsnoopoption82override</span> - Configure DHCP snooping option 82 override. <span class="li-normal">type: dict</span></li>
  <ul class="ul-self">
@@ -112,7 +103,7 @@ Examples
       ansible_httpapi_port: 443
     tasks:
       - name: Configure DHCP snooping option 82 override.
-        fortinet.fortimanager.fmgd_switchcontroller_managedswitch_ports_dhcpsnoopoption82override:
+        fortinet.fmgdevice.fmgd_switchcontroller_managedswitch_ports_dhcpsnoopoption82override:
           # bypass_validation: false
           workspace_locking_adom: <value in [global, custom adom including root]>
           workspace_locking_timeout: 300
@@ -124,9 +115,9 @@ Examples
           ports: <your own value>
           state: present # <value in [present, absent]>
           switchcontroller_managedswitch_ports_dhcpsnoopoption82override:
-            circuit_id: <string>
-            remote_id: <string>
-            vlan_name: <list or string>
+            # circuit_id: <string>
+            # remote_id: <string>
+            # vlan_name: <list or string>
 
 
 Return Values

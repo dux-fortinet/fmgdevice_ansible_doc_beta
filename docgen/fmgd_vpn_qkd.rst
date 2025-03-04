@@ -9,15 +9,6 @@ fmgd_vpn_qkd -- Configure Quantum Key Distribution servers.
 
 .. versionadded:: 1.0.0
 
-.. warning::
-   Starting in version 3.0.0, all input arguments will be named using the underscore naming convention (snake_case).
-  
-   - Argument name before 3.0.0: ``var-name``, ``var name``, ``var.name``
-   - New argument name starting in 3.0.0: ``var_name``
-  
-   FortiManager Ansible v2.4+ supports both previous argument name and new underscore name.
-   You will receive deprecation warnings if you keep using the previous argument name.
-   You can ignore the warning by setting deprecation_warnings=False in ansible.cfg.
 
 .. contents::
    :local:
@@ -134,7 +125,7 @@ Examples
       ansible_httpapi_port: 443
     tasks:
       - name: Configure Quantum Key Distribution servers
-        fortinet.fortimanager.fmgd_vpn_qkd:
+        fortinet.fmgdevice.fmgd_vpn_qkd:
           # bypass_validation: false
           workspace_locking_adom: <value in [global, custom adom including root]>
           workspace_locking_timeout: 300
@@ -144,13 +135,13 @@ Examples
           vdom: <your own value>
           state: present # <value in [present, absent]>
           vpn_qkd:
-            certificate: <list or string>
-            comment: <string>
-            id: <string>
-            name: <string>
-            peer: <list or string>
-            port: <integer>
-            server: <string>
+            id: "your value" # Required variable, string
+            # certificate: <list or string>
+            # comment: <string>
+            # name: <string>
+            # peer: <list or string>
+            # port: <integer>
+            # server: <string>
 
 
 Return Values

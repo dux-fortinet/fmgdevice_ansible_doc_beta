@@ -9,15 +9,6 @@ fmgd_firewall_ondemandsniffer -- Configure on-demand packet sniffer.
 
 .. versionadded:: 1.0.0
 
-.. warning::
-   Starting in version 3.0.0, all input arguments will be named using the underscore naming convention (snake_case).
-  
-   - Argument name before 3.0.0: ``var-name``, ``var name``, ``var.name``
-   - New argument name starting in 3.0.0: ``var_name``
-  
-   FortiManager Ansible v2.4+ supports both previous argument name and new underscore name.
-   You will receive deprecation warnings if you keep using the previous argument name.
-   You can ignore the warning by setting deprecation_warnings=False in ansible.cfg.
 
 .. contents::
    :local:
@@ -140,7 +131,7 @@ Examples
       ansible_httpapi_port: 443
     tasks:
       - name: Configure on-demand packet sniffer.
-        fortinet.fortimanager.fmgd_firewall_ondemandsniffer:
+        fortinet.fmgdevice.fmgd_firewall_ondemandsniffer:
           # bypass_validation: false
           workspace_locking_adom: <value in [global, custom adom including root]>
           workspace_locking_timeout: 300
@@ -150,14 +141,14 @@ Examples
           vdom: <your own value>
           state: present # <value in [present, absent]>
           firewall_ondemandsniffer:
-            advanced_filter: <string>
-            hosts: <list or string>
-            interface: <list or string>
-            max_packet_count: <integer>
-            name: <string>
-            non_ip_packet: <value in [disable, enable]>
-            ports: <list or integer>
-            protocols: <list or integer>
+            name: "your value" # Required variable, string
+            # advanced_filter: <string>
+            # hosts: <list or string>
+            # interface: <list or string>
+            # max_packet_count: <integer>
+            # non_ip_packet: <value in [disable, enable]>
+            # ports: <list or integer>
+            # protocols: <list or integer>
 
 
 Return Values

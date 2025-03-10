@@ -2,28 +2,31 @@
 Run Your First Playbook
 ==============================
 
-This document explains how to run your first FortiManager Ansible playbook.
+This document explains how to run your first FortiManager Device Ansible playbook.
 
 --------------
 
-With FortiManager Galaxy collection, you are always recommended to run
-FortiManager module in ``httpapi`` manner. The first step is to prepare your
+With FortiManager Device Galaxy collection, you are always recommended to run
+FortiManager Device module in ``httpapi`` manner. The first step is to prepare your
 host inventory with which you can use ``ansible-vault`` to encrypt or
 decrypt your secrets for the sake of confidentiality.
 
 Prepare host inventory
 ~~~~~~~~~~~~~~~~~~~~~~
 
-in our case we create a file named ``hosts``:
+In our case we create a file named ``hosts``:
+This file specifies one FortiManager instance and some variables the instance are using.
 
 ::
 
    [fortimanagers]
    fortimanager01 ansible_host=192.168.190.130 ansible_user="admin" ansible_password="password"
-   fortimanager02 ansible_host=192.168.190.131 ansible_user="admin" ansible_password="password"
 
    [fortimanagers:vars]
-   ansible_network_os=fortinet.fortimanager.fortimanager
+   ansible_network_os=fortinet.fmgdevice.fmgdevice
+   ansible_httpapi_use_ssl=true
+   ansible_httpapi_validate_certs=false
+   ansible_httpapi_port=443
 
 Write the playbook
 ~~~~~~~~~~~~~~~~~~
@@ -31,42 +34,47 @@ Write the playbook
 An Example
 ----------
 
-in the example: ``test.yml`` we are going to create a script on FortiManager:
+Create the file ``test.yml``, we write a playbook to collect FortiManager device data:
 
 ::
 
-   - hosts: fortimanagers
-     connection: httpapi
-     collections:
-     - fortinet.fortimanager
-     vars:
-      ansible_httpapi_use_ssl: yes
-      ansible_httpapi_validate_certs: no
-      ansible_httpapi_port: 443
-     tasks:
-      - name: Create a script on FortiManager.
-        fmgr_dvmdb_script:
-           adom: 'adom'
-           state: 'present'
-           dvmdb_script:
-              desc: 'The script create via Ansible'
-              type: 'cli'
-              name: 'fooscript'
-              content: |
-                         config system global
-                            set timezone 04
-                         end
+  - name: Gathering fortimanager facts
+    hosts: fortimanagers
+    connection: httpapi
+    vars:
+      device_name: "XXXXXXX"
+      vdom_name: "root"
+    tasks:
+      - name: Gathering fortimanager fact
+        fortinet.fmgdevice.fmgd_fact:
+          facts:
+            selector: "alertemail_setting"
+            params:
+              device: "{{ device_name }}"
+              vdom: "{{ vdom_name }}"
+        register: response
+      - name: Display response
+        debug:
+          var: response
 
 Parameter Usages
 ----------------
 
-there are several mandatory options in the example:
+For details about how to use modules, please check:
 
--  **adom** : ``adom`` is the administrative domain that an API is going to run inside. In most cases, ``global`` or ``root`` is what you need.
--  **state** : ``state`` is indicating the action the module is going to take. by giving ``present``, the module will create or update the object, while ``absent`` tells the module to delete the object in the FortiManager.
--  other module specific parameters are defined differently, you can find their usages in each `module page`_.
+- `Device modules page`_ Modules that releated with FortiManager Device.
+- `fmgd_fact`_ Gather FortiManager Device Facts.
+- `fmgd_rename`_ Rename an object in FortiManager.
+- `fmgd_clone`_ Clone an object in FortiManager.
+- `fmgd_move`_ Move fortimanager defined Object.
+- `fmgd_generic`_ The Generic FortiManager module.
 
-.. _module page: modules.html
+.. _Device modules page: modules.html
+.. _fmgd_fact: fmgd_fact.html
+.. _fmgd_rename: fmgd_rename.html
+.. _fmgd_clone: fmgd_clone.html
+.. _fmgd_move: fmgd_move.html
+.. _fmgd_generic: fmgd_generic.html
 
 Run the playbook
 ~~~~~~~~~~~~~~~~

@@ -7,7 +7,7 @@
 fmgd_clone -- Clone An Object.
 +++++++++++++++++++++++++++++++++++++++
 
-.. versionadded:: 2.0.0
+.. versionadded:: 1.0.0
 
 .. contents::
    :local:
@@ -8606,19 +8606,19 @@ Examples
     hosts: fortimanagers
     connection: httpapi
     vars:
-      ansible_httpapi_use_ssl: true
-      ansible_httpapi_validate_certs: false
-      ansible_httpapi_port: 443
+      device_name: "FGVMMLTMXXXXX"
+      vdom_name: "root"
     tasks:
-      - name: Clone a vip object using fmgd_clone module.
+      - name: Clone an object
         fortinet.fmgdevice.fmgd_clone:
           clone:
-            selector: "firewall_vip"
+            selector: "antivirus_exemptlist"
             self:
-              adom: "root"
-              vip: "ansible-test-vip_first"
+              device: "{{ device_name }}"
+              vdom: "{{ vdom_name }}"
+              exempt_list: "test2"
             target:
-              name: "ansible-test-vip_fourth"
+              name: "test3"
 
 
 

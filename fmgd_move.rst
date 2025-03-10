@@ -7,7 +7,7 @@
 fmgd_move -- Reorder Two Objects.
 +++++++++++++++++++++++++++++++++++++++
 
-.. versionadded:: 2.0.0
+.. versionadded:: 1.0.0
 
 .. contents::
    :local:
@@ -490,23 +490,23 @@ Examples
 
 .. code-block:: yaml+jinja
 
-  - name: Move an object
+  - name: Move an object.
     hosts: fortimanagers
     connection: httpapi
     vars:
-      ansible_httpapi_use_ssl: true
-      ansible_httpapi_validate_certs: false
-      ansible_httpapi_port: 443
+      device_name: "FGVMMLTMXXXXX"
+      vdom_name: "root"
     tasks:
-      - name: Move a firewall vip object
+      - name: Move an object.
         fortinet.fmgdevice.fmgd_move:
           move:
-            selector: "firewall_vip"
-            target: "ansible-test-vip_first"
-            action: "before"
+            selector: "router_policy"
             self:
-              adom: "root"
-              vip: "ansible-test-vip_second"
+              device: "{{ device_name }}"
+              vdom: "{{ vdom_name }}"
+              policy: "1" # seq-num
+            target: "2" # seq-num
+            action: "after"
 
 
 Return Values

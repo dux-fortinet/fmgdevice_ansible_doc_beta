@@ -18,7 +18,7 @@
 # -- Project information -----------------------------------------------------
 
 project = "Fortinet FortiManager Device Ansible Collection"
-copyright = "2024, Fortinet"
+copyright = "2025, Fortinet"
 author = "Fortinet"
 
 # The full version, including alpha/beta/rc tags

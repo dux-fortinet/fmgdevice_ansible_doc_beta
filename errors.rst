@@ -2,6 +2,10 @@
 Error Handling
 ===============
 
+.. note::
+    FortiManager Device Ansible Collection (fortinet.fmgdevice) and FortiManager Ansible Collection (fortinet.fortimanager) share the same error-handling logic.
+    The following example uses `fortinet.fortimanager`, but the same logic applies to `fortinet.fmgdevice`.
+
 |
 
 By convention, Ansible task can fail when a non-zero ``rc`` code is

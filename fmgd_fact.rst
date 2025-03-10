@@ -4,10 +4,10 @@
 
 .. _fmgd_fact:
 
-fmgd_fact -- Gather FortiManager Facts.
-+++++++++++++++++++++++++++++++++++++++
+fmgd_fact -- Gather FortiManager Device Facts.
+++++++++++++++++++++++++++++++++++++++++++++++
 
-.. versionadded:: 2.0.0
+.. versionadded:: 1.0.0
 
 .. contents::
    :local:
@@ -8513,63 +8513,24 @@ Examples
 
 .. code-block:: yaml+jinja
 
-  - name: Gathering fortimanager facts
+  - name: Gathering fortimanager device facts
     hosts: fortimanagers
-    gather_facts: false
     connection: httpapi
     vars:
-      ansible_httpapi_use_ssl: true
-      ansible_httpapi_validate_certs: false
-      ansible_httpapi_port: 443
+      device_name: "XXXXXXX"
+      vdom_name: "root"
     tasks:
-      - name: Retrieve all the scripts
+      - name: Gathering fortimanager device fact
         fortinet.fmgdevice.fmgd_fact:
           facts:
-            selector: "dvmdb_script"
+            selector: "alertemail_setting"
             params:
-              adom: "root"
-              script: ""
-
-      - name: Retrive all the interfaces
-        fortinet.fmgdevice.fmgd_fact:
-          facts:
-            selector: "system_interface"
-            params:
-              interface: ""
-      - name: Retrieve the interface port1
-        fortinet.fmgdevice.fmgd_fact:
-          facts:
-            selector: "system_interface"
-            params:
-              interface: "port1"
-      - name: Fetch urlfilter with name urlfilter4
-        fortinet.fmgdevice.fmgd_fact:
-          facts:
-            selector: "webfilter_urlfilter"
-            params:
-              adom: "root"
-              urlfilter: ""
-            filter:
-              - - "name"
-                - "=="
-                - "urlfilter4"
-            fields:
-              - "id"
-              - "name"
-              - "comment"
-            # option: "object member" # "count", "object member" or "syntax"
-            sortings:
-              - "id": 1
-                "name": -1
-      - name: Retrieve device
-        fortinet.fmgdevice.fmgd_fact:
-          facts:
-            selector: "dvmdb_device"
-            params:
-              adom: "root"
-              device: ""
-            option:
-              - "get meta"
+              device: "{{ device_name }}"
+              vdom: "{{ vdom_name }}"
+        register: response
+      - name: Display response
+        debug:
+          var: response
 
 
 Return Values

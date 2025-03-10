@@ -2,13 +2,15 @@
 Frequently Asked Questions (FAQ)
 ================================
 
+.. note::
+    FortiManager Device Ansible Collection (fortinet.fmgdevice) and FortiManager Ansible Collection (fortinet.fortimanager) share the same logic.
+    The following example uses `fortinet.fortimanager`, but the same logic applies to `fortinet.fmgdevice`.
+
 |
 
 **TABLE OF CONTENTS:**
- - `Modules For Policy Package.`_
  - `What You Need To Know About Logging.`_
- - `What Is Workspace Locking?`_
- -  `How To Deal With Task Result?`_
+ - `How To Deal With Task Result?`_
  - `When to Use Parameter bypass_validation?`_
  - `How To Monitor FortiManager Task?`_
  - `How To Use FortiManager Ansible without Providing Username and Password?`_
@@ -16,143 +18,11 @@ Frequently Asked Questions (FAQ)
 
 |
 
-Modules For Policy Package.
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Unlike other modules, There are three modules in FortiManager Ansible collection as the result of seperate API backends:
-
- - ``fmgr_pm_pkg`` - **update** or **delete** a package, no matter whether it is ``adom`` specific or ``global``.
- - ``fmgr_pm_pkg_adom`` - **create** or **update** a ``adom`` specific package.
- - ``fmgr_pm_pkg_global`` - **create** or **update** a ``global`` package.
-
-
-
-Create/Update An ADOM-specific Policy Package
-...............................................
-
-::
-
-   - name: create a package in a adom
-     fmgr_pm_pkg_adom:
-        adom: 'root'
-        pm_pkg_adom:
-            name: 'adom.root.package0'
-            type: 'pkg'
-
-
-**Note:** you are not allowed to modify the name of the package with module ``fmgr_pm_pkg_adom``.
-
-
-Create/Update A Global Policy Package
-...............................................
-
-::
-
-   - name: create a package in a adom
-     fmgr_pm_pkg_global:
-        pm_pkg_global:
-            name: 'global.package0'
-            type: 'pkg'
-
-**Note:** you are not allowed to modify the name of the package with module ``fmgr_pm_pkg_global``.
-
-Rename A Policy Package
-..........................
-
-::
-
-   - name: policy package
-     fmgr_pm_pkg:
-        adom: "root"
-        pkg_path: 'adom.root.package0'
-        state: 'present'
-        pm_pkg:
-            name: 'adom.root.package1'
-
-   - name: policy package
-     fmgr_pm_pkg:
-        adom: "global"
-        pkg_path: 'global.package0'
-        state: 'present'
-        pm_pkg:
-            name: 'global.package1'
-
-
-Remove A Policy Package
-..........................
-
-::
-
-   - name: policy package
-     fmgr_pm_pkg:
-        adom: "root"
-        pkg_path: 'adom.root.package0'
-        state: 'absent'
-        pm_pkg:
-            name: 'adom.root.package0'
-
-   - name: policy package
-     fmgr_pm_pkg:
-        adom: "global"
-        pkg_path: 'global.package0'
-        state: 'absent'
-        pm_pkg:
-            name: 'global.package0'
-
 What You Need To Know About Logging. 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-FortiManager Ansible has requests and intermediate data stored in a log file ``/tmp/fortimanager.ansible.log`` to ease troubleshooting. 
-
-Prior to ``2.0.3``, the log file is always created under that path; since ``2.0.3``, logging is only enabled by setting ``enable_log`` option for a task,
-it means you will no longer see the log file by default since ``2.0.3`` unless you turn it on explicitly.
-
-What Is Workspace Locking?
-~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-FortiManager supports multi-workspace mode, workspace guarantees you that you are operating in an administrative domain
-explusively so that no other users will not preempt you as long as you lock the workspace in advance. 
-
-To enable workspace locking on FortiManager ``6.0.x``, you usually also enable multi-adom status. Here are cli commands:
-::
-
-    FMG-VM64 # config system global
-    (global)# set adom-status enable
-    (global)# set workspace-mode normal
-    (global)# end
-    FMG-VM64 #
-
-also you are able to enable workspace mode via module ``fmgr_system_global``:
-::
-
-   - name: Enable Workspace Mode
-     fmgr_system_global:
-        system_global:
-            adom-status: enable
-            workspace-mode: normal
-
-After workspace mode is enabled, you must assign the adom to ``workspace_locking_adom`` and a time value to ``workspace_locking_timeout`` optionally to
-complete a successful task.
-
- - ``workspace_locking_adom`` - The adom you are going to access and lock, either ``global`` or a custom adom. 
- - ``workspace_locking_timeout`` - the ansible task will poll and wait for the adom to be unlocked if it was locked by other users, the parameter is the maximum
-   seconds to wait before reporting failure, default value is `300` seconds.
-
-here is an example to put the locking directives in tasks:
-::
-
-   - name: create a package in a adom
-     fmgr_pm_pkg_adom:
-        workspace_locking_adom: 'root'
-        workspace_locking_timeout: 300
-        adom: 'root'
-        pm_pkg_adom:
-            name: 'adom.root.package0'
-            type: 'pkg'
-
-**Note: as ansible tasks terminates normally, the lock will be released automatically.**
-
-**Caveat: if any tasks are interrupted, e.g. inputing a CTRL + ^C, you will no longer be able to use Ansible to access FMG anymore unless the previous session expires, in case of immediate access, you have to disable workspace mode via CLI console.**
+Every module in the FortiManager Device Ansible Collection includes the input argument **enable_log**.
+When set to **true**, log data is appended to the file `/tmp/fortimanager.ansible.log`.
 
 How To Deal With Task Result?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

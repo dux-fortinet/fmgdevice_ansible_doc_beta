@@ -7,7 +7,7 @@
 fmgd_rename -- Rename An Object.
 +++++++++++++++++++++++++++++++++++++++
 
-.. versionadded:: 2.1.0
+.. versionadded:: 1.0.0
 
 .. contents::
    :local:
@@ -7094,19 +7094,19 @@ Examples
     hosts: fortimanagers
     connection: httpapi
     vars:
-      ansible_httpapi_use_ssl: true
-      ansible_httpapi_validate_certs: false
-      ansible_httpapi_port: 443
+      device_name: "FGVMMLTMXXXXX"
+      vdom_name: "root"
     tasks:
-      - name: Rename a vip object using fmgd_rename module.
+      - name: Rename an object in FortiManager Device by using fmgd_rename module.
         fortinet.fmgdevice.fmgd_rename:
           rename:
-            selector: "firewall_vip"
+            selector: "antivirus_exemptlist"
             self:
-              adom: "root"
-              vip: "ansible-test-vip_first"
+              vdom: "{{ vdom_name }}"
+              device: "{{ device_name }}"
+              exempt_list: "old_name"
             target:
-              name: "ansible-test-vip_fourth"
+              name: "new_name"
 
 
 Return Values

@@ -1,6 +1,6 @@
 
 Install FortiManager Device Ansible Galaxy
-====================================
+==========================================
 
 This document explains how to install the FortiManager Device Ansible Galaxy Collection.
 

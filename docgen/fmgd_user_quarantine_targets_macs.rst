@@ -125,9 +125,9 @@ Examples
           targets: <your own value>
           state: present # <value in [present, absent]>
           user_quarantine_targets_macs:
+            mac: "your value" # Required variable, string
             # description: <string>
             # drop: <value in [disable, enable]>
-            # mac: <string>
             # parent: <string>
             # entry_id: <integer>
 

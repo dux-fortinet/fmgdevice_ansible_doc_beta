@@ -113,8 +113,8 @@ Examples
           qos_map: <your own value>
           state: present # <value in [present, absent]>
           wireless_hotspot20_qosmap_dscpexcept:
+            index: 0 # Required variable, integer
             # dscp: <integer>
-            # index: <integer>
             # up: <integer>
 
 

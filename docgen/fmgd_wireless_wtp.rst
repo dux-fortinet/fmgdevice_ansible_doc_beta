@@ -1161,7 +1161,7 @@ Examples
           vdom: <your own value>
           state: present # <value in [present, absent]>
           wireless_wtp:
-            name: "your value" # Required variable, string
+            wtp_id: "your value" # Required variable, string
             # admin: <value in [discovery, disable, enable, ...]>
             # allowaccess:
             #   - "https"
@@ -1208,6 +1208,7 @@ Examples
             # login_passwd: <list or string>
             # login_passwd_change: <value in [no, yes, default]>
             # mesh_bridge_enable: <value in [disable, enable, default]>
+            # name: <string>
             # override_allowaccess: <value in [disable, enable]>
             # override_ip_fragment: <value in [disable, enable]>
             # override_lan: <value in [disable, enable]>
@@ -1452,7 +1453,6 @@ Examples
             # tun_mtu_uplink: <integer>
             # uuid: <string>
             # wan_port_mode: <value in [wan-lan, wan-only]>
-            # wtp_id: <string>
             # wtp_mode: <value in [normal, remote]>
             # wtp_profile: <list or string>
             # comment: <string>

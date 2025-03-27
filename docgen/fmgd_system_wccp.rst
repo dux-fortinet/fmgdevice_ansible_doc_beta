@@ -231,6 +231,7 @@ Examples
           vdom: <your own value>
           state: present # <value in [present, absent]>
           system_wccp:
+            service_id: "your value" # Required variable, string
             # assignment_bucket_format: <value in [cisco-implementation, wccp-v2]>
             # assignment_dstaddr_mask: <string>
             # assignment_method: <value in [HASH, MASK, any]>
@@ -258,7 +259,6 @@ Examples
             # router_list: <list or string>
             # server_list: <list or string>
             # server_type: <value in [forward, proxy]>
-            # service_id: <string>
             # service_type: <value in [standard, dynamic, auto]>
 
 

@@ -157,6 +157,7 @@ Examples
           device: <your own value>
           state: present # <value in [present, absent]>
           system_ha_vcluster:
+            vcluster_id: 0 # Required variable, integer
             # monitor: <list or string>
             # override: <value in [disable, enable]>
             # override_wait_time: <integer>
@@ -165,7 +166,6 @@ Examples
             # pingserver_monitor_interface: <list or string>
             # pingserver_secondary_force_reset: <value in [disable, enable]>
             # priority: <integer>
-            # vcluster_id: <integer>
             # vdom: <list or string>
             # pingserver_slave_force_reset: <value in [disable, enable]>
 

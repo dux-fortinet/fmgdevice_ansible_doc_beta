@@ -135,10 +135,10 @@ Examples
           vdom: <your own value>
           state: present # <value in [present, absent]>
           vpn_qkd:
-            id: "your value" # Required variable, string
+            name: "your value" # Required variable, string
             # certificate: <list or string>
             # comment: <string>
-            # name: <string>
+            # id: <string>
             # peer: <list or string>
             # port: <integer>
             # server: <string>

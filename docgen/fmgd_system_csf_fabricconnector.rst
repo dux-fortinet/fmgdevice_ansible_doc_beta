@@ -115,9 +115,9 @@ Examples
           device: <your own value>
           state: present # <value in [present, absent]>
           system_csf_fabricconnector:
+            serial: "your value" # Required variable, string
             # accprofile: <list or string>
             # configuration_write_access: <value in [disable, enable]>
-            # serial: <string>
             # vdom: <list or string>
 
 

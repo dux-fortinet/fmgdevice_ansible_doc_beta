@@ -121,8 +121,8 @@ Examples
           device: <your own value>
           state: present # <value in [present, absent]>
           wanopt_cacheservice_dstpeer:
+            device_id: "your value" # Required variable, string
             # auth_type: <integer>
-            # device_id: <string>
             # encode_type: <integer>
             # ip: <string>
             # priority: <integer>

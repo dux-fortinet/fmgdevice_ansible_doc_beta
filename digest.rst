@@ -68,8 +68,8 @@ The modules of API https://fndn.fortinet.net/index.php?/fortiapi/5-fortimanager/
   <td><a class="reference external" href="docgen/fmgd_application_name.html">fmgd_application_name</a></td>
   <td><code class="docutils literal notranslate"><span class="pre">get</span></code><br><code class="docutils literal notranslate"><span class="pre">set</span></code><br><code class="docutils literal notranslate"><span class="pre">update</span></code></td>
   <td><code class="docutils literal notranslate"><span class="pre">device</span></code></td>
-  <td>None</td>
-  <td>/pm/config/device/{device}/global/application/name</td>
+  <td><code class="docutils literal notranslate"><span class="pre">name</span></code></td>
+  <td>/pm/config/device/{device}/global/application/name<br>/pm/config/device/{device}/global/application/name/{name}</td>
   </tr>
   <tr class="row-even">
   <td><a class="reference external" href="docgen/fmgd_application_rulesettings.html">fmgd_application_rulesettings</a></td>
@@ -1790,15 +1790,15 @@ The modules of API https://fndn.fortinet.net/index.php?/fortiapi/5-fortimanager/
   <td><a class="reference external" href="docgen/fmgd_router_isis_redistribute.html">fmgd_router_isis_redistribute</a></td>
   <td><code class="docutils literal notranslate"><span class="pre">get</span></code><br><code class="docutils literal notranslate"><span class="pre">set</span></code><br><code class="docutils literal notranslate"><span class="pre">update</span></code></td>
   <td><code class="docutils literal notranslate"><span class="pre">device</span></code><br><code class="docutils literal notranslate"><span class="pre">vdom</span></code></td>
-  <td>None</td>
-  <td>/pm/config/device/{device}/vdom/{vdom}/router/isis/redistribute</td>
+  <td><code class="docutils literal notranslate"><span class="pre">protocol</span></code></td>
+  <td>/pm/config/device/{device}/vdom/{vdom}/router/isis/redistribute<br>/pm/config/device/{device}/vdom/{vdom}/router/isis/redistribute/{redistribute}</td>
   </tr>
   <tr class="row-even">
   <td><a class="reference external" href="docgen/fmgd_router_isis_redistribute6.html">fmgd_router_isis_redistribute6</a></td>
   <td><code class="docutils literal notranslate"><span class="pre">get</span></code><br><code class="docutils literal notranslate"><span class="pre">set</span></code><br><code class="docutils literal notranslate"><span class="pre">update</span></code></td>
   <td><code class="docutils literal notranslate"><span class="pre">device</span></code><br><code class="docutils literal notranslate"><span class="pre">vdom</span></code></td>
-  <td>None</td>
-  <td>/pm/config/device/{device}/vdom/{vdom}/router/isis/redistribute6</td>
+  <td><code class="docutils literal notranslate"><span class="pre">protocol</span></code></td>
+  <td>/pm/config/device/{device}/vdom/{vdom}/router/isis/redistribute6<br>/pm/config/device/{device}/vdom/{vdom}/router/isis/redistribute6/{redistribute6}</td>
   </tr>
   <tr class="row-odd">
   <td><a class="reference external" href="docgen/fmgd_router_isis_summaryaddress.html">fmgd_router_isis_summaryaddress</a></td>
@@ -1902,7 +1902,7 @@ The modules of API https://fndn.fortinet.net/index.php?/fortiapi/5-fortimanager/
   <td><a class="reference external" href="docgen/fmgd_router_multicast_pimsmglobalvrf.html">fmgd_router_multicast_pimsmglobalvrf</a></td>
   <td><code class="docutils literal notranslate"><span class="pre">add</span></code><br><code class="docutils literal notranslate"><span class="pre">get</span></code><br><code class="docutils literal notranslate"><span class="pre">set</span></code><br><code class="docutils literal notranslate"><span class="pre">update</span></code></td>
   <td><code class="docutils literal notranslate"><span class="pre">device</span></code><br><code class="docutils literal notranslate"><span class="pre">vdom</span></code></td>
-  <td>None</td>
+  <td><code class="docutils literal notranslate"><span class="pre">vrf</span></code></td>
   <td>/pm/config/device/{device}/vdom/{vdom}/router/multicast/pim-sm-global-vrf<br>/pm/config/device/{device}/vdom/{vdom}/router/multicast/pim-sm-global-vrf/{pim-sm-global-vrf}</td>
   </tr>
   <tr class="row-even">
@@ -2000,8 +2000,8 @@ The modules of API https://fndn.fortinet.net/index.php?/fortiapi/5-fortimanager/
   <td><a class="reference external" href="docgen/fmgd_router_ospf6_redistribute.html">fmgd_router_ospf6_redistribute</a></td>
   <td><code class="docutils literal notranslate"><span class="pre">get</span></code><br><code class="docutils literal notranslate"><span class="pre">set</span></code><br><code class="docutils literal notranslate"><span class="pre">update</span></code></td>
   <td><code class="docutils literal notranslate"><span class="pre">device</span></code><br><code class="docutils literal notranslate"><span class="pre">vdom</span></code></td>
-  <td>None</td>
-  <td>/pm/config/device/{device}/vdom/{vdom}/router/ospf6/redistribute</td>
+  <td><code class="docutils literal notranslate"><span class="pre">name</span></code></td>
+  <td>/pm/config/device/{device}/vdom/{vdom}/router/ospf6/redistribute<br>/pm/config/device/{device}/vdom/{vdom}/router/ospf6/redistribute/{redistribute}</td>
   </tr>
   <tr class="row-even">
   <td><a class="reference external" href="docgen/fmgd_router_ospf6_summaryaddress.html">fmgd_router_ospf6_summaryaddress</a></td>
@@ -2084,8 +2084,8 @@ The modules of API https://fndn.fortinet.net/index.php?/fortiapi/5-fortimanager/
   <td><a class="reference external" href="docgen/fmgd_router_ospf_redistribute.html">fmgd_router_ospf_redistribute</a></td>
   <td><code class="docutils literal notranslate"><span class="pre">get</span></code><br><code class="docutils literal notranslate"><span class="pre">set</span></code><br><code class="docutils literal notranslate"><span class="pre">update</span></code></td>
   <td><code class="docutils literal notranslate"><span class="pre">device</span></code><br><code class="docutils literal notranslate"><span class="pre">vdom</span></code></td>
-  <td>None</td>
-  <td>/pm/config/device/{device}/vdom/{vdom}/router/ospf/redistribute</td>
+  <td><code class="docutils literal notranslate"><span class="pre">name</span></code></td>
+  <td>/pm/config/device/{device}/vdom/{vdom}/router/ospf/redistribute<br>/pm/config/device/{device}/vdom/{vdom}/router/ospf/redistribute/{redistribute}</td>
   </tr>
   <tr class="row-even">
   <td><a class="reference external" href="docgen/fmgd_router_ospf_summaryaddress.html">fmgd_router_ospf_summaryaddress</a></td>
@@ -2161,8 +2161,8 @@ The modules of API https://fndn.fortinet.net/index.php?/fortiapi/5-fortimanager/
   <td><a class="reference external" href="docgen/fmgd_router_rip_redistribute.html">fmgd_router_rip_redistribute</a></td>
   <td><code class="docutils literal notranslate"><span class="pre">get</span></code><br><code class="docutils literal notranslate"><span class="pre">set</span></code><br><code class="docutils literal notranslate"><span class="pre">update</span></code></td>
   <td><code class="docutils literal notranslate"><span class="pre">device</span></code><br><code class="docutils literal notranslate"><span class="pre">vdom</span></code></td>
-  <td>None</td>
-  <td>/pm/config/device/{device}/vdom/{vdom}/router/rip/redistribute</td>
+  <td><code class="docutils literal notranslate"><span class="pre">name</span></code></td>
+  <td>/pm/config/device/{device}/vdom/{vdom}/router/rip/redistribute<br>/pm/config/device/{device}/vdom/{vdom}/router/rip/redistribute/{redistribute}</td>
   </tr>
   <tr class="row-odd">
   <td><a class="reference external" href="docgen/fmgd_router_ripng.html">fmgd_router_ripng</a></td>
@@ -3260,7 +3260,7 @@ The modules of API https://fndn.fortinet.net/index.php?/fortiapi/5-fortimanager/
   <td><a class="reference external" href="docgen/fmgd_system_csf_fabricconnector.html">fmgd_system_csf_fabricconnector</a></td>
   <td><code class="docutils literal notranslate"><span class="pre">add</span></code><br><code class="docutils literal notranslate"><span class="pre">get</span></code><br><code class="docutils literal notranslate"><span class="pre">set</span></code><br><code class="docutils literal notranslate"><span class="pre">update</span></code></td>
   <td><code class="docutils literal notranslate"><span class="pre">device</span></code></td>
-  <td>None</td>
+  <td><code class="docutils literal notranslate"><span class="pre">serial</span></code></td>
   <td>/pm/config/device/{device}/global/system/csf/fabric-connector<br>/pm/config/device/{device}/global/system/csf/fabric-connector/{fabric-connector}</td>
   </tr>
   <tr class="row-even">
@@ -3561,7 +3561,7 @@ The modules of API https://fndn.fortinet.net/index.php?/fortiapi/5-fortimanager/
   <td><a class="reference external" href="docgen/fmgd_system_ha_vcluster.html">fmgd_system_ha_vcluster</a></td>
   <td><code class="docutils literal notranslate"><span class="pre">add</span></code><br><code class="docutils literal notranslate"><span class="pre">get</span></code><br><code class="docutils literal notranslate"><span class="pre">set</span></code><br><code class="docutils literal notranslate"><span class="pre">update</span></code></td>
   <td><code class="docutils literal notranslate"><span class="pre">device</span></code></td>
-  <td>None</td>
+  <td><code class="docutils literal notranslate"><span class="pre">vcluster_id</span></code></td>
   <td>/pm/config/device/{device}/global/system/ha/vcluster<br>/pm/config/device/{device}/global/system/ha/vcluster/{vcluster}</td>
   </tr>
   <tr class="row-odd">
@@ -4989,7 +4989,7 @@ The modules of API https://fndn.fortinet.net/index.php?/fortiapi/5-fortimanager/
   <td><a class="reference external" href="docgen/fmgd_system_wccp.html">fmgd_system_wccp</a></td>
   <td><code class="docutils literal notranslate"><span class="pre">add</span></code><br><code class="docutils literal notranslate"><span class="pre">get</span></code><br><code class="docutils literal notranslate"><span class="pre">set</span></code><br><code class="docutils literal notranslate"><span class="pre">update</span></code></td>
   <td><code class="docutils literal notranslate"><span class="pre">device</span></code><br><code class="docutils literal notranslate"><span class="pre">vdom</span></code></td>
-  <td>None</td>
+  <td><code class="docutils literal notranslate"><span class="pre">service_id</span></code></td>
   <td>/pm/config/device/{device}/vdom/{vdom}/system/wccp<br>/pm/config/device/{device}/vdom/{vdom}/system/wccp/{wccp}</td>
   </tr>
   <tr class="row-odd">
@@ -5045,14 +5045,14 @@ The modules of API https://fndn.fortinet.net/index.php?/fortiapi/5-fortimanager/
   <td><a class="reference external" href="docgen/fmgd_user_quarantine_targets_macs.html">fmgd_user_quarantine_targets_macs</a></td>
   <td><code class="docutils literal notranslate"><span class="pre">add</span></code><br><code class="docutils literal notranslate"><span class="pre">get</span></code><br><code class="docutils literal notranslate"><span class="pre">set</span></code><br><code class="docutils literal notranslate"><span class="pre">update</span></code></td>
   <td><code class="docutils literal notranslate"><span class="pre">device</span></code><br><code class="docutils literal notranslate"><span class="pre">vdom</span></code><br><code class="docutils literal notranslate"><span class="pre">targets</span></code></td>
-  <td>None</td>
+  <td><code class="docutils literal notranslate"><span class="pre">mac</span></code></td>
   <td>/pm/config/device/{device}/vdom/{vdom}/user/quarantine/targets/{targets}/macs<br>/pm/config/device/{device}/vdom/{vdom}/user/quarantine/targets/{targets}/macs/{macs}</td>
   </tr>
   <tr class="row-odd">
   <td><a class="reference external" href="docgen/fmgd_user_scim.html">fmgd_user_scim</a></td>
   <td><code class="docutils literal notranslate"><span class="pre">add</span></code><br><code class="docutils literal notranslate"><span class="pre">get</span></code><br><code class="docutils literal notranslate"><span class="pre">set</span></code><br><code class="docutils literal notranslate"><span class="pre">update</span></code></td>
   <td><code class="docutils literal notranslate"><span class="pre">device</span></code><br><code class="docutils literal notranslate"><span class="pre">vdom</span></code></td>
-  <td><code class="docutils literal notranslate"><span class="pre">id</span></code></td>
+  <td><code class="docutils literal notranslate"><span class="pre">name</span></code></td>
   <td>/pm/config/device/{device}/vdom/{vdom}/user/scim<br>/pm/config/device/{device}/vdom/{vdom}/user/scim/{scim}</td>
   </tr>
   <tr class="row-even">
@@ -5115,7 +5115,7 @@ The modules of API https://fndn.fortinet.net/index.php?/fortiapi/5-fortimanager/
   <td><a class="reference external" href="docgen/fmgd_vpn_ipsec_forticlient.html">fmgd_vpn_ipsec_forticlient</a></td>
   <td><code class="docutils literal notranslate"><span class="pre">add</span></code><br><code class="docutils literal notranslate"><span class="pre">get</span></code><br><code class="docutils literal notranslate"><span class="pre">set</span></code><br><code class="docutils literal notranslate"><span class="pre">update</span></code></td>
   <td><code class="docutils literal notranslate"><span class="pre">device</span></code><br><code class="docutils literal notranslate"><span class="pre">vdom</span></code></td>
-  <td>None</td>
+  <td><code class="docutils literal notranslate"><span class="pre">realm</span></code></td>
   <td>/pm/config/device/{device}/vdom/{vdom}/vpn/ipsec/forticlient<br>/pm/config/device/{device}/vdom/{vdom}/vpn/ipsec/forticlient/{forticlient}</td>
   </tr>
   <tr class="row-odd">
@@ -5255,7 +5255,7 @@ The modules of API https://fndn.fortinet.net/index.php?/fortiapi/5-fortimanager/
   <td><a class="reference external" href="docgen/fmgd_vpn_qkd.html">fmgd_vpn_qkd</a></td>
   <td><code class="docutils literal notranslate"><span class="pre">add</span></code><br><code class="docutils literal notranslate"><span class="pre">get</span></code><br><code class="docutils literal notranslate"><span class="pre">set</span></code><br><code class="docutils literal notranslate"><span class="pre">update</span></code></td>
   <td><code class="docutils literal notranslate"><span class="pre">device</span></code><br><code class="docutils literal notranslate"><span class="pre">vdom</span></code></td>
-  <td><code class="docutils literal notranslate"><span class="pre">id</span></code></td>
+  <td><code class="docutils literal notranslate"><span class="pre">name</span></code></td>
   <td>/pm/config/device/{device}/vdom/{vdom}/vpn/qkd<br>/pm/config/device/{device}/vdom/{vdom}/vpn/qkd/{qkd}</td>
   </tr>
   <tr class="row-odd">
@@ -5332,14 +5332,14 @@ The modules of API https://fndn.fortinet.net/index.php?/fortiapi/5-fortimanager/
   <td><a class="reference external" href="docgen/fmgd_wanopt_cacheservice_dstpeer.html">fmgd_wanopt_cacheservice_dstpeer</a></td>
   <td><code class="docutils literal notranslate"><span class="pre">add</span></code><br><code class="docutils literal notranslate"><span class="pre">get</span></code><br><code class="docutils literal notranslate"><span class="pre">set</span></code><br><code class="docutils literal notranslate"><span class="pre">update</span></code></td>
   <td><code class="docutils literal notranslate"><span class="pre">device</span></code></td>
-  <td>None</td>
+  <td><code class="docutils literal notranslate"><span class="pre">device_id</span></code></td>
   <td>/pm/config/device/{device}/global/wanopt/cache-service/dst-peer<br>/pm/config/device/{device}/global/wanopt/cache-service/dst-peer/{dst-peer}</td>
   </tr>
   <tr class="row-even">
   <td><a class="reference external" href="docgen/fmgd_wanopt_cacheservice_srcpeer.html">fmgd_wanopt_cacheservice_srcpeer</a></td>
   <td><code class="docutils literal notranslate"><span class="pre">add</span></code><br><code class="docutils literal notranslate"><span class="pre">get</span></code><br><code class="docutils literal notranslate"><span class="pre">set</span></code><br><code class="docutils literal notranslate"><span class="pre">update</span></code></td>
   <td><code class="docutils literal notranslate"><span class="pre">device</span></code></td>
-  <td>None</td>
+  <td><code class="docutils literal notranslate"><span class="pre">device_id</span></code></td>
   <td>/pm/config/device/{device}/global/wanopt/cache-service/src-peer<br>/pm/config/device/{device}/global/wanopt/cache-service/src-peer/{src-peer}</td>
   </tr>
   <tr class="row-odd">
@@ -5507,14 +5507,14 @@ The modules of API https://fndn.fortinet.net/index.php?/fortiapi/5-fortimanager/
   <td><a class="reference external" href="docgen/fmgd_wireless_accesscontrollist_layer3ipv4rules.html">fmgd_wireless_accesscontrollist_layer3ipv4rules</a></td>
   <td><code class="docutils literal notranslate"><span class="pre">add</span></code><br><code class="docutils literal notranslate"><span class="pre">get</span></code><br><code class="docutils literal notranslate"><span class="pre">set</span></code><br><code class="docutils literal notranslate"><span class="pre">update</span></code></td>
   <td><code class="docutils literal notranslate"><span class="pre">device</span></code><br><code class="docutils literal notranslate"><span class="pre">vdom</span></code><br><code class="docutils literal notranslate"><span class="pre">access-control-list</span></code></td>
-  <td>None</td>
+  <td><code class="docutils literal notranslate"><span class="pre">rule_id</span></code></td>
   <td>/pm/config/device/{device}/vdom/{vdom}/wireless-controller/access-control-list/{access-control-list}/layer3-ipv4-rules<br>/pm/config/device/{device}/vdom/{vdom}/wireless-controller/access-control-list/{access-control-list}/layer3-ipv4-rules/{layer3-ipv4-rules}</td>
   </tr>
   <tr class="row-odd">
   <td><a class="reference external" href="docgen/fmgd_wireless_accesscontrollist_layer3ipv6rules.html">fmgd_wireless_accesscontrollist_layer3ipv6rules</a></td>
   <td><code class="docutils literal notranslate"><span class="pre">add</span></code><br><code class="docutils literal notranslate"><span class="pre">get</span></code><br><code class="docutils literal notranslate"><span class="pre">set</span></code><br><code class="docutils literal notranslate"><span class="pre">update</span></code></td>
   <td><code class="docutils literal notranslate"><span class="pre">device</span></code><br><code class="docutils literal notranslate"><span class="pre">vdom</span></code><br><code class="docutils literal notranslate"><span class="pre">access-control-list</span></code></td>
-  <td>None</td>
+  <td><code class="docutils literal notranslate"><span class="pre">rule_id</span></code></td>
   <td>/pm/config/device/{device}/vdom/{vdom}/wireless-controller/access-control-list/{access-control-list}/layer3-ipv6-rules<br>/pm/config/device/{device}/vdom/{vdom}/wireless-controller/access-control-list/{access-control-list}/layer3-ipv6-rules/{layer3-ipv6-rules}</td>
   </tr>
   <tr class="row-even">
@@ -5612,7 +5612,7 @@ The modules of API https://fndn.fortinet.net/index.php?/fortiapi/5-fortimanager/
   <td><a class="reference external" href="docgen/fmgd_wireless_hotspot20_anqpnairealm_nailist_eapmethod.html">fmgd_wireless_hotspot20_anqpnairealm_nailist_eapmethod</a></td>
   <td><code class="docutils literal notranslate"><span class="pre">add</span></code><br><code class="docutils literal notranslate"><span class="pre">get</span></code><br><code class="docutils literal notranslate"><span class="pre">set</span></code><br><code class="docutils literal notranslate"><span class="pre">update</span></code></td>
   <td><code class="docutils literal notranslate"><span class="pre">device</span></code><br><code class="docutils literal notranslate"><span class="pre">vdom</span></code><br><code class="docutils literal notranslate"><span class="pre">anqp-nai-realm</span></code><br><code class="docutils literal notranslate"><span class="pre">nai-list</span></code></td>
-  <td>None</td>
+  <td><code class="docutils literal notranslate"><span class="pre">index</span></code></td>
   <td>/pm/config/device/{device}/vdom/{vdom}/wireless-controller/hotspot20/anqp-nai-realm/{anqp-nai-realm}/nai-list/{nai-list}/eap-method<br>/pm/config/device/{device}/vdom/{vdom}/wireless-controller/hotspot20/anqp-nai-realm/{anqp-nai-realm}/nai-list/{nai-list}/eap-method/{eap-method}</td>
   </tr>
   <tr class="row-even">
@@ -5724,14 +5724,14 @@ The modules of API https://fndn.fortinet.net/index.php?/fortiapi/5-fortimanager/
   <td><a class="reference external" href="docgen/fmgd_wireless_hotspot20_h2qposuprovider_friendlyname.html">fmgd_wireless_hotspot20_h2qposuprovider_friendlyname</a></td>
   <td><code class="docutils literal notranslate"><span class="pre">add</span></code><br><code class="docutils literal notranslate"><span class="pre">get</span></code><br><code class="docutils literal notranslate"><span class="pre">set</span></code><br><code class="docutils literal notranslate"><span class="pre">update</span></code></td>
   <td><code class="docutils literal notranslate"><span class="pre">device</span></code><br><code class="docutils literal notranslate"><span class="pre">vdom</span></code><br><code class="docutils literal notranslate"><span class="pre">h2qp-osu-provider</span></code></td>
-  <td>None</td>
+  <td><code class="docutils literal notranslate"><span class="pre">index</span></code></td>
   <td>/pm/config/device/{device}/vdom/{vdom}/wireless-controller/hotspot20/h2qp-osu-provider/{h2qp-osu-provider}/friendly-name<br>/pm/config/device/{device}/vdom/{vdom}/wireless-controller/hotspot20/h2qp-osu-provider/{h2qp-osu-provider}/friendly-name/{friendly-name}</td>
   </tr>
   <tr class="row-even">
   <td><a class="reference external" href="docgen/fmgd_wireless_hotspot20_h2qposuprovider_servicedescription.html">fmgd_wireless_hotspot20_h2qposuprovider_servicedescription</a></td>
   <td><code class="docutils literal notranslate"><span class="pre">add</span></code><br><code class="docutils literal notranslate"><span class="pre">get</span></code><br><code class="docutils literal notranslate"><span class="pre">set</span></code><br><code class="docutils literal notranslate"><span class="pre">update</span></code></td>
   <td><code class="docutils literal notranslate"><span class="pre">device</span></code><br><code class="docutils literal notranslate"><span class="pre">vdom</span></code><br><code class="docutils literal notranslate"><span class="pre">h2qp-osu-provider</span></code></td>
-  <td>None</td>
+  <td><code class="docutils literal notranslate"><span class="pre">service_id</span></code></td>
   <td>/pm/config/device/{device}/vdom/{vdom}/wireless-controller/hotspot20/h2qp-osu-provider/{h2qp-osu-provider}/service-description<br>/pm/config/device/{device}/vdom/{vdom}/wireless-controller/hotspot20/h2qp-osu-provider/{h2qp-osu-provider}/service-description/{service-description}</td>
   </tr>
   <tr class="row-odd">
@@ -5794,14 +5794,14 @@ The modules of API https://fndn.fortinet.net/index.php?/fortiapi/5-fortimanager/
   <td><a class="reference external" href="docgen/fmgd_wireless_hotspot20_qosmap_dscpexcept.html">fmgd_wireless_hotspot20_qosmap_dscpexcept</a></td>
   <td><code class="docutils literal notranslate"><span class="pre">add</span></code><br><code class="docutils literal notranslate"><span class="pre">get</span></code><br><code class="docutils literal notranslate"><span class="pre">set</span></code><br><code class="docutils literal notranslate"><span class="pre">update</span></code></td>
   <td><code class="docutils literal notranslate"><span class="pre">device</span></code><br><code class="docutils literal notranslate"><span class="pre">vdom</span></code><br><code class="docutils literal notranslate"><span class="pre">qos-map</span></code></td>
-  <td>None</td>
+  <td><code class="docutils literal notranslate"><span class="pre">index</span></code></td>
   <td>/pm/config/device/{device}/vdom/{vdom}/wireless-controller/hotspot20/qos-map/{qos-map}/dscp-except<br>/pm/config/device/{device}/vdom/{vdom}/wireless-controller/hotspot20/qos-map/{qos-map}/dscp-except/{dscp-except}</td>
   </tr>
   <tr class="row-even">
   <td><a class="reference external" href="docgen/fmgd_wireless_hotspot20_qosmap_dscprange.html">fmgd_wireless_hotspot20_qosmap_dscprange</a></td>
   <td><code class="docutils literal notranslate"><span class="pre">add</span></code><br><code class="docutils literal notranslate"><span class="pre">get</span></code><br><code class="docutils literal notranslate"><span class="pre">set</span></code><br><code class="docutils literal notranslate"><span class="pre">update</span></code></td>
   <td><code class="docutils literal notranslate"><span class="pre">device</span></code><br><code class="docutils literal notranslate"><span class="pre">vdom</span></code><br><code class="docutils literal notranslate"><span class="pre">qos-map</span></code></td>
-  <td>None</td>
+  <td><code class="docutils literal notranslate"><span class="pre">index</span></code></td>
   <td>/pm/config/device/{device}/vdom/{vdom}/wireless-controller/hotspot20/qos-map/{qos-map}/dscp-range<br>/pm/config/device/{device}/vdom/{vdom}/wireless-controller/hotspot20/qos-map/{qos-map}/dscp-range/{dscp-range}</td>
   </tr>
   <tr class="row-odd">
@@ -6011,7 +6011,7 @@ The modules of API https://fndn.fortinet.net/index.php?/fortiapi/5-fortimanager/
   <td><a class="reference external" href="docgen/fmgd_wireless_wtp.html">fmgd_wireless_wtp</a></td>
   <td><code class="docutils literal notranslate"><span class="pre">add</span></code><br><code class="docutils literal notranslate"><span class="pre">get</span></code><br><code class="docutils literal notranslate"><span class="pre">set</span></code><br><code class="docutils literal notranslate"><span class="pre">update</span></code></td>
   <td><code class="docutils literal notranslate"><span class="pre">device</span></code><br><code class="docutils literal notranslate"><span class="pre">vdom</span></code></td>
-  <td><code class="docutils literal notranslate"><span class="pre">name</span></code></td>
+  <td><code class="docutils literal notranslate"><span class="pre">wtp_id</span></code></td>
   <td>/pm/config/device/{device}/vdom/{vdom}/wireless-controller/wtp<br>/pm/config/device/{device}/vdom/{vdom}/wireless-controller/wtp/{wtp}</td>
   </tr>
   <tr class="row-odd">

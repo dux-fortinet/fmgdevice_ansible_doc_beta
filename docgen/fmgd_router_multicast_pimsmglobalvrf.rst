@@ -161,6 +161,7 @@ Examples
           vdom: <your own value>
           state: present # <value in [present, absent]>
           router_multicast_pimsmglobalvrf:
+            vrf: 0 # Required variable, integer
             # bsr_allow_quick_refresh: <value in [disable, enable]>
             # bsr_candidate: <value in [disable, enable]>
             # bsr_hash: <integer>
@@ -171,7 +172,6 @@ Examples
             #   - group: <list or string>
             #     id: <integer>
             #     ip_address: <string>
-            # vrf: <integer>
 
 
 Return Values

@@ -159,13 +159,13 @@ Examples
           vdom: <your own value>
           state: present # <value in [present, absent]>
           user_scim:
-            id: 0 # Required variable, integer
+            name: "your value" # Required variable, string
             # base_url: <string>
             # certificate: <list or string>
             # client_authentication_method: <value in [token, base]>
             # client_identity_check: <value in [disable, enable]>
             # client_secret_token: <string>
-            # name: <string>
+            # id: <integer>
             # status: <value in [disable, enable]>
             # auth_method: <value in [token, base]>
             # secret: <list or string>

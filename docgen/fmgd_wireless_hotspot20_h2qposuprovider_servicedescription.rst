@@ -113,9 +113,9 @@ Examples
           h2qp_osu_provider: <your own value>
           state: present # <value in [present, absent]>
           wireless_hotspot20_h2qposuprovider_servicedescription:
+            service_id: 0 # Required variable, integer
             # lang: <string>
             # service_description: <string>
-            # service_id: <integer>
 
 
 Return Values

@@ -117,8 +117,8 @@ Examples
           vdom: <your own value>
           state: present # <value in [present, absent]>
           vpn_ipsec_forticlient:
+            realm: "your value" # Required variable, string
             # phase2name: <list or string>
-            # realm: <string>
             # status: <value in [disable, enable]>
             # usergroupname: <list or string>
 

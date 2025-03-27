@@ -59,6 +59,10 @@ Parameters
             <span class="li-normal">v7.2.6->v7.2.9</span>,
             <span class="li-normal">v7.4.3->latest</span>
         </li>
+        <li><span class="li-required">application_name</span> - available versions:
+            <span class="li-normal">v7.2.6->v7.2.9</span>,
+            <span class="li-normal">v7.4.3->latest</span>
+        </li>
         <li><span class="li-required">aws_vpce</span> - available versions:
             <span class="li-normal">v7.2.6->v7.2.9</span>,
             <span class="li-normal">v7.4.3->latest</span>
@@ -501,6 +505,14 @@ Parameters
             <span class="li-normal">v7.2.6->v7.2.9</span>,
             <span class="li-normal">v7.4.3->latest</span>
         </li>
+        <li><span class="li-required">router_isis_redistribute</span> - available versions:
+            <span class="li-normal">v7.2.6->v7.2.9</span>,
+            <span class="li-normal">v7.4.3->latest</span>
+        </li>
+        <li><span class="li-required">router_isis_redistribute6</span> - available versions:
+            <span class="li-normal">v7.2.6->v7.2.9</span>,
+            <span class="li-normal">v7.4.3->latest</span>
+        </li>
         <li><span class="li-required">router_isis_summaryaddress</span> - available versions:
             <span class="li-normal">v7.2.6->v7.2.9</span>,
             <span class="li-normal">v7.4.3->latest</span>
@@ -532,6 +544,9 @@ Parameters
         <li><span class="li-required">router_multicast_pimsmglobal_rpaddress</span> - available versions:
             <span class="li-normal">v7.2.6->v7.2.9</span>,
             <span class="li-normal">v7.4.3->latest</span>
+        </li>
+        <li><span class="li-required">router_multicast_pimsmglobalvrf</span> - available versions:
+            <span class="li-normal">v7.6.2->latest</span>
         </li>
         <li><span class="li-required">router_multicast_pimsmglobalvrf_rpaddress</span> - available versions:
             <span class="li-normal">v7.6.2->latest</span>
@@ -573,6 +588,10 @@ Parameters
             <span class="li-normal">v7.4.3->latest</span>
         </li>
         <li><span class="li-required">router_ospf6_ospf6interface_neighbor</span> - available versions:
+            <span class="li-normal">v7.2.6->v7.2.9</span>,
+            <span class="li-normal">v7.4.3->latest</span>
+        </li>
+        <li><span class="li-required">router_ospf6_redistribute</span> - available versions:
             <span class="li-normal">v7.2.6->v7.2.9</span>,
             <span class="li-normal">v7.4.3->latest</span>
         </li>
@@ -620,6 +639,10 @@ Parameters
             <span class="li-normal">v7.2.6->v7.2.9</span>,
             <span class="li-normal">v7.4.3->latest</span>
         </li>
+        <li><span class="li-required">router_ospf_redistribute</span> - available versions:
+            <span class="li-normal">v7.2.6->v7.2.9</span>,
+            <span class="li-normal">v7.4.3->latest</span>
+        </li>
         <li><span class="li-required">router_ospf_summaryaddress</span> - available versions:
             <span class="li-normal">v7.2.6->v7.2.9</span>,
             <span class="li-normal">v7.4.3->latest</span>
@@ -653,6 +676,10 @@ Parameters
             <span class="li-normal">v7.4.3->latest</span>
         </li>
         <li><span class="li-required">router_rip_offsetlist</span> - available versions:
+            <span class="li-normal">v7.2.6->v7.2.9</span>,
+            <span class="li-normal">v7.4.3->latest</span>
+        </li>
+        <li><span class="li-required">router_rip_redistribute</span> - available versions:
             <span class="li-normal">v7.2.6->v7.2.9</span>,
             <span class="li-normal">v7.4.3->latest</span>
         </li>
@@ -1035,6 +1062,10 @@ Parameters
             <span class="li-normal">v7.2.6->v7.2.9</span>,
             <span class="li-normal">v7.4.3->latest</span>
         </li>
+        <li><span class="li-required">system_csf_fabricconnector</span> - available versions:
+            <span class="li-normal">v7.2.6->v7.2.9</span>,
+            <span class="li-normal">v7.4.3->latest</span>
+        </li>
         <li><span class="li-required">system_csf_fabricdevice</span> - available versions:
             <span class="li-normal">v7.2.6->v7.2.9</span>,
             <span class="li-normal">v7.4.3->latest</span>
@@ -1098,6 +1129,10 @@ Parameters
             <span class="li-normal">v7.4.3->latest</span>
         </li>
         <li><span class="li-required">system_ha_unicastpeers</span> - available versions:
+            <span class="li-normal">v7.2.6->v7.2.9</span>,
+            <span class="li-normal">v7.4.3->latest</span>
+        </li>
+        <li><span class="li-required">system_ha_vcluster</span> - available versions:
             <span class="li-normal">v7.2.6->v7.2.9</span>,
             <span class="li-normal">v7.4.3->latest</span>
         </li>
@@ -1423,6 +1458,10 @@ Parameters
             <span class="li-normal">v7.2.6->v7.2.9</span>,
             <span class="li-normal">v7.4.3->latest</span>
         </li>
+        <li><span class="li-required">system_wccp</span> - available versions:
+            <span class="li-normal">v7.2.6->v7.2.9</span>,
+            <span class="li-normal">v7.4.3->latest</span>
+        </li>
         <li><span class="li-required">system_wireless_apstatus</span> - available versions:
             <span class="li-normal">v7.2.6->v7.2.9</span>,
             <span class="li-normal">v7.4.3->latest</span>
@@ -1436,6 +1475,10 @@ Parameters
             <span class="li-normal">v7.4.3->latest</span>
         </li>
         <li><span class="li-required">user_nacpolicy</span> - available versions:
+            <span class="li-normal">v7.2.6->v7.2.9</span>,
+            <span class="li-normal">v7.4.3->latest</span>
+        </li>
+        <li><span class="li-required">user_quarantine_targets_macs</span> - available versions:
             <span class="li-normal">v7.2.6->v7.2.9</span>,
             <span class="li-normal">v7.4.3->latest</span>
         </li>
@@ -1458,6 +1501,10 @@ Parameters
             <span class="li-normal">v7.4.3->latest</span>
         </li>
         <li><span class="li-required">vpn_ipsec_concentrator</span> - available versions:
+            <span class="li-normal">v7.2.6->v7.2.9</span>,
+            <span class="li-normal">v7.4.3->latest</span>
+        </li>
+        <li><span class="li-required">vpn_ipsec_forticlient</span> - available versions:
             <span class="li-normal">v7.2.6->v7.2.9</span>,
             <span class="li-normal">v7.4.3->latest</span>
         </li>
@@ -1554,6 +1601,14 @@ Parameters
             <span class="li-normal">v7.2.6->v7.2.9</span>,
             <span class="li-normal">v7.4.3->latest</span>
         </li>
+        <li><span class="li-required">wanopt_cacheservice_dstpeer</span> - available versions:
+            <span class="li-normal">v7.2.6->v7.2.9</span>,
+            <span class="li-normal">v7.4.3->latest</span>
+        </li>
+        <li><span class="li-required">wanopt_cacheservice_srcpeer</span> - available versions:
+            <span class="li-normal">v7.2.6->v7.2.9</span>,
+            <span class="li-normal">v7.4.3->latest</span>
+        </li>
         <li><span class="li-required">wanopt_contentdeliverynetworkrule</span> - available versions:
             <span class="li-normal">v7.2.6->v7.2.9</span>,
             <span class="li-normal">v7.4.3->latest</span>
@@ -1597,6 +1652,14 @@ Parameters
             <span class="li-normal">v7.4.3->latest</span>
         </li>
         <li><span class="li-required">wireless_accesscontrollist</span> - available versions:
+            <span class="li-normal">v7.2.6->v7.2.9</span>,
+            <span class="li-normal">v7.4.3->latest</span>
+        </li>
+        <li><span class="li-required">wireless_accesscontrollist_layer3ipv4rules</span> - available versions:
+            <span class="li-normal">v7.2.6->v7.2.9</span>,
+            <span class="li-normal">v7.4.3->latest</span>
+        </li>
+        <li><span class="li-required">wireless_accesscontrollist_layer3ipv6rules</span> - available versions:
             <span class="li-normal">v7.2.6->v7.2.9</span>,
             <span class="li-normal">v7.4.3->latest</span>
         </li>
@@ -1644,6 +1707,10 @@ Parameters
             <span class="li-normal">v7.2.6->v7.2.9</span>,
             <span class="li-normal">v7.4.3->latest</span>
         </li>
+        <li><span class="li-required">wireless_hotspot20_anqpnairealm_nailist_eapmethod</span> - available versions:
+            <span class="li-normal">v7.2.6->v7.2.9</span>,
+            <span class="li-normal">v7.4.3->latest</span>
+        </li>
         <li><span class="li-required">wireless_hotspot20_anqpnairealm_nailist_eapmethod_authparam</span> - available versions:
             <span class="li-normal">v7.2.6->v7.2.9</span>,
             <span class="li-normal">v7.4.3->latest</span>
@@ -1688,6 +1755,14 @@ Parameters
             <span class="li-normal">v7.2.6->v7.2.9</span>,
             <span class="li-normal">v7.4.3->latest</span>
         </li>
+        <li><span class="li-required">wireless_hotspot20_h2qposuprovider_friendlyname</span> - available versions:
+            <span class="li-normal">v7.2.6->v7.2.9</span>,
+            <span class="li-normal">v7.4.3->latest</span>
+        </li>
+        <li><span class="li-required">wireless_hotspot20_h2qposuprovider_servicedescription</span> - available versions:
+            <span class="li-normal">v7.2.6->v7.2.9</span>,
+            <span class="li-normal">v7.4.3->latest</span>
+        </li>
         <li><span class="li-required">wireless_hotspot20_h2qposuprovidernai</span> - available versions:
             <span class="li-normal">v7.2.6->v7.2.9</span>,
             <span class="li-normal">v7.4.3->latest</span>
@@ -1717,6 +1792,14 @@ Parameters
             <span class="li-normal">v7.4.3->latest</span>
         </li>
         <li><span class="li-required">wireless_hotspot20_qosmap</span> - available versions:
+            <span class="li-normal">v7.2.6->v7.2.9</span>,
+            <span class="li-normal">v7.4.3->latest</span>
+        </li>
+        <li><span class="li-required">wireless_hotspot20_qosmap_dscpexcept</span> - available versions:
+            <span class="li-normal">v7.2.6->v7.2.9</span>,
+            <span class="li-normal">v7.4.3->latest</span>
+        </li>
+        <li><span class="li-required">wireless_hotspot20_qosmap_dscprange</span> - available versions:
             <span class="li-normal">v7.2.6->v7.2.9</span>,
             <span class="li-normal">v7.4.3->latest</span>
         </li>
@@ -1878,6 +1961,11 @@ Parameters
             <li><span class="li-normal">device</span></li>
             <li><span class="li-normal">vdom</span></li>
             <li><span class="li-normal">exempt-list</span></li>
+        </ul>
+        <li><span class="li-normal">params for application_name:</span></li>
+        <ul class="ul-self">
+            <li><span class="li-normal">device</span></li>
+            <li><span class="li-normal">name</span></li>
         </ul>
         <li><span class="li-normal">params for aws_vpce:</span></li>
         <ul class="ul-self">
@@ -2565,6 +2653,18 @@ Parameters
             <li><span class="li-normal">vdom</span></li>
             <li><span class="li-normal">isis-net</span></li>
         </ul>
+        <li><span class="li-normal">params for router_isis_redistribute:</span></li>
+        <ul class="ul-self">
+            <li><span class="li-normal">device</span></li>
+            <li><span class="li-normal">vdom</span></li>
+            <li><span class="li-normal">redistribute</span></li>
+        </ul>
+        <li><span class="li-normal">params for router_isis_redistribute6:</span></li>
+        <ul class="ul-self">
+            <li><span class="li-normal">device</span></li>
+            <li><span class="li-normal">vdom</span></li>
+            <li><span class="li-normal">redistribute6</span></li>
+        </ul>
         <li><span class="li-normal">params for router_isis_summaryaddress:</span></li>
         <ul class="ul-self">
             <li><span class="li-normal">device</span></li>
@@ -2613,6 +2713,12 @@ Parameters
             <li><span class="li-normal">device</span></li>
             <li><span class="li-normal">vdom</span></li>
             <li><span class="li-normal">rp-address</span></li>
+        </ul>
+        <li><span class="li-normal">params for router_multicast_pimsmglobalvrf:</span></li>
+        <ul class="ul-self">
+            <li><span class="li-normal">device</span></li>
+            <li><span class="li-normal">vdom</span></li>
+            <li><span class="li-normal">pim-sm-global-vrf</span></li>
         </ul>
         <li><span class="li-normal">params for router_multicast_pimsmglobalvrf_rpaddress:</span></li>
         <ul class="ul-self">
@@ -2689,6 +2795,12 @@ Parameters
             <li><span class="li-normal">ospf6-interface</span></li>
             <li><span class="li-normal">neighbor</span></li>
         </ul>
+        <li><span class="li-normal">params for router_ospf6_redistribute:</span></li>
+        <ul class="ul-self">
+            <li><span class="li-normal">device</span></li>
+            <li><span class="li-normal">vdom</span></li>
+            <li><span class="li-normal">redistribute</span></li>
+        </ul>
         <li><span class="li-normal">params for router_ospf6_summaryaddress:</span></li>
         <ul class="ul-self">
             <li><span class="li-normal">device</span></li>
@@ -2761,6 +2873,12 @@ Parameters
             <li><span class="li-normal">ospf-interface</span></li>
             <li><span class="li-normal">md5-keys</span></li>
         </ul>
+        <li><span class="li-normal">params for router_ospf_redistribute:</span></li>
+        <ul class="ul-self">
+            <li><span class="li-normal">device</span></li>
+            <li><span class="li-normal">vdom</span></li>
+            <li><span class="li-normal">redistribute</span></li>
+        </ul>
         <li><span class="li-normal">params for router_ospf_summaryaddress:</span></li>
         <ul class="ul-self">
             <li><span class="li-normal">device</span></li>
@@ -2814,6 +2932,12 @@ Parameters
             <li><span class="li-normal">device</span></li>
             <li><span class="li-normal">vdom</span></li>
             <li><span class="li-normal">offset-list</span></li>
+        </ul>
+        <li><span class="li-normal">params for router_rip_redistribute:</span></li>
+        <ul class="ul-self">
+            <li><span class="li-normal">device</span></li>
+            <li><span class="li-normal">vdom</span></li>
+            <li><span class="li-normal">redistribute</span></li>
         </ul>
         <li><span class="li-normal">params for router_ripng_aggregateaddress:</span></li>
         <ul class="ul-self">
@@ -3402,6 +3526,11 @@ Parameters
             <li><span class="li-normal">cluster-sync</span></li>
             <li><span class="li-normal">custom-service</span></li>
         </ul>
+        <li><span class="li-normal">params for system_csf_fabricconnector:</span></li>
+        <ul class="ul-self">
+            <li><span class="li-normal">device</span></li>
+            <li><span class="li-normal">fabric-connector</span></li>
+        </ul>
         <li><span class="li-normal">params for system_csf_fabricdevice:</span></li>
         <ul class="ul-self">
             <li><span class="li-normal">device</span></li>
@@ -3500,6 +3629,11 @@ Parameters
         <ul class="ul-self">
             <li><span class="li-normal">device</span></li>
             <li><span class="li-normal">unicast-peers</span></li>
+        </ul>
+        <li><span class="li-normal">params for system_ha_vcluster:</span></li>
+        <ul class="ul-self">
+            <li><span class="li-normal">device</span></li>
+            <li><span class="li-normal">vcluster</span></li>
         </ul>
         <li><span class="li-normal">params for system_healthcheckfortiguard:</span></li>
         <ul class="ul-self">
@@ -3975,6 +4109,12 @@ Parameters
             <li><span class="li-normal">vdom</span></li>
             <li><span class="li-normal">vxlan</span></li>
         </ul>
+        <li><span class="li-normal">params for system_wccp:</span></li>
+        <ul class="ul-self">
+            <li><span class="li-normal">device</span></li>
+            <li><span class="li-normal">vdom</span></li>
+            <li><span class="li-normal">wccp</span></li>
+        </ul>
         <li><span class="li-normal">params for system_wireless_apstatus:</span></li>
         <ul class="ul-self">
             <li><span class="li-normal">device</span></li>
@@ -3998,6 +4138,13 @@ Parameters
             <li><span class="li-normal">device</span></li>
             <li><span class="li-normal">vdom</span></li>
             <li><span class="li-normal">nac-policy</span></li>
+        </ul>
+        <li><span class="li-normal">params for user_quarantine_targets_macs:</span></li>
+        <ul class="ul-self">
+            <li><span class="li-normal">device</span></li>
+            <li><span class="li-normal">vdom</span></li>
+            <li><span class="li-normal">targets</span></li>
+            <li><span class="li-normal">macs</span></li>
         </ul>
         <li><span class="li-normal">params for user_scim:</span></li>
         <ul class="ul-self">
@@ -4034,6 +4181,12 @@ Parameters
             <li><span class="li-normal">device</span></li>
             <li><span class="li-normal">vdom</span></li>
             <li><span class="li-normal">concentrator</span></li>
+        </ul>
+        <li><span class="li-normal">params for vpn_ipsec_forticlient:</span></li>
+        <ul class="ul-self">
+            <li><span class="li-normal">device</span></li>
+            <li><span class="li-normal">vdom</span></li>
+            <li><span class="li-normal">forticlient</span></li>
         </ul>
         <li><span class="li-normal">params for vpn_ipsec_manualkey:</span></li>
         <ul class="ul-self">
@@ -4191,6 +4344,16 @@ Parameters
             <li><span class="li-normal">bookmarks</span></li>
             <li><span class="li-normal">form-data</span></li>
         </ul>
+        <li><span class="li-normal">params for wanopt_cacheservice_dstpeer:</span></li>
+        <ul class="ul-self">
+            <li><span class="li-normal">device</span></li>
+            <li><span class="li-normal">dst-peer</span></li>
+        </ul>
+        <li><span class="li-normal">params for wanopt_cacheservice_srcpeer:</span></li>
+        <ul class="ul-self">
+            <li><span class="li-normal">device</span></li>
+            <li><span class="li-normal">src-peer</span></li>
+        </ul>
         <li><span class="li-normal">params for wanopt_contentdeliverynetworkrule:</span></li>
         <ul class="ul-self">
             <li><span class="li-normal">device</span></li>
@@ -4264,6 +4427,20 @@ Parameters
             <li><span class="li-normal">vdom</span></li>
             <li><span class="li-normal">access-control-list</span></li>
         </ul>
+        <li><span class="li-normal">params for wireless_accesscontrollist_layer3ipv4rules:</span></li>
+        <ul class="ul-self">
+            <li><span class="li-normal">device</span></li>
+            <li><span class="li-normal">vdom</span></li>
+            <li><span class="li-normal">access-control-list</span></li>
+            <li><span class="li-normal">layer3-ipv4-rules</span></li>
+        </ul>
+        <li><span class="li-normal">params for wireless_accesscontrollist_layer3ipv6rules:</span></li>
+        <ul class="ul-self">
+            <li><span class="li-normal">device</span></li>
+            <li><span class="li-normal">vdom</span></li>
+            <li><span class="li-normal">access-control-list</span></li>
+            <li><span class="li-normal">layer3-ipv6-rules</span></li>
+        </ul>
         <li><span class="li-normal">params for wireless_apcfgprofile:</span></li>
         <ul class="ul-self">
             <li><span class="li-normal">device</span></li>
@@ -4332,6 +4509,14 @@ Parameters
             <li><span class="li-normal">vdom</span></li>
             <li><span class="li-normal">anqp-nai-realm</span></li>
             <li><span class="li-normal">nai-list</span></li>
+        </ul>
+        <li><span class="li-normal">params for wireless_hotspot20_anqpnairealm_nailist_eapmethod:</span></li>
+        <ul class="ul-self">
+            <li><span class="li-normal">device</span></li>
+            <li><span class="li-normal">vdom</span></li>
+            <li><span class="li-normal">anqp-nai-realm</span></li>
+            <li><span class="li-normal">nai-list</span></li>
+            <li><span class="li-normal">eap-method</span></li>
         </ul>
         <li><span class="li-normal">params for wireless_hotspot20_anqpnairealm_nailist_eapmethod_authparam:</span></li>
         <ul class="ul-self">
@@ -4405,6 +4590,20 @@ Parameters
             <li><span class="li-normal">vdom</span></li>
             <li><span class="li-normal">h2qp-osu-provider</span></li>
         </ul>
+        <li><span class="li-normal">params for wireless_hotspot20_h2qposuprovider_friendlyname:</span></li>
+        <ul class="ul-self">
+            <li><span class="li-normal">device</span></li>
+            <li><span class="li-normal">vdom</span></li>
+            <li><span class="li-normal">h2qp-osu-provider</span></li>
+            <li><span class="li-normal">friendly-name</span></li>
+        </ul>
+        <li><span class="li-normal">params for wireless_hotspot20_h2qposuprovider_servicedescription:</span></li>
+        <ul class="ul-self">
+            <li><span class="li-normal">device</span></li>
+            <li><span class="li-normal">vdom</span></li>
+            <li><span class="li-normal">h2qp-osu-provider</span></li>
+            <li><span class="li-normal">service-description</span></li>
+        </ul>
         <li><span class="li-normal">params for wireless_hotspot20_h2qposuprovidernai:</span></li>
         <ul class="ul-self">
             <li><span class="li-normal">device</span></li>
@@ -4454,6 +4653,20 @@ Parameters
             <li><span class="li-normal">device</span></li>
             <li><span class="li-normal">vdom</span></li>
             <li><span class="li-normal">qos-map</span></li>
+        </ul>
+        <li><span class="li-normal">params for wireless_hotspot20_qosmap_dscpexcept:</span></li>
+        <ul class="ul-self">
+            <li><span class="li-normal">device</span></li>
+            <li><span class="li-normal">vdom</span></li>
+            <li><span class="li-normal">qos-map</span></li>
+            <li><span class="li-normal">dscp-except</span></li>
+        </ul>
+        <li><span class="li-normal">params for wireless_hotspot20_qosmap_dscprange:</span></li>
+        <ul class="ul-self">
+            <li><span class="li-normal">device</span></li>
+            <li><span class="li-normal">vdom</span></li>
+            <li><span class="li-normal">qos-map</span></li>
+            <li><span class="li-normal">dscp-range</span></li>
         </ul>
         <li><span class="li-normal">params for wireless_intercontroller_intercontrollerpeer:</span></li>
         <ul class="ul-self">
@@ -4716,6 +4929,12 @@ Parameters
             
             <li><span class="li-normal">required primary key: <b>name</b> </span></li>
             <li><span class="li-normal">optional params list: <a href="docgen/fmgd_antivirus_exemptlist.html#parameters">fmgd_antivirus_exemptlist</a> </span></li>
+        </ul>
+        <li><span class="li-normal">params for application_name:</span></li>
+        <ul class="ul-self">
+            
+            <li><span class="li-normal">required primary key: <b>name</b> </span></li>
+            <li><span class="li-normal">optional params list: <a href="docgen/fmgd_application_name.html#parameters">fmgd_application_name</a> </span></li>
         </ul>
         <li><span class="li-normal">params for aws_vpce:</span></li>
         <ul class="ul-self">
@@ -5401,6 +5620,18 @@ Parameters
             <li><span class="li-normal">required primary key: <b>id</b> </span></li>
             <li><span class="li-normal">optional params list: <a href="docgen/fmgd_router_isis_isisnet.html#parameters">fmgd_router_isis_isisnet</a> </span></li>
         </ul>
+        <li><span class="li-normal">params for router_isis_redistribute:</span></li>
+        <ul class="ul-self">
+            
+            <li><span class="li-normal">required primary key: <b>protocol</b> </span></li>
+            <li><span class="li-normal">optional params list: <a href="docgen/fmgd_router_isis_redistribute.html#parameters">fmgd_router_isis_redistribute</a> </span></li>
+        </ul>
+        <li><span class="li-normal">params for router_isis_redistribute6:</span></li>
+        <ul class="ul-self">
+            
+            <li><span class="li-normal">required primary key: <b>protocol</b> </span></li>
+            <li><span class="li-normal">optional params list: <a href="docgen/fmgd_router_isis_redistribute6.html#parameters">fmgd_router_isis_redistribute6</a> </span></li>
+        </ul>
         <li><span class="li-normal">params for router_isis_summaryaddress:</span></li>
         <ul class="ul-self">
             
@@ -5448,6 +5679,12 @@ Parameters
             
             <li><span class="li-normal">required primary key: <b>id</b> </span></li>
             <li><span class="li-normal">optional params list: <a href="docgen/fmgd_router_multicast_pimsmglobal_rpaddress.html#parameters">fmgd_router_multicast_pimsmglobal_rpaddress</a> </span></li>
+        </ul>
+        <li><span class="li-normal">params for router_multicast_pimsmglobalvrf:</span></li>
+        <ul class="ul-self">
+            
+            <li><span class="li-normal">required primary key: <b>vrf</b> </span></li>
+            <li><span class="li-normal">optional params list: <a href="docgen/fmgd_router_multicast_pimsmglobalvrf.html#parameters">fmgd_router_multicast_pimsmglobalvrf</a> </span></li>
         </ul>
         <li><span class="li-normal">params for router_multicast_pimsmglobalvrf_rpaddress:</span></li>
         <ul class="ul-self">
@@ -5515,6 +5752,12 @@ Parameters
             <li><span class="li-normal">required primary key: <b>ip6</b> </span></li>
             <li><span class="li-normal">optional params list: <a href="docgen/fmgd_router_ospf6_ospf6interface_neighbor.html#parameters">fmgd_router_ospf6_ospf6interface_neighbor</a> </span></li>
         </ul>
+        <li><span class="li-normal">params for router_ospf6_redistribute:</span></li>
+        <ul class="ul-self">
+            
+            <li><span class="li-normal">required primary key: <b>name</b> </span></li>
+            <li><span class="li-normal">optional params list: <a href="docgen/fmgd_router_ospf6_redistribute.html#parameters">fmgd_router_ospf6_redistribute</a> </span></li>
+        </ul>
         <li><span class="li-normal">params for router_ospf6_summaryaddress:</span></li>
         <ul class="ul-self">
             
@@ -5581,6 +5824,12 @@ Parameters
             <li><span class="li-normal">required primary key: <b>id</b> </span></li>
             <li><span class="li-normal">optional params list: <a href="docgen/fmgd_router_ospf_ospfinterface_md5keys.html#parameters">fmgd_router_ospf_ospfinterface_md5keys</a> </span></li>
         </ul>
+        <li><span class="li-normal">params for router_ospf_redistribute:</span></li>
+        <ul class="ul-self">
+            
+            <li><span class="li-normal">required primary key: <b>name</b> </span></li>
+            <li><span class="li-normal">optional params list: <a href="docgen/fmgd_router_ospf_redistribute.html#parameters">fmgd_router_ospf_redistribute</a> </span></li>
+        </ul>
         <li><span class="li-normal">params for router_ospf_summaryaddress:</span></li>
         <ul class="ul-self">
             
@@ -5634,6 +5883,12 @@ Parameters
             
             <li><span class="li-normal">required primary key: <b>id</b> </span></li>
             <li><span class="li-normal">optional params list: <a href="docgen/fmgd_router_rip_offsetlist.html#parameters">fmgd_router_rip_offsetlist</a> </span></li>
+        </ul>
+        <li><span class="li-normal">params for router_rip_redistribute:</span></li>
+        <ul class="ul-self">
+            
+            <li><span class="li-normal">required primary key: <b>name</b> </span></li>
+            <li><span class="li-normal">optional params list: <a href="docgen/fmgd_router_rip_redistribute.html#parameters">fmgd_router_rip_redistribute</a> </span></li>
         </ul>
         <li><span class="li-normal">params for router_ripng_aggregateaddress:</span></li>
         <ul class="ul-self">
@@ -6211,6 +6466,12 @@ Parameters
             <li><span class="li-normal">required primary key: <b>id</b> </span></li>
             <li><span class="li-normal">optional params list: <a href="docgen/fmgd_system_clustersync_sessionsyncfilter_customservice.html#parameters">fmgd_system_clustersync_sessionsyncfilter_customservice</a> </span></li>
         </ul>
+        <li><span class="li-normal">params for system_csf_fabricconnector:</span></li>
+        <ul class="ul-self">
+            
+            <li><span class="li-normal">required primary key: <b>serial</b> </span></li>
+            <li><span class="li-normal">optional params list: <a href="docgen/fmgd_system_csf_fabricconnector.html#parameters">fmgd_system_csf_fabricconnector</a> </span></li>
+        </ul>
         <li><span class="li-normal">params for system_csf_fabricdevice:</span></li>
         <ul class="ul-self">
             
@@ -6312,6 +6573,12 @@ Parameters
             
             <li><span class="li-normal">required primary key: <b>id</b> </span></li>
             <li><span class="li-normal">optional params list: <a href="docgen/fmgd_system_ha_unicastpeers.html#parameters">fmgd_system_ha_unicastpeers</a> </span></li>
+        </ul>
+        <li><span class="li-normal">params for system_ha_vcluster:</span></li>
+        <ul class="ul-self">
+            
+            <li><span class="li-normal">required primary key: <b>vcluster_id</b> </span></li>
+            <li><span class="li-normal">optional params list: <a href="docgen/fmgd_system_ha_vcluster.html#parameters">fmgd_system_ha_vcluster</a> </span></li>
         </ul>
         <li><span class="li-normal">params for system_healthcheckfortiguard:</span></li>
         <ul class="ul-self">
@@ -6817,6 +7084,12 @@ Parameters
             <li><span class="li-normal">required primary key: <b>name</b> </span></li>
             <li><span class="li-normal">optional params list: <a href="docgen/fmgd_system_vxlan.html#parameters">fmgd_system_vxlan</a> </span></li>
         </ul>
+        <li><span class="li-normal">params for system_wccp:</span></li>
+        <ul class="ul-self">
+            
+            <li><span class="li-normal">required primary key: <b>service_id</b> </span></li>
+            <li><span class="li-normal">optional params list: <a href="docgen/fmgd_system_wccp.html#parameters">fmgd_system_wccp</a> </span></li>
+        </ul>
         <li><span class="li-normal">params for system_wireless_apstatus:</span></li>
         <ul class="ul-self">
             
@@ -6841,10 +7114,16 @@ Parameters
             <li><span class="li-normal">required primary key: <b>name</b> </span></li>
             <li><span class="li-normal">optional params list: <a href="docgen/fmgd_user_nacpolicy.html#parameters">fmgd_user_nacpolicy</a> </span></li>
         </ul>
+        <li><span class="li-normal">params for user_quarantine_targets_macs:</span></li>
+        <ul class="ul-self">
+            
+            <li><span class="li-normal">required primary key: <b>mac</b> </span></li>
+            <li><span class="li-normal">optional params list: <a href="docgen/fmgd_user_quarantine_targets_macs.html#parameters">fmgd_user_quarantine_targets_macs</a> </span></li>
+        </ul>
         <li><span class="li-normal">params for user_scim:</span></li>
         <ul class="ul-self">
             
-            <li><span class="li-normal">required primary key: <b>id</b> </span></li>
+            <li><span class="li-normal">required primary key: <b>name</b> </span></li>
             <li><span class="li-normal">optional params list: <a href="docgen/fmgd_user_scim.html#parameters">fmgd_user_scim</a> </span></li>
         </ul>
         <li><span class="li-normal">params for user_setting_authports:</span></li>
@@ -6876,6 +7155,12 @@ Parameters
             
             <li><span class="li-normal">required primary key: <b>id</b> </span></li>
             <li><span class="li-normal">optional params list: <a href="docgen/fmgd_vpn_ipsec_concentrator.html#parameters">fmgd_vpn_ipsec_concentrator</a> </span></li>
+        </ul>
+        <li><span class="li-normal">params for vpn_ipsec_forticlient:</span></li>
+        <ul class="ul-self">
+            
+            <li><span class="li-normal">required primary key: <b>realm</b> </span></li>
+            <li><span class="li-normal">optional params list: <a href="docgen/fmgd_vpn_ipsec_forticlient.html#parameters">fmgd_vpn_ipsec_forticlient</a> </span></li>
         </ul>
         <li><span class="li-normal">params for vpn_ipsec_manualkey:</span></li>
         <ul class="ul-self">
@@ -6970,7 +7255,7 @@ Parameters
         <li><span class="li-normal">params for vpn_qkd:</span></li>
         <ul class="ul-self">
             
-            <li><span class="li-normal">required primary key: <b>id</b> </span></li>
+            <li><span class="li-normal">required primary key: <b>name</b> </span></li>
             <li><span class="li-normal">optional params list: <a href="docgen/fmgd_vpn_qkd.html#parameters">fmgd_vpn_qkd</a> </span></li>
         </ul>
         <li><span class="li-normal">params for vpn_ssl_client:</span></li>
@@ -7020,6 +7305,18 @@ Parameters
             
             <li><span class="li-normal">required primary key: <b>name</b> </span></li>
             <li><span class="li-normal">optional params list: <a href="docgen/fmgd_vpnsslweb_usergroupbookmark_bookmarks_formdata.html#parameters">fmgd_vpnsslweb_usergroupbookmark_bookmarks_formdata</a> </span></li>
+        </ul>
+        <li><span class="li-normal">params for wanopt_cacheservice_dstpeer:</span></li>
+        <ul class="ul-self">
+            
+            <li><span class="li-normal">required primary key: <b>device_id</b> </span></li>
+            <li><span class="li-normal">optional params list: <a href="docgen/fmgd_wanopt_cacheservice_dstpeer.html#parameters">fmgd_wanopt_cacheservice_dstpeer</a> </span></li>
+        </ul>
+        <li><span class="li-normal">params for wanopt_cacheservice_srcpeer:</span></li>
+        <ul class="ul-self">
+            
+            <li><span class="li-normal">required primary key: <b>device_id</b> </span></li>
+            <li><span class="li-normal">optional params list: <a href="docgen/fmgd_wanopt_cacheservice_srcpeer.html#parameters">fmgd_wanopt_cacheservice_srcpeer</a> </span></li>
         </ul>
         <li><span class="li-normal">params for wanopt_contentdeliverynetworkrule:</span></li>
         <ul class="ul-self">
@@ -7093,6 +7390,18 @@ Parameters
             <li><span class="li-normal">required primary key: <b>name</b> </span></li>
             <li><span class="li-normal">optional params list: <a href="docgen/fmgd_wireless_accesscontrollist.html#parameters">fmgd_wireless_accesscontrollist</a> </span></li>
         </ul>
+        <li><span class="li-normal">params for wireless_accesscontrollist_layer3ipv4rules:</span></li>
+        <ul class="ul-self">
+            
+            <li><span class="li-normal">required primary key: <b>rule_id</b> </span></li>
+            <li><span class="li-normal">optional params list: <a href="docgen/fmgd_wireless_accesscontrollist_layer3ipv4rules.html#parameters">fmgd_wireless_accesscontrollist_layer3ipv4rules</a> </span></li>
+        </ul>
+        <li><span class="li-normal">params for wireless_accesscontrollist_layer3ipv6rules:</span></li>
+        <ul class="ul-self">
+            
+            <li><span class="li-normal">required primary key: <b>rule_id</b> </span></li>
+            <li><span class="li-normal">optional params list: <a href="docgen/fmgd_wireless_accesscontrollist_layer3ipv6rules.html#parameters">fmgd_wireless_accesscontrollist_layer3ipv6rules</a> </span></li>
+        </ul>
         <li><span class="li-normal">params for wireless_apcfgprofile:</span></li>
         <ul class="ul-self">
             
@@ -7158,6 +7467,12 @@ Parameters
             
             <li><span class="li-normal">required primary key: <b>name</b> </span></li>
             <li><span class="li-normal">optional params list: <a href="docgen/fmgd_wireless_hotspot20_anqpnairealm_nailist.html#parameters">fmgd_wireless_hotspot20_anqpnairealm_nailist</a> </span></li>
+        </ul>
+        <li><span class="li-normal">params for wireless_hotspot20_anqpnairealm_nailist_eapmethod:</span></li>
+        <ul class="ul-self">
+            
+            <li><span class="li-normal">required primary key: <b>index</b> </span></li>
+            <li><span class="li-normal">optional params list: <a href="docgen/fmgd_wireless_hotspot20_anqpnairealm_nailist_eapmethod.html#parameters">fmgd_wireless_hotspot20_anqpnairealm_nailist_eapmethod</a> </span></li>
         </ul>
         <li><span class="li-normal">params for wireless_hotspot20_anqpnairealm_nailist_eapmethod_authparam:</span></li>
         <ul class="ul-self">
@@ -7225,6 +7540,18 @@ Parameters
             <li><span class="li-normal">required primary key: <b>name</b> </span></li>
             <li><span class="li-normal">optional params list: <a href="docgen/fmgd_wireless_hotspot20_h2qposuprovider.html#parameters">fmgd_wireless_hotspot20_h2qposuprovider</a> </span></li>
         </ul>
+        <li><span class="li-normal">params for wireless_hotspot20_h2qposuprovider_friendlyname:</span></li>
+        <ul class="ul-self">
+            
+            <li><span class="li-normal">required primary key: <b>index</b> </span></li>
+            <li><span class="li-normal">optional params list: <a href="docgen/fmgd_wireless_hotspot20_h2qposuprovider_friendlyname.html#parameters">fmgd_wireless_hotspot20_h2qposuprovider_friendlyname</a> </span></li>
+        </ul>
+        <li><span class="li-normal">params for wireless_hotspot20_h2qposuprovider_servicedescription:</span></li>
+        <ul class="ul-self">
+            
+            <li><span class="li-normal">required primary key: <b>service_id</b> </span></li>
+            <li><span class="li-normal">optional params list: <a href="docgen/fmgd_wireless_hotspot20_h2qposuprovider_servicedescription.html#parameters">fmgd_wireless_hotspot20_h2qposuprovider_servicedescription</a> </span></li>
+        </ul>
         <li><span class="li-normal">params for wireless_hotspot20_h2qposuprovidernai:</span></li>
         <ul class="ul-self">
             
@@ -7272,6 +7599,18 @@ Parameters
             
             <li><span class="li-normal">required primary key: <b>name</b> </span></li>
             <li><span class="li-normal">optional params list: <a href="docgen/fmgd_wireless_hotspot20_qosmap.html#parameters">fmgd_wireless_hotspot20_qosmap</a> </span></li>
+        </ul>
+        <li><span class="li-normal">params for wireless_hotspot20_qosmap_dscpexcept:</span></li>
+        <ul class="ul-self">
+            
+            <li><span class="li-normal">required primary key: <b>index</b> </span></li>
+            <li><span class="li-normal">optional params list: <a href="docgen/fmgd_wireless_hotspot20_qosmap_dscpexcept.html#parameters">fmgd_wireless_hotspot20_qosmap_dscpexcept</a> </span></li>
+        </ul>
+        <li><span class="li-normal">params for wireless_hotspot20_qosmap_dscprange:</span></li>
+        <ul class="ul-self">
+            
+            <li><span class="li-normal">required primary key: <b>index</b> </span></li>
+            <li><span class="li-normal">optional params list: <a href="docgen/fmgd_wireless_hotspot20_qosmap_dscprange.html#parameters">fmgd_wireless_hotspot20_qosmap_dscprange</a> </span></li>
         </ul>
         <li><span class="li-normal">params for wireless_intercontroller_intercontrollerpeer:</span></li>
         <ul class="ul-self">
@@ -7402,7 +7741,7 @@ Parameters
         <li><span class="li-normal">params for wireless_wtp:</span></li>
         <ul class="ul-self">
             
-            <li><span class="li-normal">required primary key: <b>name</b> </span></li>
+            <li><span class="li-normal">required primary key: <b>wtp_id</b> </span></li>
             <li><span class="li-normal">optional params list: <a href="docgen/fmgd_wireless_wtp.html#parameters">fmgd_wireless_wtp</a> </span></li>
         </ul>
         <li><span class="li-normal">params for wireless_wtp_splittunnelingacl:</span></li>

@@ -64,6 +64,9 @@ Parameters
         <li><span class="li-required">firewall_accessproxysshclientcert</span> - available versions:
           <span class="li-normal">v7.2.6->v7.2.9</span>
         </li>
+        <li><span class="li-required">firewall_policy</span> - available versions:
+          <span class="li-normal">v6.0.0->latest</span>
+        </li>
         <li><span class="li-required">firewall_sniffer</span> - available versions:
           <span class="li-normal">v7.2.6->v7.2.9</span>,
           <span class="li-normal">v7.4.3->latest</span>
@@ -230,6 +233,12 @@ Parameters
         <ul class="ul-self">
             <li><span class="li-normal">access-proxy-ssh-client-cert</span></li>
             <li><span class="li-normal">device</span></li>
+            <li><span class="li-normal">vdom</span></li>
+        </ul>
+        <li><span class="li-normal">params for firewall_policy:</span></li>
+        <ul class="ul-self">
+            <li><span class="li-normal">device</span></li>
+            <li><span class="li-normal">policy</span></li>
             <li><span class="li-normal">vdom</span></li>
         </ul>
         <li><span class="li-normal">params for firewall_sniffer:</span></li>

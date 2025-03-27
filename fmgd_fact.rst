@@ -293,6 +293,9 @@ Parameters
           <span class="li-normal">v7.2.6->v7.2.9</span>,
           <span class="li-normal">v7.4.3->latest</span>
       </li>
+      <li><span class="li-required">firewall_policy</span> - available versions:
+          <span class="li-normal">v6.0.0->latest</span>
+      </li>
       <li><span class="li-required">firewall_sniffer</span> - available versions:
           <span class="li-normal">v7.2.6->v7.2.9</span>,
           <span class="li-normal">v7.4.3->latest</span>
@@ -344,6 +347,12 @@ Parameters
       <li><span class="li-required">gtp_rattimeoutprofile</span> - available versions:
           <span class="li-normal">v7.2.6->v7.2.9</span>,
           <span class="li-normal">v7.4.3->latest</span>
+      </li>
+      <li><span class="li-required">icap_profile</span> - available versions:
+          <span class="li-normal">v6.0.0->latest</span>
+      </li>
+      <li><span class="li-required">icap_server</span> - available versions:
+          <span class="li-normal">v6.0.0->latest</span>
       </li>
       <li><span class="li-required">icap_servergroup</span> - available versions:
           <span class="li-normal">v7.2.6->v7.2.9</span>,
@@ -1277,6 +1286,9 @@ Parameters
       <li><span class="li-required">router_ripng_redistribute</span> - available versions:
           <span class="li-normal">v7.2.6->v7.2.9</span>,
           <span class="li-normal">v7.4.3->latest</span>
+      </li>
+      <li><span class="li-required">router_routemap</span> - available versions:
+          <span class="li-normal">v7.0.2->latest</span>
       </li>
       <li><span class="li-required">router_setting</span> - available versions:
           <span class="li-normal">v7.2.6->v7.2.9</span>,
@@ -3899,6 +3911,12 @@ Parameters
             <li><span class="li-normal">pfcp</span></li>
             <li><span class="li-normal">vdom</span></li>
         </ul>
+        <li><span class="li-normal">params for firewall_policy:</span></li>
+        <ul class="ul-self">
+            <li><span class="li-normal">device</span></li>
+            <li><span class="li-normal">policy</span></li>
+            <li><span class="li-normal">vdom</span></li>
+        </ul>
         <li><span class="li-normal">params for firewall_sniffer:</span></li>
         <ul class="ul-self">
             <li><span class="li-normal">device</span></li>
@@ -3973,6 +3991,18 @@ Parameters
         <ul class="ul-self">
             <li><span class="li-normal">device</span></li>
             <li><span class="li-normal">rat-timeout-profile</span></li>
+            <li><span class="li-normal">vdom</span></li>
+        </ul>
+        <li><span class="li-normal">params for icap_profile:</span></li>
+        <ul class="ul-self">
+            <li><span class="li-normal">device</span></li>
+            <li><span class="li-normal">profile</span></li>
+            <li><span class="li-normal">vdom</span></li>
+        </ul>
+        <li><span class="li-normal">params for icap_server:</span></li>
+        <ul class="ul-self">
+            <li><span class="li-normal">device</span></li>
+            <li><span class="li-normal">server</span></li>
             <li><span class="li-normal">vdom</span></li>
         </ul>
         <li><span class="li-normal">params for icap_servergroup:</span></li>
@@ -5264,6 +5294,12 @@ Parameters
         <li><span class="li-normal">params for router_ripng_redistribute:</span></li>
         <ul class="ul-self">
             <li><span class="li-normal">device</span></li>
+            <li><span class="li-normal">vdom</span></li>
+        </ul>
+        <li><span class="li-normal">params for router_routemap:</span></li>
+        <ul class="ul-self">
+            <li><span class="li-normal">device</span></li>
+            <li><span class="li-normal">route-map</span></li>
             <li><span class="li-normal">vdom</span></li>
         </ul>
         <li><span class="li-normal">params for router_setting:</span></li>

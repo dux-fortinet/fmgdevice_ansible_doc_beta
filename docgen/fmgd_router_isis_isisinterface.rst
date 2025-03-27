@@ -273,6 +273,7 @@ Examples
           vdom: <your own value>
           state: present # <value in [present, absent]>
           router_isis_isisinterface:
+            name: # Required variable, list of device
             # auth_keychain_l1: <list or string>
             # auth_keychain_l2: <list or string>
             # auth_mode_l1: <value in [md5, password]>
@@ -295,7 +296,6 @@ Examples
             # mesh_group_id: <integer>
             # metric_l1: <integer>
             # metric_l2: <integer>
-            # name: <list or string>
             # network_type: <value in [broadcast, point-to-point, loopback]>
             # priority_l1: <integer>
             # priority_l2: <integer>

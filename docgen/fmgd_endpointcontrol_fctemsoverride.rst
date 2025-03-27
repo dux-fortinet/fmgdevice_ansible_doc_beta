@@ -261,7 +261,7 @@ Examples
           vdom: <your own value>
           state: present # <value in [present, absent]>
           endpointcontrol_fctemsoverride:
-            name: "your value" # Required variable, string
+            ems_id: 0 # Required variable, integer
             # call_timeout: <integer>
             # capabilities:
             #   - "fabric-auth"
@@ -278,11 +278,11 @@ Examples
             # certificate_fingerprint: <string>
             # cloud_authentication_access_key: <string>
             # dirty_reason: <value in [none, mismatched-ems-sn]>
-            # ems_id: <integer>
             # fortinetone_cloud_authentication: <value in [disable, enable]>
             # https_port: <integer>
             # interface: <list or string>
             # interface_select_method: <value in [auto, sdwan, specify]>
+            # name: <string>
             # out_of_sync_threshold: <integer>
             # preserve_ssl_session: <value in [disable, enable]>
             # pull_avatars: <value in [disable, enable]>

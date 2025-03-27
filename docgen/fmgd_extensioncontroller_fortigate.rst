@@ -141,12 +141,12 @@ Examples
           vdom: <your own value>
           state: present # <value in [present, absent]>
           extensioncontroller_fortigate:
-            id: "your value" # Required variable, string
+            name: "your value" # Required variable, string
             # authorized: <value in [disable, enable, discovered]>
             # description: <string>
             # device_id: <integer>
             # hostname: <string>
-            # name: <string>
+            # id: <string>
             # profile: <list or string>
             # vdom: <integer>
 

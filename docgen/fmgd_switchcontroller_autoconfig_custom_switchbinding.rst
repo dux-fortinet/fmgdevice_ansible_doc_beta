@@ -107,8 +107,8 @@ Examples
           custom: <your own value>
           state: present # <value in [present, absent]>
           switchcontroller_autoconfig_custom_switchbinding:
+            switch_id: "your value" # Required variable, string
             # policy: <list or string>
-            # switch_id: <string>
 
 
 Return Values

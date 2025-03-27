@@ -119,8 +119,8 @@ Examples
           ospf6_interface: <your own value>
           state: present # <value in [present, absent]>
           router_ospf6_ospf6interface_neighbor:
+            ip6: "your value" # Required variable, string
             # cost: <integer>
-            # ip6: <string>
             # poll_interval: <integer>
             # priority: <integer>
 

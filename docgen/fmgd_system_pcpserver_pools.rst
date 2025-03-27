@@ -207,7 +207,7 @@ Examples
           vdom: <your own value>
           state: present # <value in [present, absent]>
           system_pcpserver_pools:
-            id: 0 # Required variable, integer
+            name: "your value" # Required variable, string
             # allow_opcode:
             #   - "map"
             #   - "peer"
@@ -220,12 +220,12 @@ Examples
             # ext_intf: <list or string>
             # extip: <string>
             # extport: <string>
+            # id: <integer>
             # intl_intf: <list or string>
             # mapping_filter_limit: <integer>
             # maximal_lifetime: <integer>
             # minimal_lifetime: <integer>
             # multicast_announcement: <value in [disable, enable]>
-            # name: <string>
             # recycle_delay: <integer>
             # third_party: <value in [disallow, allow]>
             # third_party_subnet: <list or string>

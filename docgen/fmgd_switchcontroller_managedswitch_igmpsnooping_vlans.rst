@@ -125,11 +125,11 @@ Examples
           managed_switch: <your own value>
           state: present # <value in [present, absent]>
           switchcontroller_managedswitch_igmpsnooping_vlans:
+            vlan_name: # Required variable, list of device
             # proxy: <value in [disable, enable, global]>
             # querier: <value in [disable, enable]>
             # querier_addr: <string>
             # version: <integer>
-            # vlan_name: <list or string>
 
 
 Return Values

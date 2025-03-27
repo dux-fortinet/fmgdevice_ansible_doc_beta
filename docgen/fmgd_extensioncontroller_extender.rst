@@ -269,7 +269,7 @@ Examples
           vdom: <your own value>
           state: present # <value in [present, absent]>
           extensioncontroller_extender:
-            id: "your value" # Required variable, string
+            name: "your value" # Required variable, string
             # allowaccess:
             #   - "https"
             #   - "ping"
@@ -285,9 +285,9 @@ Examples
             # ext_name: <string>
             # extension_type: <value in [wan-extension, lan-extension]>
             # firmware_provision_latest: <value in [disable, once]>
+            # id: <string>
             # login_password: <list or string>
             # login_password_change: <value in [no, yes, default]>
-            # name: <string>
             # override_allowaccess: <value in [disable, enable]>
             # override_enforce_bandwidth: <value in [disable, enable]>
             # override_login_password_change: <value in [disable, enable]>

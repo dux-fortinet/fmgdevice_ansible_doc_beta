@@ -90,9 +90,6 @@ Parameters
           <span class="li-normal">v7.2.6->v7.2.9</span>,
           <span class="li-normal">v7.4.3->latest</span>
       </li>
-      <li><span class="li-required">azure_nva</span> - available versions:
-          <span class="li-normal">v7.4.3->latest</span>
-      </li>
       <li><span class="li-required">azure_vwaningresspublicips</span> - available versions:
           <span class="li-normal">v7.4.4->latest</span>
       </li>
@@ -1525,9 +1522,6 @@ Parameters
           <span class="li-normal">v6.0.0->v6.2.0</span>,
           <span class="li-normal">v7.2.6->v7.2.9</span>,
           <span class="li-normal">v7.4.3->latest</span>
-      </li>
-      <li><span class="li-required">switchcontroller_managedswitch_switchstpsettings</span> - available versions:
-          <span class="li-normal">v6.0.0->v6.2.0</span>
       </li>
       <li><span class="li-required">switchcontroller_managedswitch_vlan</span> - available versions:
           <span class="li-normal">v7.4.3->latest</span>
@@ -3588,10 +3582,6 @@ Parameters
             <li><span class="li-normal">device</span></li>
             <li><span class="li-normal">vpce</span></li>
         </ul>
-        <li><span class="li-normal">params for azure_nva:</span></li>
-        <ul class="ul-self">
-            <li><span class="li-normal">device</span></li>
-        </ul>
         <li><span class="li-normal">params for azure_vwaningresspublicips:</span></li>
         <ul class="ul-self">
             <li><span class="li-normal">device</span></li>
@@ -5646,12 +5636,6 @@ Parameters
             <li><span class="li-normal">vdom</span></li>
         </ul>
         <li><span class="li-normal">params for switchcontroller_managedswitch_switchlog:</span></li>
-        <ul class="ul-self">
-            <li><span class="li-normal">device</span></li>
-            <li><span class="li-normal">managed-switch</span></li>
-            <li><span class="li-normal">vdom</span></li>
-        </ul>
-        <li><span class="li-normal">params for switchcontroller_managedswitch_switchstpsettings:</span></li>
         <ul class="ul-self">
             <li><span class="li-normal">device</span></li>
             <li><span class="li-normal">managed-switch</span></li>

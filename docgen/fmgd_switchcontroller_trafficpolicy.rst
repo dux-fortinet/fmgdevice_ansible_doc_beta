@@ -147,13 +147,13 @@ Examples
           vdom: <your own value>
           state: present # <value in [present, absent]>
           switchcontroller_trafficpolicy:
-            id: 0 # Required variable, integer
+            name: "your value" # Required variable, string
             # cos_queue: <integer>
             # description: <string>
             # guaranteed_bandwidth: <integer>
             # guaranteed_burst: <integer>
+            # id: <integer>
             # maximum_burst: <integer>
-            # name: <string>
             # policer_status: <value in [disable, enable]>
             # type: <value in [ingress, egress]>
 

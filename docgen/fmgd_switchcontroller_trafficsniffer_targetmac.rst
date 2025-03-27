@@ -117,8 +117,8 @@ Examples
           vdom: <your own value>
           state: present # <value in [present, absent]>
           switchcontroller_trafficsniffer_targetmac:
+            mac: "your value" # Required variable, string
             # description: <string>
-            # mac: <string>
             # src_entry_id: <integer>
             # dst_entry_id: <integer>
 

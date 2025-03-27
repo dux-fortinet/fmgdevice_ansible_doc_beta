@@ -484,6 +484,10 @@ Parameters
             <span class="li-normal">v7.2.6->v7.2.9</span>,
             <span class="li-normal">v7.4.3->latest</span>
         </li>
+        <li><span class="li-required">router_isis_isisinterface</span> - available versions:
+            <span class="li-normal">v7.2.6->v7.2.9</span>,
+            <span class="li-normal">v7.4.3->latest</span>
+        </li>
         <li><span class="li-required">router_isis_isisnet</span> - available versions:
             <span class="li-normal">v7.2.6->v7.2.9</span>,
             <span class="li-normal">v7.4.3->latest</span>
@@ -535,6 +539,10 @@ Parameters
             <span class="li-normal">v7.2.6->v7.2.9</span>,
             <span class="li-normal">v7.4.3->latest</span>
         </li>
+        <li><span class="li-required">router_ospf6_area_ipseckeys</span> - available versions:
+            <span class="li-normal">v7.2.6->v7.2.9</span>,
+            <span class="li-normal">v7.4.3->latest</span>
+        </li>
         <li><span class="li-required">router_ospf6_area_range</span> - available versions:
             <span class="li-normal">v7.2.6->v7.2.9</span>,
             <span class="li-normal">v7.4.3->latest</span>
@@ -543,7 +551,19 @@ Parameters
             <span class="li-normal">v7.2.6->v7.2.9</span>,
             <span class="li-normal">v7.4.3->latest</span>
         </li>
+        <li><span class="li-required">router_ospf6_area_virtuallink_ipseckeys</span> - available versions:
+            <span class="li-normal">v7.2.6->v7.2.9</span>,
+            <span class="li-normal">v7.4.3->latest</span>
+        </li>
         <li><span class="li-required">router_ospf6_ospf6interface</span> - available versions:
+            <span class="li-normal">v7.2.6->v7.2.9</span>,
+            <span class="li-normal">v7.4.3->latest</span>
+        </li>
+        <li><span class="li-required">router_ospf6_ospf6interface_ipseckeys</span> - available versions:
+            <span class="li-normal">v7.2.6->v7.2.9</span>,
+            <span class="li-normal">v7.4.3->latest</span>
+        </li>
+        <li><span class="li-required">router_ospf6_ospf6interface_neighbor</span> - available versions:
             <span class="li-normal">v7.2.6->v7.2.9</span>,
             <span class="li-normal">v7.4.3->latest</span>
         </li>
@@ -595,6 +615,14 @@ Parameters
             <span class="li-normal">v7.2.6->v7.2.9</span>,
             <span class="li-normal">v7.4.3->latest</span>
         </li>
+        <li><span class="li-required">router_policy</span> - available versions:
+            <span class="li-normal">v7.2.6->v7.2.9</span>,
+            <span class="li-normal">v7.4.3->latest</span>
+        </li>
+        <li><span class="li-required">router_policy6</span> - available versions:
+            <span class="li-normal">v7.2.6->v7.2.9</span>,
+            <span class="li-normal">v7.4.3->latest</span>
+        </li>
         <li><span class="li-required">router_rip_distance</span> - available versions:
             <span class="li-normal">v7.2.6->v7.2.9</span>,
             <span class="li-normal">v7.4.3->latest</span>
@@ -631,6 +659,10 @@ Parameters
             <span class="li-normal">v7.2.6->v7.2.9</span>,
             <span class="li-normal">v7.4.3->latest</span>
         </li>
+        <li><span class="li-required">router_ripng_interface</span> - available versions:
+            <span class="li-normal">v7.2.6->v7.2.9</span>,
+            <span class="li-normal">v7.4.3->latest</span>
+        </li>
         <li><span class="li-required">router_ripng_neighbor</span> - available versions:
             <span class="li-normal">v7.2.6->v7.2.9</span>,
             <span class="li-normal">v7.4.3->latest</span>
@@ -640,6 +672,14 @@ Parameters
             <span class="li-normal">v7.4.3->latest</span>
         </li>
         <li><span class="li-required">router_ripng_offsetlist</span> - available versions:
+            <span class="li-normal">v7.2.6->v7.2.9</span>,
+            <span class="li-normal">v7.4.3->latest</span>
+        </li>
+        <li><span class="li-required">router_static</span> - available versions:
+            <span class="li-normal">v7.2.6->v7.2.9</span>,
+            <span class="li-normal">v7.4.3->latest</span>
+        </li>
+        <li><span class="li-required">router_static6</span> - available versions:
             <span class="li-normal">v7.2.6->v7.2.9</span>,
             <span class="li-normal">v7.4.3->latest</span>
         </li>
@@ -653,7 +693,15 @@ Parameters
             <span class="li-normal">v7.2.6->v7.2.9</span>,
             <span class="li-normal">v7.4.3->latest</span>
         </li>
+        <li><span class="li-required">switchcontroller_autoconfig_custom_switchbinding</span> - available versions:
+            <span class="li-normal">v7.2.6->v7.2.9</span>,
+            <span class="li-normal">v7.4.3->latest</span>
+        </li>
         <li><span class="li-required">switchcontroller_autoconfig_policy</span> - available versions:
+            <span class="li-normal">v7.2.6->v7.2.9</span>,
+            <span class="li-normal">v7.4.3->latest</span>
+        </li>
+        <li><span class="li-required">switchcontroller_customcommand</span> - available versions:
             <span class="li-normal">v7.2.6->v7.2.9</span>,
             <span class="li-normal">v7.4.3->latest</span>
         </li>
@@ -713,7 +761,24 @@ Parameters
             <span class="li-normal">v7.2.6->v7.2.9</span>,
             <span class="li-normal">v7.4.3->latest</span>
         </li>
+        <li><span class="li-required">switchcontroller_managedswitch_customcommand</span> - available versions:
+            <span class="li-normal">v6.0.0->v6.2.0</span>,
+            <span class="li-normal">v7.2.6->v7.2.9</span>,
+            <span class="li-normal">v7.4.3->latest</span>
+        </li>
         <li><span class="li-required">switchcontroller_managedswitch_dhcpsnoopingstaticclient</span> - available versions:
+            <span class="li-normal">v7.2.6->v7.2.9</span>,
+            <span class="li-normal">v7.4.3->latest</span>
+        </li>
+        <li><span class="li-required">switchcontroller_managedswitch_igmpsnooping_vlans</span> - available versions:
+            <span class="li-normal">v7.2.6->v7.2.9</span>,
+            <span class="li-normal">v7.4.3->latest</span>
+        </li>
+        <li><span class="li-required">switchcontroller_managedswitch_ipsourceguard</span> - available versions:
+            <span class="li-normal">v7.2.6->v7.2.9</span>,
+            <span class="li-normal">v7.4.3->latest</span>
+        </li>
+        <li><span class="li-required">switchcontroller_managedswitch_ipsourceguard_bindingentry</span> - available versions:
             <span class="li-normal">v7.2.6->v7.2.9</span>,
             <span class="li-normal">v7.4.3->latest</span>
         </li>
@@ -722,8 +787,14 @@ Parameters
             <span class="li-normal">v7.2.6->v7.2.9</span>,
             <span class="li-normal">v7.4.3->latest</span>
         </li>
+        <li><span class="li-required">switchcontroller_managedswitch_ports_dhcpsnoopoption82override</span> - available versions:
+            <span class="li-normal">v7.4.3->latest</span>
+        </li>
         <li><span class="li-required">switchcontroller_managedswitch_remotelog</span> - available versions:
             <span class="li-normal">v7.2.6->v7.2.9</span>,
+            <span class="li-normal">v7.4.3->latest</span>
+        </li>
+        <li><span class="li-required">switchcontroller_managedswitch_routeoffloadrouter</span> - available versions:
             <span class="li-normal">v7.4.3->latest</span>
         </li>
         <li><span class="li-required">switchcontroller_managedswitch_snmpcommunity</span> - available versions:
@@ -746,6 +817,9 @@ Parameters
         <li><span class="li-required">switchcontroller_managedswitch_stpinstance</span> - available versions:
             <span class="li-normal">v6.2.0->v6.2.0</span>,
             <span class="li-normal">v7.2.6->v7.2.9</span>,
+            <span class="li-normal">v7.4.3->latest</span>
+        </li>
+        <li><span class="li-required">switchcontroller_managedswitch_vlan</span> - available versions:
             <span class="li-normal">v7.4.3->latest</span>
         </li>
         <li><span class="li-required">switchcontroller_nacdevice</span> - available versions:
@@ -839,6 +913,18 @@ Parameters
             <span class="li-normal">v7.4.3->latest</span>
         </li>
         <li><span class="li-required">switchcontroller_trafficpolicy</span> - available versions:
+            <span class="li-normal">v7.2.6->v7.2.9</span>,
+            <span class="li-normal">v7.4.3->latest</span>
+        </li>
+        <li><span class="li-required">switchcontroller_trafficsniffer_targetip</span> - available versions:
+            <span class="li-normal">v7.2.6->v7.2.9</span>,
+            <span class="li-normal">v7.4.3->latest</span>
+        </li>
+        <li><span class="li-required">switchcontroller_trafficsniffer_targetmac</span> - available versions:
+            <span class="li-normal">v7.2.6->v7.2.9</span>,
+            <span class="li-normal">v7.4.3->latest</span>
+        </li>
+        <li><span class="li-required">switchcontroller_trafficsniffer_targetport</span> - available versions:
             <span class="li-normal">v7.2.6->v7.2.9</span>,
             <span class="li-normal">v7.4.3->latest</span>
         </li>
@@ -1026,6 +1112,10 @@ Parameters
             <span class="li-normal">v7.4.3->latest</span>
         </li>
         <li><span class="li-required">system_interface_tagging</span> - available versions:
+            <span class="li-normal">v7.2.6->v7.2.9</span>,
+            <span class="li-normal">v7.4.3->latest</span>
+        </li>
+        <li><span class="li-required">system_interface_vrrp</span> - available versions:
             <span class="li-normal">v7.2.6->v7.2.9</span>,
             <span class="li-normal">v7.4.3->latest</span>
         </li>
@@ -2433,6 +2523,12 @@ Parameters
             <li><span class="li-normal">extcommunity-list</span></li>
             <li><span class="li-normal">rule</span></li>
         </ul>
+        <li><span class="li-normal">params for router_isis_isisinterface:</span></li>
+        <ul class="ul-self">
+            <li><span class="li-normal">device</span></li>
+            <li><span class="li-normal">vdom</span></li>
+            <li><span class="li-normal">isis-interface</span></li>
+        </ul>
         <li><span class="li-normal">params for router_isis_isisnet:</span></li>
         <ul class="ul-self">
             <li><span class="li-normal">device</span></li>
@@ -2514,6 +2610,13 @@ Parameters
             <li><span class="li-normal">vdom</span></li>
             <li><span class="li-normal">area</span></li>
         </ul>
+        <li><span class="li-normal">params for router_ospf6_area_ipseckeys:</span></li>
+        <ul class="ul-self">
+            <li><span class="li-normal">device</span></li>
+            <li><span class="li-normal">vdom</span></li>
+            <li><span class="li-normal">area</span></li>
+            <li><span class="li-normal">ipsec-keys</span></li>
+        </ul>
         <li><span class="li-normal">params for router_ospf6_area_range:</span></li>
         <ul class="ul-self">
             <li><span class="li-normal">device</span></li>
@@ -2528,11 +2631,33 @@ Parameters
             <li><span class="li-normal">area</span></li>
             <li><span class="li-normal">virtual-link</span></li>
         </ul>
+        <li><span class="li-normal">params for router_ospf6_area_virtuallink_ipseckeys:</span></li>
+        <ul class="ul-self">
+            <li><span class="li-normal">device</span></li>
+            <li><span class="li-normal">vdom</span></li>
+            <li><span class="li-normal">area</span></li>
+            <li><span class="li-normal">virtual-link</span></li>
+            <li><span class="li-normal">ipsec-keys</span></li>
+        </ul>
         <li><span class="li-normal">params for router_ospf6_ospf6interface:</span></li>
         <ul class="ul-self">
             <li><span class="li-normal">device</span></li>
             <li><span class="li-normal">vdom</span></li>
             <li><span class="li-normal">ospf6-interface</span></li>
+        </ul>
+        <li><span class="li-normal">params for router_ospf6_ospf6interface_ipseckeys:</span></li>
+        <ul class="ul-self">
+            <li><span class="li-normal">device</span></li>
+            <li><span class="li-normal">vdom</span></li>
+            <li><span class="li-normal">ospf6-interface</span></li>
+            <li><span class="li-normal">ipsec-keys</span></li>
+        </ul>
+        <li><span class="li-normal">params for router_ospf6_ospf6interface_neighbor:</span></li>
+        <ul class="ul-self">
+            <li><span class="li-normal">device</span></li>
+            <li><span class="li-normal">vdom</span></li>
+            <li><span class="li-normal">ospf6-interface</span></li>
+            <li><span class="li-normal">neighbor</span></li>
         </ul>
         <li><span class="li-normal">params for router_ospf6_summaryaddress:</span></li>
         <ul class="ul-self">
@@ -2612,6 +2737,18 @@ Parameters
             <li><span class="li-normal">vdom</span></li>
             <li><span class="li-normal">summary-address</span></li>
         </ul>
+        <li><span class="li-normal">params for router_policy:</span></li>
+        <ul class="ul-self">
+            <li><span class="li-normal">device</span></li>
+            <li><span class="li-normal">vdom</span></li>
+            <li><span class="li-normal">policy</span></li>
+        </ul>
+        <li><span class="li-normal">params for router_policy6:</span></li>
+        <ul class="ul-self">
+            <li><span class="li-normal">device</span></li>
+            <li><span class="li-normal">vdom</span></li>
+            <li><span class="li-normal">policy6</span></li>
+        </ul>
         <li><span class="li-normal">params for router_rip_distance:</span></li>
         <ul class="ul-self">
             <li><span class="li-normal">device</span></li>
@@ -2666,6 +2803,12 @@ Parameters
             <li><span class="li-normal">vdom</span></li>
             <li><span class="li-normal">distribute-list</span></li>
         </ul>
+        <li><span class="li-normal">params for router_ripng_interface:</span></li>
+        <ul class="ul-self">
+            <li><span class="li-normal">device</span></li>
+            <li><span class="li-normal">vdom</span></li>
+            <li><span class="li-normal">interface</span></li>
+        </ul>
         <li><span class="li-normal">params for router_ripng_neighbor:</span></li>
         <ul class="ul-self">
             <li><span class="li-normal">device</span></li>
@@ -2683,6 +2826,18 @@ Parameters
             <li><span class="li-normal">device</span></li>
             <li><span class="li-normal">vdom</span></li>
             <li><span class="li-normal">offset-list</span></li>
+        </ul>
+        <li><span class="li-normal">params for router_static:</span></li>
+        <ul class="ul-self">
+            <li><span class="li-normal">device</span></li>
+            <li><span class="li-normal">vdom</span></li>
+            <li><span class="li-normal">static</span></li>
+        </ul>
+        <li><span class="li-normal">params for router_static6:</span></li>
+        <ul class="ul-self">
+            <li><span class="li-normal">device</span></li>
+            <li><span class="li-normal">vdom</span></li>
+            <li><span class="li-normal">static6</span></li>
         </ul>
         <li><span class="li-normal">params for switchcontroller_acl_group:</span></li>
         <ul class="ul-self">
@@ -2702,11 +2857,24 @@ Parameters
             <li><span class="li-normal">vdom</span></li>
             <li><span class="li-normal">custom</span></li>
         </ul>
+        <li><span class="li-normal">params for switchcontroller_autoconfig_custom_switchbinding:</span></li>
+        <ul class="ul-self">
+            <li><span class="li-normal">device</span></li>
+            <li><span class="li-normal">vdom</span></li>
+            <li><span class="li-normal">custom</span></li>
+            <li><span class="li-normal">switch-binding</span></li>
+        </ul>
         <li><span class="li-normal">params for switchcontroller_autoconfig_policy:</span></li>
         <ul class="ul-self">
             <li><span class="li-normal">device</span></li>
             <li><span class="li-normal">vdom</span></li>
             <li><span class="li-normal">policy</span></li>
+        </ul>
+        <li><span class="li-normal">params for switchcontroller_customcommand:</span></li>
+        <ul class="ul-self">
+            <li><span class="li-normal">device</span></li>
+            <li><span class="li-normal">vdom</span></li>
+            <li><span class="li-normal">custom-command</span></li>
         </ul>
         <li><span class="li-normal">params for switchcontroller_dsl_policy:</span></li>
         <ul class="ul-self">
@@ -2796,12 +2964,41 @@ Parameters
             <li><span class="li-normal">vdom</span></li>
             <li><span class="li-normal">managed-switch</span></li>
         </ul>
+        <li><span class="li-normal">params for switchcontroller_managedswitch_customcommand:</span></li>
+        <ul class="ul-self">
+            <li><span class="li-normal">device</span></li>
+            <li><span class="li-normal">vdom</span></li>
+            <li><span class="li-normal">managed-switch</span></li>
+            <li><span class="li-normal">custom-command</span></li>
+        </ul>
         <li><span class="li-normal">params for switchcontroller_managedswitch_dhcpsnoopingstaticclient:</span></li>
         <ul class="ul-self">
             <li><span class="li-normal">device</span></li>
             <li><span class="li-normal">vdom</span></li>
             <li><span class="li-normal">managed-switch</span></li>
             <li><span class="li-normal">dhcp-snooping-static-client</span></li>
+        </ul>
+        <li><span class="li-normal">params for switchcontroller_managedswitch_igmpsnooping_vlans:</span></li>
+        <ul class="ul-self">
+            <li><span class="li-normal">device</span></li>
+            <li><span class="li-normal">vdom</span></li>
+            <li><span class="li-normal">managed-switch</span></li>
+            <li><span class="li-normal">vlans</span></li>
+        </ul>
+        <li><span class="li-normal">params for switchcontroller_managedswitch_ipsourceguard:</span></li>
+        <ul class="ul-self">
+            <li><span class="li-normal">device</span></li>
+            <li><span class="li-normal">vdom</span></li>
+            <li><span class="li-normal">managed-switch</span></li>
+            <li><span class="li-normal">ip-source-guard</span></li>
+        </ul>
+        <li><span class="li-normal">params for switchcontroller_managedswitch_ipsourceguard_bindingentry:</span></li>
+        <ul class="ul-self">
+            <li><span class="li-normal">device</span></li>
+            <li><span class="li-normal">vdom</span></li>
+            <li><span class="li-normal">managed-switch</span></li>
+            <li><span class="li-normal">ip-source-guard</span></li>
+            <li><span class="li-normal">binding-entry</span></li>
         </ul>
         <li><span class="li-normal">params for switchcontroller_managedswitch_mirror:</span></li>
         <ul class="ul-self">
@@ -2810,12 +3007,27 @@ Parameters
             <li><span class="li-normal">managed-switch</span></li>
             <li><span class="li-normal">mirror</span></li>
         </ul>
+        <li><span class="li-normal">params for switchcontroller_managedswitch_ports_dhcpsnoopoption82override:</span></li>
+        <ul class="ul-self">
+            <li><span class="li-normal">device</span></li>
+            <li><span class="li-normal">vdom</span></li>
+            <li><span class="li-normal">managed-switch</span></li>
+            <li><span class="li-normal">ports</span></li>
+            <li><span class="li-normal">dhcp-snoop-option82-override</span></li>
+        </ul>
         <li><span class="li-normal">params for switchcontroller_managedswitch_remotelog:</span></li>
         <ul class="ul-self">
             <li><span class="li-normal">device</span></li>
             <li><span class="li-normal">vdom</span></li>
             <li><span class="li-normal">managed-switch</span></li>
             <li><span class="li-normal">remote-log</span></li>
+        </ul>
+        <li><span class="li-normal">params for switchcontroller_managedswitch_routeoffloadrouter:</span></li>
+        <ul class="ul-self">
+            <li><span class="li-normal">device</span></li>
+            <li><span class="li-normal">vdom</span></li>
+            <li><span class="li-normal">managed-switch</span></li>
+            <li><span class="li-normal">route-offload-router</span></li>
         </ul>
         <li><span class="li-normal">params for switchcontroller_managedswitch_snmpcommunity:</span></li>
         <ul class="ul-self">
@@ -2852,6 +3064,13 @@ Parameters
             <li><span class="li-normal">vdom</span></li>
             <li><span class="li-normal">managed-switch</span></li>
             <li><span class="li-normal">stp-instance</span></li>
+        </ul>
+        <li><span class="li-normal">params for switchcontroller_managedswitch_vlan:</span></li>
+        <ul class="ul-self">
+            <li><span class="li-normal">device</span></li>
+            <li><span class="li-normal">vdom</span></li>
+            <li><span class="li-normal">managed-switch</span></li>
+            <li><span class="li-normal">vlan</span></li>
         </ul>
         <li><span class="li-normal">params for switchcontroller_nacdevice:</span></li>
         <ul class="ul-self">
@@ -2999,6 +3218,24 @@ Parameters
             <li><span class="li-normal">device</span></li>
             <li><span class="li-normal">vdom</span></li>
             <li><span class="li-normal">traffic-policy</span></li>
+        </ul>
+        <li><span class="li-normal">params for switchcontroller_trafficsniffer_targetip:</span></li>
+        <ul class="ul-self">
+            <li><span class="li-normal">device</span></li>
+            <li><span class="li-normal">vdom</span></li>
+            <li><span class="li-normal">target-ip</span></li>
+        </ul>
+        <li><span class="li-normal">params for switchcontroller_trafficsniffer_targetmac:</span></li>
+        <ul class="ul-self">
+            <li><span class="li-normal">device</span></li>
+            <li><span class="li-normal">vdom</span></li>
+            <li><span class="li-normal">target-mac</span></li>
+        </ul>
+        <li><span class="li-normal">params for switchcontroller_trafficsniffer_targetport:</span></li>
+        <ul class="ul-self">
+            <li><span class="li-normal">device</span></li>
+            <li><span class="li-normal">vdom</span></li>
+            <li><span class="li-normal">target-port</span></li>
         </ul>
         <li><span class="li-normal">params for switchcontroller_virtualportpool:</span></li>
         <ul class="ul-self">
@@ -3267,6 +3504,12 @@ Parameters
             <li><span class="li-normal">device</span></li>
             <li><span class="li-normal">interface</span></li>
             <li><span class="li-normal">tagging</span></li>
+        </ul>
+        <li><span class="li-normal">params for system_interface_vrrp:</span></li>
+        <ul class="ul-self">
+            <li><span class="li-normal">device</span></li>
+            <li><span class="li-normal">interface</span></li>
+            <li><span class="li-normal">vrrp</span></li>
         </ul>
         <li><span class="li-normal">params for system_interface_vrrp_proxyarp:</span></li>
         <ul class="ul-self">
@@ -4495,7 +4738,7 @@ Parameters
         <li><span class="li-normal">params for endpointcontrol_fctemsoverride:</span></li>
         <ul class="ul-self">
             
-            <li><span class="li-normal">required primary key: <b>name</b> </span></li>
+            <li><span class="li-normal">required primary key: <b>ems_id</b> </span></li>
             <li><span class="li-normal">optional params list: <a href="docgen/fmgd_endpointcontrol_fctemsoverride.html#parameters">fmgd_endpointcontrol_fctemsoverride</a> </span></li>
         </ul>
         <li><span class="li-normal">params for extendercontroller_extender:</span></li>
@@ -4507,7 +4750,7 @@ Parameters
         <li><span class="li-normal">params for extensioncontroller_extender:</span></li>
         <ul class="ul-self">
             
-            <li><span class="li-normal">required primary key: <b>id</b> </span></li>
+            <li><span class="li-normal">required primary key: <b>name</b> </span></li>
             <li><span class="li-normal">optional params list: <a href="docgen/fmgd_extensioncontroller_extender.html#parameters">fmgd_extensioncontroller_extender</a> </span></li>
         </ul>
         <li><span class="li-normal">params for extensioncontroller_extendervap:</span></li>
@@ -4519,7 +4762,7 @@ Parameters
         <li><span class="li-normal">params for extensioncontroller_fortigate:</span></li>
         <ul class="ul-self">
             
-            <li><span class="li-normal">required primary key: <b>id</b> </span></li>
+            <li><span class="li-normal">required primary key: <b>name</b> </span></li>
             <li><span class="li-normal">optional params list: <a href="docgen/fmgd_extensioncontroller_fortigate.html#parameters">fmgd_extensioncontroller_fortigate</a> </span></li>
         </ul>
         <li><span class="li-normal">params for extensioncontroller_fortigateprofile:</span></li>
@@ -5092,6 +5335,12 @@ Parameters
             <li><span class="li-normal">required primary key: <b>id</b> </span></li>
             <li><span class="li-normal">optional params list: <a href="docgen/fmgd_router_extcommunitylist_rule.html#parameters">fmgd_router_extcommunitylist_rule</a> </span></li>
         </ul>
+        <li><span class="li-normal">params for router_isis_isisinterface:</span></li>
+        <ul class="ul-self">
+            
+            <li><span class="li-normal">required primary key: <b>name</b> </span></li>
+            <li><span class="li-normal">optional params list: <a href="docgen/fmgd_router_isis_isisinterface.html#parameters">fmgd_router_isis_isisinterface</a> </span></li>
+        </ul>
         <li><span class="li-normal">params for router_isis_isisnet:</span></li>
         <ul class="ul-self">
             
@@ -5170,6 +5419,12 @@ Parameters
             <li><span class="li-normal">required primary key: <b>id</b> </span></li>
             <li><span class="li-normal">optional params list: <a href="docgen/fmgd_router_ospf6_area.html#parameters">fmgd_router_ospf6_area</a> </span></li>
         </ul>
+        <li><span class="li-normal">params for router_ospf6_area_ipseckeys:</span></li>
+        <ul class="ul-self">
+            
+            <li><span class="li-normal">required primary key: <b>spi</b> </span></li>
+            <li><span class="li-normal">optional params list: <a href="docgen/fmgd_router_ospf6_area_ipseckeys.html#parameters">fmgd_router_ospf6_area_ipseckeys</a> </span></li>
+        </ul>
         <li><span class="li-normal">params for router_ospf6_area_range:</span></li>
         <ul class="ul-self">
             
@@ -5182,11 +5437,29 @@ Parameters
             <li><span class="li-normal">required primary key: <b>name</b> </span></li>
             <li><span class="li-normal">optional params list: <a href="docgen/fmgd_router_ospf6_area_virtuallink.html#parameters">fmgd_router_ospf6_area_virtuallink</a> </span></li>
         </ul>
+        <li><span class="li-normal">params for router_ospf6_area_virtuallink_ipseckeys:</span></li>
+        <ul class="ul-self">
+            
+            <li><span class="li-normal">required primary key: <b>spi</b> </span></li>
+            <li><span class="li-normal">optional params list: <a href="docgen/fmgd_router_ospf6_area_virtuallink_ipseckeys.html#parameters">fmgd_router_ospf6_area_virtuallink_ipseckeys</a> </span></li>
+        </ul>
         <li><span class="li-normal">params for router_ospf6_ospf6interface:</span></li>
         <ul class="ul-self">
             
             <li><span class="li-normal">required primary key: <b>name</b> </span></li>
             <li><span class="li-normal">optional params list: <a href="docgen/fmgd_router_ospf6_ospf6interface.html#parameters">fmgd_router_ospf6_ospf6interface</a> </span></li>
+        </ul>
+        <li><span class="li-normal">params for router_ospf6_ospf6interface_ipseckeys:</span></li>
+        <ul class="ul-self">
+            
+            <li><span class="li-normal">required primary key: <b>spi</b> </span></li>
+            <li><span class="li-normal">optional params list: <a href="docgen/fmgd_router_ospf6_ospf6interface_ipseckeys.html#parameters">fmgd_router_ospf6_ospf6interface_ipseckeys</a> </span></li>
+        </ul>
+        <li><span class="li-normal">params for router_ospf6_ospf6interface_neighbor:</span></li>
+        <ul class="ul-self">
+            
+            <li><span class="li-normal">required primary key: <b>ip6</b> </span></li>
+            <li><span class="li-normal">optional params list: <a href="docgen/fmgd_router_ospf6_ospf6interface_neighbor.html#parameters">fmgd_router_ospf6_ospf6interface_neighbor</a> </span></li>
         </ul>
         <li><span class="li-normal">params for router_ospf6_summaryaddress:</span></li>
         <ul class="ul-self">
@@ -5260,6 +5533,18 @@ Parameters
             <li><span class="li-normal">required primary key: <b>id</b> </span></li>
             <li><span class="li-normal">optional params list: <a href="docgen/fmgd_router_ospf_summaryaddress.html#parameters">fmgd_router_ospf_summaryaddress</a> </span></li>
         </ul>
+        <li><span class="li-normal">params for router_policy:</span></li>
+        <ul class="ul-self">
+            
+            <li><span class="li-normal">required primary key: <b>seq_num</b> </span></li>
+            <li><span class="li-normal">optional params list: <a href="docgen/fmgd_router_policy.html#parameters">fmgd_router_policy</a> </span></li>
+        </ul>
+        <li><span class="li-normal">params for router_policy6:</span></li>
+        <ul class="ul-self">
+            
+            <li><span class="li-normal">required primary key: <b>seq_num</b> </span></li>
+            <li><span class="li-normal">optional params list: <a href="docgen/fmgd_router_policy6.html#parameters">fmgd_router_policy6</a> </span></li>
+        </ul>
         <li><span class="li-normal">params for router_rip_distance:</span></li>
         <ul class="ul-self">
             
@@ -5314,6 +5599,12 @@ Parameters
             <li><span class="li-normal">required primary key: <b>id</b> </span></li>
             <li><span class="li-normal">optional params list: <a href="docgen/fmgd_router_ripng_distributelist.html#parameters">fmgd_router_ripng_distributelist</a> </span></li>
         </ul>
+        <li><span class="li-normal">params for router_ripng_interface:</span></li>
+        <ul class="ul-self">
+            
+            <li><span class="li-normal">required primary key: <b>name</b> </span></li>
+            <li><span class="li-normal">optional params list: <a href="docgen/fmgd_router_ripng_interface.html#parameters">fmgd_router_ripng_interface</a> </span></li>
+        </ul>
         <li><span class="li-normal">params for router_ripng_neighbor:</span></li>
         <ul class="ul-self">
             
@@ -5331,6 +5622,18 @@ Parameters
             
             <li><span class="li-normal">required primary key: <b>id</b> </span></li>
             <li><span class="li-normal">optional params list: <a href="docgen/fmgd_router_ripng_offsetlist.html#parameters">fmgd_router_ripng_offsetlist</a> </span></li>
+        </ul>
+        <li><span class="li-normal">params for router_static:</span></li>
+        <ul class="ul-self">
+            
+            <li><span class="li-normal">required primary key: <b>seq_num</b> </span></li>
+            <li><span class="li-normal">optional params list: <a href="docgen/fmgd_router_static.html#parameters">fmgd_router_static</a> </span></li>
+        </ul>
+        <li><span class="li-normal">params for router_static6:</span></li>
+        <ul class="ul-self">
+            
+            <li><span class="li-normal">required primary key: <b>seq_num</b> </span></li>
+            <li><span class="li-normal">optional params list: <a href="docgen/fmgd_router_static6.html#parameters">fmgd_router_static6</a> </span></li>
         </ul>
         <li><span class="li-normal">params for switchcontroller_acl_group:</span></li>
         <ul class="ul-self">
@@ -5350,11 +5653,23 @@ Parameters
             <li><span class="li-normal">required primary key: <b>name</b> </span></li>
             <li><span class="li-normal">optional params list: <a href="docgen/fmgd_switchcontroller_autoconfig_custom.html#parameters">fmgd_switchcontroller_autoconfig_custom</a> </span></li>
         </ul>
+        <li><span class="li-normal">params for switchcontroller_autoconfig_custom_switchbinding:</span></li>
+        <ul class="ul-self">
+            
+            <li><span class="li-normal">required primary key: <b>switch_id</b> </span></li>
+            <li><span class="li-normal">optional params list: <a href="docgen/fmgd_switchcontroller_autoconfig_custom_switchbinding.html#parameters">fmgd_switchcontroller_autoconfig_custom_switchbinding</a> </span></li>
+        </ul>
         <li><span class="li-normal">params for switchcontroller_autoconfig_policy:</span></li>
         <ul class="ul-self">
             
             <li><span class="li-normal">required primary key: <b>name</b> </span></li>
             <li><span class="li-normal">optional params list: <a href="docgen/fmgd_switchcontroller_autoconfig_policy.html#parameters">fmgd_switchcontroller_autoconfig_policy</a> </span></li>
+        </ul>
+        <li><span class="li-normal">params for switchcontroller_customcommand:</span></li>
+        <ul class="ul-self">
+            
+            <li><span class="li-normal">required primary key: <b>command_name</b> </span></li>
+            <li><span class="li-normal">optional params list: <a href="docgen/fmgd_switchcontroller_customcommand.html#parameters">fmgd_switchcontroller_customcommand</a> </span></li>
         </ul>
         <li><span class="li-normal">params for switchcontroller_dsl_policy:</span></li>
         <ul class="ul-self">
@@ -5437,8 +5752,14 @@ Parameters
         <li><span class="li-normal">params for switchcontroller_managedswitch:</span></li>
         <ul class="ul-self">
             
-            <li><span class="li-normal">required primary key: <b>name</b> </span></li>
+            <li><span class="li-normal">required primary key: <b>switch_id</b> </span></li>
             <li><span class="li-normal">optional params list: <a href="docgen/fmgd_switchcontroller_managedswitch.html#parameters">fmgd_switchcontroller_managedswitch</a> </span></li>
+        </ul>
+        <li><span class="li-normal">params for switchcontroller_managedswitch_customcommand:</span></li>
+        <ul class="ul-self">
+            
+            <li><span class="li-normal">required primary key: <b>command_entry</b> </span></li>
+            <li><span class="li-normal">optional params list: <a href="docgen/fmgd_switchcontroller_managedswitch_customcommand.html#parameters">fmgd_switchcontroller_managedswitch_customcommand</a> </span></li>
         </ul>
         <li><span class="li-normal">params for switchcontroller_managedswitch_dhcpsnoopingstaticclient:</span></li>
         <ul class="ul-self">
@@ -5446,17 +5767,47 @@ Parameters
             <li><span class="li-normal">required primary key: <b>name</b> </span></li>
             <li><span class="li-normal">optional params list: <a href="docgen/fmgd_switchcontroller_managedswitch_dhcpsnoopingstaticclient.html#parameters">fmgd_switchcontroller_managedswitch_dhcpsnoopingstaticclient</a> </span></li>
         </ul>
+        <li><span class="li-normal">params for switchcontroller_managedswitch_igmpsnooping_vlans:</span></li>
+        <ul class="ul-self">
+            
+            <li><span class="li-normal">required primary key: <b>vlan_name</b> </span></li>
+            <li><span class="li-normal">optional params list: <a href="docgen/fmgd_switchcontroller_managedswitch_igmpsnooping_vlans.html#parameters">fmgd_switchcontroller_managedswitch_igmpsnooping_vlans</a> </span></li>
+        </ul>
+        <li><span class="li-normal">params for switchcontroller_managedswitch_ipsourceguard:</span></li>
+        <ul class="ul-self">
+            
+            <li><span class="li-normal">required primary key: <b>port</b> </span></li>
+            <li><span class="li-normal">optional params list: <a href="docgen/fmgd_switchcontroller_managedswitch_ipsourceguard.html#parameters">fmgd_switchcontroller_managedswitch_ipsourceguard</a> </span></li>
+        </ul>
+        <li><span class="li-normal">params for switchcontroller_managedswitch_ipsourceguard_bindingentry:</span></li>
+        <ul class="ul-self">
+            
+            <li><span class="li-normal">required primary key: <b>entry_name</b> </span></li>
+            <li><span class="li-normal">optional params list: <a href="docgen/fmgd_switchcontroller_managedswitch_ipsourceguard_bindingentry.html#parameters">fmgd_switchcontroller_managedswitch_ipsourceguard_bindingentry</a> </span></li>
+        </ul>
         <li><span class="li-normal">params for switchcontroller_managedswitch_mirror:</span></li>
         <ul class="ul-self">
             
             <li><span class="li-normal">required primary key: <b>name</b> </span></li>
             <li><span class="li-normal">optional params list: <a href="docgen/fmgd_switchcontroller_managedswitch_mirror.html#parameters">fmgd_switchcontroller_managedswitch_mirror</a> </span></li>
         </ul>
+        <li><span class="li-normal">params for switchcontroller_managedswitch_ports_dhcpsnoopoption82override:</span></li>
+        <ul class="ul-self">
+            
+            <li><span class="li-normal">required primary key: <b>vlan_name</b> </span></li>
+            <li><span class="li-normal">optional params list: <a href="docgen/fmgd_switchcontroller_managedswitch_ports_dhcpsnoopoption82override.html#parameters">fmgd_switchcontroller_managedswitch_ports_dhcpsnoopoption82override</a> </span></li>
+        </ul>
         <li><span class="li-normal">params for switchcontroller_managedswitch_remotelog:</span></li>
         <ul class="ul-self">
             
             <li><span class="li-normal">required primary key: <b>name</b> </span></li>
             <li><span class="li-normal">optional params list: <a href="docgen/fmgd_switchcontroller_managedswitch_remotelog.html#parameters">fmgd_switchcontroller_managedswitch_remotelog</a> </span></li>
+        </ul>
+        <li><span class="li-normal">params for switchcontroller_managedswitch_routeoffloadrouter:</span></li>
+        <ul class="ul-self">
+            
+            <li><span class="li-normal">required primary key: <b>vlan_name</b> </span></li>
+            <li><span class="li-normal">optional params list: <a href="docgen/fmgd_switchcontroller_managedswitch_routeoffloadrouter.html#parameters">fmgd_switchcontroller_managedswitch_routeoffloadrouter</a> </span></li>
         </ul>
         <li><span class="li-normal">params for switchcontroller_managedswitch_snmpcommunity:</span></li>
         <ul class="ul-self">
@@ -5487,6 +5838,12 @@ Parameters
             
             <li><span class="li-normal">required primary key: <b>id</b> </span></li>
             <li><span class="li-normal">optional params list: <a href="docgen/fmgd_switchcontroller_managedswitch_stpinstance.html#parameters">fmgd_switchcontroller_managedswitch_stpinstance</a> </span></li>
+        </ul>
+        <li><span class="li-normal">params for switchcontroller_managedswitch_vlan:</span></li>
+        <ul class="ul-self">
+            
+            <li><span class="li-normal">required primary key: <b>vlan_name</b> </span></li>
+            <li><span class="li-normal">optional params list: <a href="docgen/fmgd_switchcontroller_managedswitch_vlan.html#parameters">fmgd_switchcontroller_managedswitch_vlan</a> </span></li>
         </ul>
         <li><span class="li-normal">params for switchcontroller_nacdevice:</span></li>
         <ul class="ul-self">
@@ -5629,8 +5986,26 @@ Parameters
         <li><span class="li-normal">params for switchcontroller_trafficpolicy:</span></li>
         <ul class="ul-self">
             
-            <li><span class="li-normal">required primary key: <b>id</b> </span></li>
+            <li><span class="li-normal">required primary key: <b>name</b> </span></li>
             <li><span class="li-normal">optional params list: <a href="docgen/fmgd_switchcontroller_trafficpolicy.html#parameters">fmgd_switchcontroller_trafficpolicy</a> </span></li>
+        </ul>
+        <li><span class="li-normal">params for switchcontroller_trafficsniffer_targetip:</span></li>
+        <ul class="ul-self">
+            
+            <li><span class="li-normal">required primary key: <b>ip</b> </span></li>
+            <li><span class="li-normal">optional params list: <a href="docgen/fmgd_switchcontroller_trafficsniffer_targetip.html#parameters">fmgd_switchcontroller_trafficsniffer_targetip</a> </span></li>
+        </ul>
+        <li><span class="li-normal">params for switchcontroller_trafficsniffer_targetmac:</span></li>
+        <ul class="ul-self">
+            
+            <li><span class="li-normal">required primary key: <b>mac</b> </span></li>
+            <li><span class="li-normal">optional params list: <a href="docgen/fmgd_switchcontroller_trafficsniffer_targetmac.html#parameters">fmgd_switchcontroller_trafficsniffer_targetmac</a> </span></li>
+        </ul>
+        <li><span class="li-normal">params for switchcontroller_trafficsniffer_targetport:</span></li>
+        <ul class="ul-self">
+            
+            <li><span class="li-normal">required primary key: <b>switch_id</b> </span></li>
+            <li><span class="li-normal">optional params list: <a href="docgen/fmgd_switchcontroller_trafficsniffer_targetport.html#parameters">fmgd_switchcontroller_trafficsniffer_targetport</a> </span></li>
         </ul>
         <li><span class="li-normal">params for switchcontroller_virtualportpool:</span></li>
         <ul class="ul-self">
@@ -5920,6 +6295,12 @@ Parameters
             <li><span class="li-normal">required primary key: <b>name</b> </span></li>
             <li><span class="li-normal">optional params list: <a href="docgen/fmgd_system_interface_tagging.html#parameters">fmgd_system_interface_tagging</a> </span></li>
         </ul>
+        <li><span class="li-normal">params for system_interface_vrrp:</span></li>
+        <ul class="ul-self">
+            
+            <li><span class="li-normal">required primary key: <b>vrid</b> </span></li>
+            <li><span class="li-normal">optional params list: <a href="docgen/fmgd_system_interface_vrrp.html#parameters">fmgd_system_interface_vrrp</a> </span></li>
+        </ul>
         <li><span class="li-normal">params for system_interface_vrrp_proxyarp:</span></li>
         <ul class="ul-self">
             
@@ -6061,7 +6442,7 @@ Parameters
         <li><span class="li-normal">params for system_pcpserver_pools:</span></li>
         <ul class="ul-self">
             
-            <li><span class="li-normal">required primary key: <b>id</b> </span></li>
+            <li><span class="li-normal">required primary key: <b>name</b> </span></li>
             <li><span class="li-normal">optional params list: <a href="docgen/fmgd_system_pcpserver_pools.html#parameters">fmgd_system_pcpserver_pools</a> </span></li>
         </ul>
         <li><span class="li-normal">params for system_physicalswitch:</span></li>

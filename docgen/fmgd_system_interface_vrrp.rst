@@ -191,6 +191,7 @@ Examples
           interface: <your own value>
           state: present # <value in [present, absent]>
           system_interface_vrrp:
+            vrid: 0 # Required variable, integer
             # accept_mode: <value in [disable, enable]>
             # adv_interval: <integer>
             # ignore_default_route: <value in [disable, enable]>
@@ -205,7 +206,6 @@ Examples
             # vrdst: <list or string>
             # vrdst_priority: <integer>
             # vrgrp: <integer>
-            # vrid: <integer>
             # vrip: <string>
 
 

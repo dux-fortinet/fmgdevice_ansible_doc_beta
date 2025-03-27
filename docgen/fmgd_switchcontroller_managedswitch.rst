@@ -1879,7 +1879,7 @@ Examples
           vdom: <your own value>
           state: present # <value in [present, absent]>
           switchcontroller_managedswitch:
-            name: "your value" # Required variable, string
+            switch_id: "your value" # Required variable, string
             # 802_1X_settings:
             #   link_down_auth: <value in [set-unauth, no-action]>
             #   local_override: <value in [disable, enable]>
@@ -2161,7 +2161,6 @@ Examples
             #   status: <value in [disable, enable]>
             # switch_device_tag: <string>
             # switch_dhcp_opt43_key: <string>
-            # switch_id: <string>
             # switch_log:
             #   local_override: <value in [disable, enable]>
             #   severity: <value in [emergency, alert, critical, ...]>
@@ -2174,6 +2173,7 @@ Examples
             # vlan:
             #   - assignment_priority: <integer>
             #     vlan_name: <list or string>
+            # name: <string>
             # poe_lldp_detection: <value in [disable, enable]>
 
 

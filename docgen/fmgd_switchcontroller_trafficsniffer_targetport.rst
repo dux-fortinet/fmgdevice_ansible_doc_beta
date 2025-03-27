@@ -117,10 +117,10 @@ Examples
           vdom: <your own value>
           state: present # <value in [present, absent]>
           switchcontroller_trafficsniffer_targetport:
+            switch_id: # Required variable, list of device
             # description: <string>
             # in_ports: <list or string>
             # out_ports: <list or string>
-            # switch_id: <list or string>
 
 
 Return Values

@@ -111,8 +111,8 @@ Examples
           vdom: <your own value>
           state: present # <value in [present, absent]>
           switchcontroller_customcommand:
+            command_name: "your value" # Required variable, string
             # command: <string>
-            # command_name: <string>
             # description: <string>
 
 

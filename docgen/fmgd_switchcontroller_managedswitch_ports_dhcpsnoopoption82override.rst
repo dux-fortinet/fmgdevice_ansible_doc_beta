@@ -115,9 +115,9 @@ Examples
           ports: <your own value>
           state: present # <value in [present, absent]>
           switchcontroller_managedswitch_ports_dhcpsnoopoption82override:
+            vlan_name: # Required variable, list of device
             # circuit_id: <string>
             # remote_id: <string>
-            # vlan_name: <list or string>
 
 
 Return Values

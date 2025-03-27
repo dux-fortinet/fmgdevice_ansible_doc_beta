@@ -117,8 +117,8 @@ Examples
           vdom: <your own value>
           state: present # <value in [present, absent]>
           router_ripng_interface:
+            name: # Required variable, list of device
             # flags: <integer>
-            # name: <list or string>
             # split_horizon: <value in [poisoned, regular]>
             # split_horizon_status: <value in [disable, enable]>
 

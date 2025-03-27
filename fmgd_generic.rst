@@ -4,8 +4,8 @@
 
 .. _fmgd_generic:
 
-fmgd_generic -- The Generic FortiManager module.
-+++++++++++++++++++++++++++++++++++++++++++++++++
+fmgd_generic -- The Generic FortiManager Device module.
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 .. versionadded:: 1.0.0
 
@@ -78,7 +78,7 @@ Examples
       ansible_httpapi_port: 443
     tasks:
       - name: Login a user
-        fortinet.fortimanager.fmgd_generic:
+        fortinet.fmgdevice.fmgd_generic:
           method: "exec"
           params:
             - url: "sys/login/user"
@@ -86,7 +86,7 @@ Examples
                 - user: "APIUser"
                   passwd: "Fortinet1!e"
       - name: Login another user
-        fortinet.fortimanager.fmgd_generic:
+        fortinet.fmgdevice.fmgd_generic:
           json: |
             {
              "method":"exec",

@@ -115,7 +115,7 @@ Examples
           ip_source_guard: <your own value>
           state: present # <value in [present, absent]>
           switchcontroller_managedswitch_ipsourceguard_bindingentry:
-            # entry_name: <string>
+            entry_name: "your value" # Required variable, string
             # ip: <string>
             # mac: <string>
 

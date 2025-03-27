@@ -113,9 +113,9 @@ Examples
           ospf6_interface: <your own value>
           state: present # <value in [present, absent]>
           router_ospf6_ospf6interface_ipseckeys:
+            spi: 0 # Required variable, integer
             # auth_key: <list or string>
             # enc_key: <list or string>
-            # spi: <integer>
 
 
 Return Values

@@ -107,7 +107,7 @@ Examples
           managed_switch: <your own value>
           state: present # <value in [present, absent]>
           switchcontroller_managedswitch_customcommand:
-            # command_entry: <string>
+            command_entry: "your value" # Required variable, string
             # command_name: <list or string>
 
 

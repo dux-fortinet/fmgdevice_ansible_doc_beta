@@ -231,6 +231,7 @@ Examples
           vdom: <your own value>
           state: present # <value in [present, absent]>
           router_policy6:
+            seq_num: 0 # Required variable, integer
             # action: <value in [permit, deny]>
             # comments: <string>
             # dst: <list or string>
@@ -245,7 +246,6 @@ Examples
             # internet_service_id: <list or string>
             # output_device: <list or string>
             # protocol: <integer>
-            # seq_num: <integer>
             # src: <list or string>
             # src_negate: <value in [disable, enable]>
             # srcaddr: <list or string>

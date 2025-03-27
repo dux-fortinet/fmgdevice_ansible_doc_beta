@@ -107,8 +107,8 @@ Examples
           managed_switch: <your own value>
           state: present # <value in [present, absent]>
           switchcontroller_managedswitch_vlan:
+            vlan_name: # Required variable, list of device
             # assignment_priority: <integer>
-            # vlan_name: <list or string>
 
 
 Return Values

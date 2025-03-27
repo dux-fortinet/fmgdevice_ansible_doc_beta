@@ -213,6 +213,7 @@ Examples
           vdom: <your own value>
           state: present # <value in [present, absent]>
           router_static6:
+            seq_num: 0 # Required variable, integer
             # bfd: <value in [disable, enable]>
             # blackhole: <value in [disable, enable]>
             # comment: <string>
@@ -226,7 +227,6 @@ Examples
             # link_monitor_exempt: <value in [disable, enable]>
             # priority: <integer>
             # sdwan_zone: <list or string>
-            # seq_num: <integer>
             # status: <value in [disable, enable]>
             # vrf: <string>
             # weight: <integer>

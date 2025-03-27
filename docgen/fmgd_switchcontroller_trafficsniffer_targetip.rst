@@ -117,8 +117,8 @@ Examples
           vdom: <your own value>
           state: present # <value in [present, absent]>
           switchcontroller_trafficsniffer_targetip:
+            ip: "your value" # Required variable, string
             # description: <string>
-            # ip: <string>
             # src_entry_id: <integer>
             # dst_entry_id: <integer>
 

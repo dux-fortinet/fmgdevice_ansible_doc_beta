@@ -112,7 +112,7 @@ Parameters
  <li><span class="li-head">coordinating_fortiproxy</span> <b>(Alias name: coordinating-fortiproxy)</b>  Coordinating fortiproxy. <span class="li-normal">type: str</span>
  <a id='label18' href="javascript:ContentClick('label19', 'label18');" onmouseover="ContentPreview('label19');" onmouseout="ContentUnpreview('label19');" title="click to collapse or expand..."> more... </a>
  <div id="label19" style="display:none">
- <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.6.4 -> latest</code></p>
+ <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.4.8 -> v7.4.8</code>, <code class="docutils literal notranslate">v7.6.4 -> latest</code></p>
  </div>
  </li>
  <li><span class="li-head">allow_download</span> <b>(Alias name: allow-download)</b>  Enable/disable download firmware images. <span class="li-normal">type: str</span> <span class="li-normal">choices: [disable, enable]</span> 

@@ -85,6 +85,12 @@ Parameters
  <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.2.6 -> v7.2.11</code>, <code class="docutils literal notranslate">v7.4.3 -> latest</code></p>
  </div>
  </li>
+ <li><span class="li-head">packet_capture</span> <b>(Alias name: packet-capture)</b>  Packet capture configuration. <span class="li-normal">type: str</span> <span class="li-normal">choices: [none, read, read-write]</span> 
+ <a id='label10' href="javascript:ContentClick('label11', 'label10');" onmouseover="ContentPreview('label11');" onmouseout="ContentUnpreview('label11');" title="click to collapse or expand..."> more... </a>
+ <div id="label11" style="display:none">
+ <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.4.8 -> v7.4.8</code></p>
+ </div>
+ </li>
  </ul>
  </ul>
 
@@ -127,6 +133,7 @@ Examples
             # policy: <value in [none, read, read-write]>
             # schedule: <value in [none, read, read-write]>
             # service: <value in [none, read, read-write]>
+            # packet_capture: <value in [none, read, read-write]>
 
 
 Return Values

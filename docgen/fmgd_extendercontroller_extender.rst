@@ -734,6 +734,12 @@ Parameters
  <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.2.6 -> v7.2.11</code>, <code class="docutils literal notranslate">v7.4.3 -> latest</code></p>
  </div>
  </li>
+ <li><span class="li-head">_prefer_img_ver</span> <b>(Alias name: _prefer-img-ver)</b>  Prefer img ver. <span class="li-normal">type: str</span>
+ <a id='label222' href="javascript:ContentClick('label223', 'label222');" onmouseover="ContentPreview('label223');" onmouseout="ContentUnpreview('label223');" title="click to collapse or expand..."> more... </a>
+ <div id="label223" style="display:none">
+ <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.4.8 -> v7.4.8</code></p>
+ </div>
+ </li>
  </ul>
  </ul>
 
@@ -893,6 +899,7 @@ Examples
             # quota_limit_mb: <integer>
             # admin: <value in [disable, enable, discovered]>
             # conn_status: <integer>
+            # _prefer_img_ver: <string>
 
 
 Return Values

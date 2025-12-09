@@ -135,7 +135,7 @@ Parameters
  <li><span class="li-head">login_lockout_upon_downgrade</span> <b>(Alias name: login-lockout-upon-downgrade)</b>  Enable/disable administrative user login lockout upon downgrade (defaut = disable). <span class="li-normal">type: str</span> <span class="li-normal">choices: [disable, enable]</span> 
  <a id='label26' href="javascript:ContentClick('label27', 'label26');" onmouseover="ContentPreview('label27');" onmouseout="ContentUnpreview('label27');" title="click to collapse or expand..."> more... </a>
  <div id="label27" style="display:none">
- <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.2.10 -> v7.2.11</code>, <code class="docutils literal notranslate">v7.4.7 -> v7.4.7</code>, <code class="docutils literal notranslate">v7.6.2 -> latest</code></p>
+ <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.2.10 -> v7.2.11</code>, <code class="docutils literal notranslate">v7.4.7 -> v7.4.8</code>, <code class="docutils literal notranslate">v7.6.2 -> latest</code></p>
  </div>
  </li>
  <li><span class="li-head">login_lockout_upon_weaker_encryption</span> <b>(Alias name: login-lockout-upon-weaker-encryption)</b>  Enable/disable administrative user login lockout upon downgrade (defaut = disable). <span class="li-normal">type: str</span> <span class="li-normal">choices: [disable, enable]</span> 
@@ -144,10 +144,10 @@ Parameters
  <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.6.3 -> latest</code></p>
  </div>
  </li>
- <li><span class="li-head">password_history</span> <b>(Alias name: password-history)</b>  Password history. <span class="li-normal">type: int</span>
+ <li><span class="li-head">password_history</span> <b>(Alias name: password-history)</b>  Number of previous passwords that cannot be reused. <span class="li-normal">type: int</span>
  <a id='label30' href="javascript:ContentClick('label31', 'label30');" onmouseover="ContentPreview('label31');" onmouseout="ContentUnpreview('label31');" title="click to collapse or expand..."> more... </a>
  <div id="label31" style="display:none">
- <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.6.4 -> latest</code></p>
+ <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.4.8 -> v7.4.8</code>, <code class="docutils literal notranslate">v7.6.4 -> latest</code></p>
  </div>
  </li>
  </ul>

@@ -432,7 +432,7 @@ Parameters
  <li><span class="li-head">password</span> Password. <span class="li-normal">type: list</span>
  <a id='label124' href="javascript:ContentClick('label125', 'label124');" onmouseover="ContentPreview('label125');" onmouseout="ContentUnpreview('label125');" title="click to collapse or expand..."> more... </a>
  <div id="label125" style="display:none">
- <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.6.4 -> latest</code></p>
+ <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.4.8 -> v7.4.8</code>, <code class="docutils literal notranslate">v7.6.4 -> latest</code></p>
  </div>
  </li>
  <li><span class="li-head">output_interval</span> <b>(Alias name: output-interval)</b>  Collect the outputs for each output-interval in seconds (0 = no intermediate output). <span class="li-normal">type: int</span>

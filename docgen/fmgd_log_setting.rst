@@ -229,9 +229,15 @@ Parameters
  <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.6.0 -> latest</code></p>
  </div>
  </li>
- <li><span class="li-head">zone_name</span> <b>(Alias name: zone-name)</b>  Enable/disable zone name logging. <span class="li-normal">type: str</span> <span class="li-normal">choices: [disable, enable]</span> 
+ <li><span class="li-head">rest_api_performance</span> <b>(Alias name: rest-api-performance)</b>  Enable/disable rest api memory and performance stats in rest-api-get/set logs. <span class="li-normal">type: str</span> <span class="li-normal">choices: [disable, enable]</span> 
  <a id='label58' href="javascript:ContentClick('label59', 'label58');" onmouseover="ContentPreview('label59');" onmouseout="ContentUnpreview('label59');" title="click to collapse or expand..."> more... </a>
  <div id="label59" style="display:none">
+ <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.4.8 -> v7.4.8</code></p>
+ </div>
+ </li>
+ <li><span class="li-head">zone_name</span> <b>(Alias name: zone-name)</b>  Enable/disable zone name logging. <span class="li-normal">type: str</span> <span class="li-normal">choices: [disable, enable]</span> 
+ <a id='label60' href="javascript:ContentClick('label61', 'label60');" onmouseover="ContentPreview('label61');" onmouseout="ContentUnpreview('label61');" title="click to collapse or expand..."> more... </a>
+ <div id="label61" style="display:none">
  <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.6.4 -> latest</code></p>
  </div>
  </li>
@@ -301,6 +307,7 @@ Examples
             # log_policy_name: <value in [disable, enable]>
             # extended_utm_log: <value in [disable, enable]>
             # local_in_policy_log: <value in [disable, enable]>
+            # rest_api_performance: <value in [disable, enable]>
             # zone_name: <value in [disable, enable]>
 
 

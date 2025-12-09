@@ -34,7 +34,7 @@ FortiManager Version Compatibility
 ----------------------------------
 .. raw:: html
 
- <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.6.4 -> latest</code></p>
+ <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.4.8 -> v7.4.8</code>, <code class="docutils literal notranslate">v7.6.4 -> latest</code></p>
 
 
 
@@ -57,28 +57,28 @@ Parameters
  <li><span class="li-head">replacemsg_group</span> - The parameter in requested url <span class="li-normal">type: str</span> <span class="li-required">required: true</span> </li>
  <li><span class="li-head">system_replacemsggroup_nntp</span> - Device vdom system replacemsg group nntp <span class="li-normal">type: dict</span></li>
  <ul class="ul-self">
- <li><span class="li-head">buffer</span> Buffer. <span class="li-normal">type: str</span>
+ <li><span class="li-head">buffer</span> Message string. <span class="li-normal">type: str</span>
  <a id='label0' href="javascript:ContentClick('label1', 'label0');" onmouseover="ContentPreview('label1');" onmouseout="ContentUnpreview('label1');" title="click to collapse or expand..."> more... </a>
  <div id="label1" style="display:none">
- <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.6.4 -> latest</code></p>
+ <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.4.8 -> v7.4.8</code>, <code class="docutils literal notranslate">v7.6.4 -> latest</code></p>
  </div>
  </li>
- <li><span class="li-head">format</span> Format. <span class="li-normal">type: str</span> <span class="li-normal">choices: [none, text, html]</span> 
+ <li><span class="li-head">format</span> Format flag. <span class="li-normal">type: str</span> <span class="li-normal">choices: [none, text, html, wml]</span> 
  <a id='label2' href="javascript:ContentClick('label3', 'label2');" onmouseover="ContentPreview('label3');" onmouseout="ContentUnpreview('label3');" title="click to collapse or expand..."> more... </a>
  <div id="label3" style="display:none">
- <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.6.4 -> latest</code></p>
+ <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.4.8 -> v7.4.8</code>, <code class="docutils literal notranslate">v7.6.4 -> latest</code></p>
  </div>
  </li>
- <li><span class="li-head">header</span> Header. <span class="li-normal">type: str</span> <span class="li-normal">choices: [none, http, 8bit]</span> 
+ <li><span class="li-head">header</span> Header flag. <span class="li-normal">type: str</span> <span class="li-normal">choices: [none, http, 8bit]</span> 
  <a id='label4' href="javascript:ContentClick('label5', 'label4');" onmouseover="ContentPreview('label5');" onmouseout="ContentUnpreview('label5');" title="click to collapse or expand..."> more... </a>
  <div id="label5" style="display:none">
- <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.6.4 -> latest</code></p>
+ <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.4.8 -> v7.4.8</code>, <code class="docutils literal notranslate">v7.6.4 -> latest</code></p>
  </div>
  </li>
- <li><span class="li-head">msg_type</span> <b>(Alias name: msg-type)</b>  Msg type. <span class="li-normal">type: str</span>
+ <li><span class="li-head">msg_type</span> <b>(Alias name: msg-type)</b>  Message type. <span class="li-normal">type: str</span>
  <a id='label6' href="javascript:ContentClick('label7', 'label6');" onmouseover="ContentPreview('label7');" onmouseout="ContentUnpreview('label7');" title="click to collapse or expand..."> more... </a>
  <div id="label7" style="display:none">
- <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.6.4 -> latest</code></p>
+ <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.4.8 -> v7.4.8</code>, <code class="docutils literal notranslate">v7.6.4 -> latest</code></p>
  </div>
  </li>
  </ul>
@@ -121,7 +121,7 @@ Examples
           state: present # <value in [present, absent]>
           system_replacemsggroup_nntp:
             # buffer: <string>
-            # format: <value in [none, text, html]>
+            # format: <value in [none, text, html, ...]>
             # header: <value in [none, http, 8bit]>
             # msg_type: <string>
 

@@ -52,6 +52,7 @@ Parameters
  <li><span class="li-head">workspace_locking_adom</span> - Acquire the workspace lock if FortiManager is running in workspace mode. <span class="li-normal">type: str</span> <span class="li-required">required: false</span> <span class="li-normal"> choices: global, custom adom including root</span> </li>
  <li><span class="li-head">workspace_locking_timeout</span> - The maximum time in seconds to wait for other users to release workspace lock. <span class="li-normal">type: integer</span> <span class="li-required">required: false</span>  <span class="li-normal">default: 300</span> </li>
  <li><span class="li-head">device</span> - The parameter in requested url <span class="li-normal">type: str</span> <span class="li-required">required: true</span> </li>
+ <li><span class="li-head">vdom</span> - The parameter in requested url <span class="li-normal">type: str</span> <span class="li-required">required: true</span> </li>
  <li><span class="li-head">wanopt_cacheservice</span> - Designate cache-service for wan-optimization and webcache. <span class="li-normal">type: dict</span></li>
  <ul class="ul-self">
  <li><span class="li-head">acceptable_connections</span> <b>(Alias name: acceptable-connections)</b>  Set strategy when accepting cache collaboration connection. <span class="li-normal">type: str</span> <span class="li-normal">choices: [any, peers]</span> 
@@ -154,6 +155,12 @@ Parameters
  </li>
  </ul>
  </li>
+ <li><span class="li-head">prefer_senario</span> <b>(Alias name: prefer-senario)</b>  Prefer senario <span class="li-normal">type: str</span> <span class="li-normal">choices: [balance, prefer-speed, prefer-cache]</span> 
+ <a id='label32' href="javascript:ContentClick('label33', 'label32');" onmouseover="ContentPreview('label33');" onmouseout="ContentUnpreview('label33');" title="click to collapse or expand..."> more... </a>
+ <div id="label33" style="display:none">
+ <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.4.8 -> v7.4.8</code></p>
+ </div>
+ </li>
  </ul>
  </ul>
 
@@ -189,6 +196,7 @@ Examples
           # rc_succeeded: [0, -2, -3, ...]
           # rc_failed: [-2, -3, ...]
           device: <your own value>
+          vdom: <your own value>
           wanopt_cacheservice:
             # acceptable_connections: <value in [any, peers]>
             # collaboration: <value in [disable, enable]>
@@ -206,6 +214,7 @@ Examples
             #     encode_type: <integer>
             #     ip: <string>
             #     priority: <integer>
+            # prefer_senario: <value in [balance, prefer-speed, prefer-cache]>
 
 
 Return Values

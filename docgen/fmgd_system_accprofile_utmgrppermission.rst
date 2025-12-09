@@ -163,9 +163,15 @@ Parameters
  <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.2.6 -> v7.2.11</code>, <code class="docutils literal notranslate">v7.4.3 -> latest</code></p>
  </div>
  </li>
- <li><span class="li-head">telemetry</span> Telemetry profile and settings. <span class="li-normal">type: str</span> <span class="li-normal">choices: [none, read, read-write]</span> 
+ <li><span class="li-head">spamfilter</span> Antispam filter and settings. <span class="li-normal">type: str</span> <span class="li-normal">choices: [none, read, read-write]</span> 
  <a id='label36' href="javascript:ContentClick('label37', 'label36');" onmouseover="ContentPreview('label37');" onmouseout="ContentUnpreview('label37');" title="click to collapse or expand..."> more... </a>
  <div id="label37" style="display:none">
+ <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.4.8 -> v7.4.8</code></p>
+ </div>
+ </li>
+ <li><span class="li-head">telemetry</span> Telemetry profile and settings. <span class="li-normal">type: str</span> <span class="li-normal">choices: [none, read, read-write]</span> 
+ <a id='label38' href="javascript:ContentClick('label39', 'label38');" onmouseover="ContentPreview('label39');" onmouseout="ContentUnpreview('label39');" title="click to collapse or expand..."> more... </a>
+ <div id="label39" style="display:none">
  <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.6.4 -> latest</code></p>
  </div>
  </li>
@@ -224,6 +230,7 @@ Examples
             # waf: <value in [none, read, read-write]>
             # webfilter: <value in [none, read, read-write]>
             # data_loss_prevention: <value in [none, read, read-write]>
+            # spamfilter: <value in [none, read, read-write]>
             # telemetry: <value in [none, read, read-write]>
 
 

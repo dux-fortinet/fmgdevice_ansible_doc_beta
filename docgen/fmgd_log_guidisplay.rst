@@ -73,6 +73,12 @@ Parameters
  <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.2.6 -> v7.2.11</code>, <code class="docutils literal notranslate">v7.4.3 -> latest</code></p>
  </div>
  </li>
+ <li><span class="li-head">location</span> Configure the gui to show memory logs, disk logs, fortianalyzer logs, or forticloud logs. <span class="li-normal">type: str</span> <span class="li-normal">choices: [memory, fortianalyzer, disk, forticloud]</span> 
+ <a id='label6' href="javascript:ContentClick('label7', 'label6');" onmouseover="ContentPreview('label7');" onmouseout="ContentUnpreview('label7');" title="click to collapse or expand..."> more... </a>
+ <div id="label7" style="display:none">
+ <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.4.8 -> v7.4.8</code></p>
+ </div>
+ </li>
  </ul>
  </ul>
 
@@ -113,6 +119,7 @@ Examples
             # fortiview_unscanned_apps: <value in [disable, enable]>
             # resolve_apps: <value in [disable, enable]>
             # resolve_hosts: <value in [disable, enable]>
+            # location: <value in [memory, fortianalyzer, disk, ...]>
 
 
 Return Values

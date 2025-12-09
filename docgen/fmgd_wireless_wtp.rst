@@ -1124,15 +1124,21 @@ Parameters
  <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.6.2 -> latest</code></p>
  </div>
  </li>
- <li><span class="li-head">default_mesh_root</span> <b>(Alias name: default-mesh-root)</b>  Configure default mesh root ssid when it is not included by radios ssid configuration. <span class="li-normal">type: str</span> <span class="li-normal">choices: [disable, enable]</span> 
+ <li><span class="li-head">_prefer_img_ver</span> <b>(Alias name: _prefer-img-ver)</b>  Prefer img ver. <span class="li-normal">type: str</span>
  <a id='label352' href="javascript:ContentClick('label353', 'label352');" onmouseover="ContentPreview('label353');" onmouseout="ContentUnpreview('label353');" title="click to collapse or expand..."> more... </a>
  <div id="label353" style="display:none">
+ <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.4.8 -> v7.4.8</code></p>
+ </div>
+ </li>
+ <li><span class="li-head">default_mesh_root</span> <b>(Alias name: default-mesh-root)</b>  Configure default mesh root ssid when it is not included by radios ssid configuration. <span class="li-normal">type: str</span> <span class="li-normal">choices: [disable, enable]</span> 
+ <a id='label354' href="javascript:ContentClick('label355', 'label354');" onmouseover="ContentPreview('label355');" onmouseout="ContentUnpreview('label355');" title="click to collapse or expand..."> more... </a>
+ <div id="label355" style="display:none">
  <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.6.4 -> latest</code></p>
  </div>
  </li>
  <li><span class="li-head">override_default_mesh_root</span> <b>(Alias name: override-default-mesh-root)</b>  Enable to override the wtp profile default mesh root ssid setting. <span class="li-normal">type: str</span> <span class="li-normal">choices: [disable, enable]</span> 
- <a id='label354' href="javascript:ContentClick('label355', 'label354');" onmouseover="ContentPreview('label355');" onmouseout="ContentUnpreview('label355');" title="click to collapse or expand..."> more... </a>
- <div id="label355" style="display:none">
+ <a id='label356' href="javascript:ContentClick('label357', 'label356');" onmouseover="ContentPreview('label357');" onmouseout="ContentUnpreview('label357');" title="click to collapse or expand..."> more... </a>
+ <div id="label357" style="display:none">
  <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.6.4 -> latest</code></p>
  </div>
  </li>
@@ -1469,6 +1475,7 @@ Examples
             # wtp_mode: <value in [normal, remote]>
             # wtp_profile: <list or string>
             # comment: <string>
+            # _prefer_img_ver: <string>
             # default_mesh_root: <value in [disable, enable]>
             # override_default_mesh_root: <value in [disable, enable]>
 

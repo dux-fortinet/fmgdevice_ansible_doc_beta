@@ -57,37 +57,60 @@ Parameters
         <span class="li-normal">v7.2.6->v7.2.11</span>,
         <span class="li-normal">v7.4.3->latest</span>
         </li>
+        <li><span class="li-required">antivirus_mmschecksum</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>
+        </li>
+        <li><span class="li-required">antivirus_mmschecksum_entries</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>
+        </li>
+        <li><span class="li-required">antivirus_notification</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>
+        </li>
+        <li><span class="li-required">antivirus_notification_entries</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>
+        </li>
         <li><span class="li-required">antivirus_profile</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">application_categories</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">application_custom</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">application_group</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">application_list</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">application_list_defaultnetworkservices</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">application_list_entries</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">application_list_entries_parameters</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">application_list_entries_parameters_members</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">authentication_rule</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">authentication_scheme</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">aws_vpce</span> - available versions:
@@ -116,12 +139,15 @@ Parameters
         <span class="li-normal">v7.6.3->latest</span>
         </li>
         <li><span class="li-required">casb_profile</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">casb_profile_saasapplication</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">casb_profile_saasapplication_accessrule</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">casb_profile_saasapplication_accessrule_attributefilter</span> - available versions:
@@ -134,15 +160,18 @@ Parameters
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">casb_profile_saasapplication_customcontrol</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">casb_profile_saasapplication_customcontrol_attributefilter</span> - available versions:
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">casb_profile_saasapplication_customcontrol_option</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">casb_saasapplication</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">casb_saasapplication_inputattributes</span> - available versions:
@@ -152,70 +181,102 @@ Parameters
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">casb_useractivity</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">casb_useractivity_controloptions</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">casb_useractivity_controloptions_operations</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">casb_useractivity_match</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">casb_useractivity_match_rules</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">casb_useractivity_match_tenantextraction_filters</span> - available versions:
         <span class="li-normal">v7.6.4->latest</span>
         </li>
+        <li><span class="li-required">certificate_ca</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>
+        </li>
+        <li><span class="li-required">certificate_crl</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>
+        </li>
         <li><span class="li-required">certificate_hsmlocal</span> - available versions:
         <span class="li-normal">v7.6.3->latest</span>
+        </li>
+        <li><span class="li-required">certificate_local</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>
         </li>
         <li><span class="li-required">certificate_remote</span> - available versions:
         <span class="li-normal">v7.2.6->v7.2.11</span>,
         <span class="li-normal">v7.4.3->latest</span>
         </li>
+        <li><span class="li-required">cifs_domaincontroller</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>
+        </li>
         <li><span class="li-required">cifs_profile</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
+        <li><span class="li-required">cifs_profile_filefilter_entries</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>
+        </li>
         <li><span class="li-required">cifs_profile_serverkeytab</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">credentialstore_domaincontroller</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">diameterfilter_profile</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">dlp_datatype</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">dlp_dictionary</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">dlp_dictionary_entries</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">dlp_exactdatamatch</span> - available versions:
         <span class="li-normal">v7.4.3->v7.4.6</span>,
-        <span class="li-normal">v7.6.0->v7.6.2</span>,
+        <span class="li-normal">v7.4.8->v7.6.2</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">dlp_exactdatamatch_columns</span> - available versions:
         <span class="li-normal">v7.4.3->v7.4.6</span>,
-        <span class="li-normal">v7.6.0->v7.6.2</span>,
+        <span class="li-normal">v7.4.8->v7.6.2</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">dlp_filepattern</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">dlp_filepattern_entries</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">dlp_fpdocsource</span> - available versions:
         <span class="li-normal">v7.2.6->v7.2.11</span>,
         <span class="li-normal">v7.4.3->latest</span>
+        </li>
+        <li><span class="li-required">dlp_fpsensitivity</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>
         </li>
         <li><span class="li-required">dlp_label</span> - available versions:
         <span class="li-normal">v7.6.4->latest</span>
@@ -224,78 +285,106 @@ Parameters
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">dlp_profile</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">dlp_profile_rule</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">dlp_sensitivity</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">dlp_sensor</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">dlp_sensor_entries</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">dlp_sensor_filter</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">dnsfilter_domainfilter</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">dnsfilter_domainfilter_entries</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">dnsfilter_profile</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">dnsfilter_profile_dnstranslation</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">dnsfilter_profile_ftgddns_filters</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">emailfilter_blockallowlist</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">emailfilter_blockallowlist_entries</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">emailfilter_bwl</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">emailfilter_bwl_entries</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">emailfilter_bword</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">emailfilter_bword_entries</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">emailfilter_dnsbl</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">emailfilter_dnsbl_entries</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">emailfilter_iptrust</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">emailfilter_iptrust_entries</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">emailfilter_mheader</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">emailfilter_mheader_entries</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">emailfilter_profile</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
+        <li><span class="li-required">emailfilter_profile_filefilter_entries</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>
+        </li>
         <li><span class="li-required">endpointcontrol_fctems</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">endpointcontrol_fctemsoverride</span> - available versions:
@@ -308,6 +397,7 @@ Parameters
         <span class="li-normal">v7.4.3->latest</span>
         </li>
         <li><span class="li-required">extendercontroller_dataplan</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">extendercontroller_extender</span> - available versions:
@@ -315,15 +405,19 @@ Parameters
         <span class="li-normal">v7.4.3->latest</span>
         </li>
         <li><span class="li-required">extendercontroller_extenderprofile</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">extendercontroller_extenderprofile_cellular_smsnotification_receiver</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">extendercontroller_extenderprofile_lanextension_backhaul</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">extensioncontroller_dataplan</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">extensioncontroller_extender</span> - available versions:
@@ -331,12 +425,15 @@ Parameters
         <span class="li-normal">v7.4.3->latest</span>
         </li>
         <li><span class="li-required">extensioncontroller_extenderprofile</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">extensioncontroller_extenderprofile_cellular_smsnotification_receiver</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">extensioncontroller_extenderprofile_lanextension_backhaul</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">extensioncontroller_extenderprofile_lanextension_downlinks</span> - available versions:
@@ -347,7 +444,7 @@ Parameters
         </li>
         <li><span class="li-required">extensioncontroller_extendervap</span> - available versions:
         <span class="li-normal">v7.4.3->v7.4.6</span>,
-        <span class="li-normal">v7.6.0->v7.6.2</span>,
+        <span class="li-normal">v7.4.8->v7.6.2</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">extensioncontroller_fortigate</span> - available versions:
@@ -359,122 +456,170 @@ Parameters
         <span class="li-normal">v7.4.3->latest</span>
         </li>
         <li><span class="li-required">filefilter_profile</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">filefilter_profile_rules</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_accessproxy</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_accessproxy6</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_accessproxy6_apigateway</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_accessproxy6_apigateway6</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_accessproxy6_apigateway6_realservers</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_accessproxy6_apigateway6_sslciphersuites</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_accessproxy6_apigateway_realservers</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_accessproxy6_apigateway_sslciphersuites</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_accessproxy_apigateway</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_accessproxy_apigateway6</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_accessproxy_apigateway6_realservers</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_accessproxy_apigateway6_sslciphersuites</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_accessproxy_apigateway_realservers</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_accessproxy_apigateway_sslciphersuites</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_accessproxy_realservers</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_accessproxy_serverpubkeyauthsettings_certextension</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_accessproxysshclientcert</span> - available versions:
         <span class="li-normal">v7.2.6->v7.2.11</span>,
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_accessproxysshclientcert_certextension</span> - available versions:
         <span class="li-normal">v7.2.6->v7.2.11</span>,
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_accessproxyvirtualhost</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_acl</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_acl6</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_address</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_address6</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_address6_list</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_address6_subnetsegment</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_address6_tagging</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_address6template</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_address6template_subnetsegment</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_address6template_subnetsegment_values</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_address_list</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_address_tagging</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_addrgrp</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_addrgrp6</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_addrgrp6_tagging</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_addrgrp_tagging</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
+        </li>
+        <li><span class="li-required">firewall_carrierendpointbwl</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>
+        </li>
+        <li><span class="li-required">firewall_carrierendpointbwl_entries</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>
         </li>
         <li><span class="li-required">firewall_centralsnatmap</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
+        <li><span class="li-required">firewall_consolidated_policy</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>
+        </li>
         <li><span class="li-required">firewall_decryptedtrafficmirror</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_dnstranslation</span> - available versions:
@@ -482,84 +627,123 @@ Parameters
         <span class="li-normal">v7.4.3->latest</span>
         </li>
         <li><span class="li-required">firewall_dospolicy</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_dospolicy6</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_dospolicy6_anomaly</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_dospolicy_anomaly</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_gtp</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_gtp_apn</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_gtp_ieremovepolicy</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_gtp_imsi</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_gtp_ippolicy</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_gtp_noippolicy</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_gtp_perapnshaper</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_gtp_policy</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_gtp_policyv2</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_hyperscalepolicy</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_hyperscalepolicy46</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
+        <li><span class="li-required">firewall_hyperscalepolicy6</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>
+        </li>
         <li><span class="li-required">firewall_hyperscalepolicy64</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_identitybasedroute</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_identitybasedroute_rule</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_interfacepolicy</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_interfacepolicy6</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
+        <li><span class="li-required">firewall_internetservice_entry</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>
+        </li>
         <li><span class="li-required">firewall_internetserviceaddition</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_internetserviceaddition_entry</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_internetserviceaddition_entry_portrange</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_internetservicecustom</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
+        <li><span class="li-required">firewall_internetservicecustom_disableentry</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>
+        </li>
+        <li><span class="li-required">firewall_internetservicecustom_disableentry_iprange</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>
+        </li>
         <li><span class="li-required">firewall_internetservicecustom_entry</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_internetservicecustom_entry_portrange</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_internetservicecustomgroup</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_internetservicedefinition</span> - available versions:
@@ -577,37 +761,37 @@ Parameters
         <li><span class="li-required">firewall_internetserviceextension</span> - available versions:
         <span class="li-normal">v7.2.6->v7.2.11</span>,
         <span class="li-normal">v7.4.3->v7.4.6</span>,
-        <span class="li-normal">v7.6.0->latest</span>
+        <span class="li-normal">v7.4.8->latest</span>
         </li>
         <li><span class="li-required">firewall_internetserviceextension_disableentry</span> - available versions:
         <span class="li-normal">v7.2.6->v7.2.11</span>,
         <span class="li-normal">v7.4.3->v7.4.6</span>,
-        <span class="li-normal">v7.6.0->latest</span>
+        <span class="li-normal">v7.4.8->latest</span>
         </li>
         <li><span class="li-required">firewall_internetserviceextension_disableentry_ip6range</span> - available versions:
         <span class="li-normal">v7.2.6->v7.2.11</span>,
         <span class="li-normal">v7.4.3->v7.4.6</span>,
-        <span class="li-normal">v7.6.0->latest</span>
+        <span class="li-normal">v7.4.8->latest</span>
         </li>
         <li><span class="li-required">firewall_internetserviceextension_disableentry_iprange</span> - available versions:
         <span class="li-normal">v7.2.6->v7.2.11</span>,
         <span class="li-normal">v7.4.3->v7.4.6</span>,
-        <span class="li-normal">v7.6.0->latest</span>
+        <span class="li-normal">v7.4.8->latest</span>
         </li>
         <li><span class="li-required">firewall_internetserviceextension_disableentry_portrange</span> - available versions:
         <span class="li-normal">v7.2.6->v7.2.11</span>,
         <span class="li-normal">v7.4.3->v7.4.6</span>,
-        <span class="li-normal">v7.6.0->latest</span>
+        <span class="li-normal">v7.4.8->latest</span>
         </li>
         <li><span class="li-required">firewall_internetserviceextension_entry</span> - available versions:
         <span class="li-normal">v7.2.6->v7.2.11</span>,
         <span class="li-normal">v7.4.3->v7.4.6</span>,
-        <span class="li-normal">v7.6.0->latest</span>
+        <span class="li-normal">v7.4.8->latest</span>
         </li>
         <li><span class="li-required">firewall_internetserviceextension_entry_portrange</span> - available versions:
         <span class="li-normal">v7.2.6->v7.2.11</span>,
         <span class="li-normal">v7.4.3->v7.4.6</span>,
-        <span class="li-normal">v7.6.0->latest</span>
+        <span class="li-normal">v7.4.8->latest</span>
         </li>
         <li><span class="li-required">firewall_internetservicefortiguard</span> - available versions:
         <span class="li-normal">v7.6.4->latest</span>
@@ -619,9 +803,11 @@ Parameters
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_internetservicegroup</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_internetservicename</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_ipmacbinding_table</span> - available versions:
@@ -629,9 +815,11 @@ Parameters
         <span class="li-normal">v7.4.3->latest</span>
         </li>
         <li><span class="li-required">firewall_ippool</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_ippool6</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_ippoolgrp</span> - available versions:
@@ -642,33 +830,49 @@ Parameters
         <span class="li-normal">v7.4.3->latest</span>
         </li>
         <li><span class="li-required">firewall_ldbmonitor</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_localinpolicy</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_localinpolicy6</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
+        <li><span class="li-required">firewall_mmsprofile</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>
+        </li>
+        <li><span class="li-required">firewall_mmsprofile_notifmsisdn</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>
+        </li>
         <li><span class="li-required">firewall_multicastaddress</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_multicastaddress6</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_multicastaddress6_tagging</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_multicastaddress_tagging</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_multicastpolicy</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_multicastpolicy6</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_networkservicedynamic</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_ondemandsniffer</span> - available versions:
@@ -682,96 +886,130 @@ Parameters
         <span class="li-normal">v6.0.0->latest</span>
         </li>
         <li><span class="li-required">firewall_policy46</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
+        <li><span class="li-required">firewall_policy6</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>
+        </li>
         <li><span class="li-required">firewall_policy64</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_profilegroup</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_profileprotocoloptions</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_profileprotocoloptions_cifs_filefilter_entries</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_profileprotocoloptions_cifs_serverkeytab</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_proxyaddress</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_proxyaddress6</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_proxyaddress6_headergroup</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_proxyaddress6_tagging</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_proxyaddress_headergroup</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_proxyaddress_tagging</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_proxyaddrgrp</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_proxyaddrgrp6</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_proxyaddrgrp6_tagging</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_proxyaddrgrp_tagging</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_proxypolicy</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_responseshapingpolicy</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_schedule_group</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_schedule_onetime</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_schedule_recurring</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_securitypolicy</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_service_category</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_service_custom</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_service_group</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_shaper_peripshaper</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_shaper_trafficshaper</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_shapingpolicy</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_shapingprofile</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_shapingprofile_classes</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_shapingprofile_shapingentries</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_sniffer</span> - available versions:
@@ -787,6 +1025,7 @@ Parameters
         <span class="li-normal">v7.4.3->latest</span>
         </li>
         <li><span class="li-required">firewall_ssh_localca</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_ssh_localkey</span> - available versions:
@@ -794,6 +1033,7 @@ Parameters
         <span class="li-normal">v7.4.3->latest</span>
         </li>
         <li><span class="li-required">firewall_ssl_keyringlist</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_sslserver</span> - available versions:
@@ -801,18 +1041,23 @@ Parameters
         <span class="li-normal">v7.4.3->latest</span>
         </li>
         <li><span class="li-required">firewall_sslsshprofile</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_sslsshprofile_echoutersni</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_sslsshprofile_sslexempt</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_sslsshprofile_sslserver</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_trafficclass</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_ttlpolicy</span> - available versions:
@@ -820,66 +1065,87 @@ Parameters
         <span class="li-normal">v7.4.3->latest</span>
         </li>
         <li><span class="li-required">firewall_vip</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_vip46</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_vip46_realservers</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_vip6</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_vip64</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_vip64_realservers</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_vip6_realservers</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_vip6_sslciphersuites</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_vip6_sslserverciphersuites</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_vip_gslbpublicips</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_vip_realservers</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_vip_sslciphersuites</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_vip_sslserverciphersuites</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_vipgrp</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_vipgrp46</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_vipgrp6</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_vipgrp64</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_wildcardfqdn_custom</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">firewall_wildcardfqdn_group</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">gtp_apn</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">gtp_apngrp</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">gtp_apnshaper</span> - available versions:
@@ -889,60 +1155,73 @@ Parameters
         <li><span class="li-required">gtp_ieallowlist</span> - available versions:
         <span class="li-normal">v7.2.6->v7.2.8</span>,
         <span class="li-normal">v7.4.3->v7.4.6</span>,
-        <span class="li-normal">v7.6.0->v7.6.1</span>,
+        <span class="li-normal">v7.4.8->v7.6.1</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">gtp_ieallowlist_entries</span> - available versions:
         <span class="li-normal">v7.2.6->v7.2.8</span>,
         <span class="li-normal">v7.4.3->v7.4.6</span>,
-        <span class="li-normal">v7.6.0->v7.6.1</span>,
+        <span class="li-normal">v7.4.8->v7.6.1</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">gtp_iewhitelist</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">gtp_iewhitelist_entries</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">gtp_messagefilterv0v1</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">gtp_messagefilterv2</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">gtp_rattimeoutprofile</span> - available versions:
         <span class="li-normal">v7.2.6->v7.2.11</span>,
         <span class="li-normal">v7.4.3->v7.4.6</span>,
-        <span class="li-normal">v7.6.0->latest</span>
+        <span class="li-normal">v7.4.8->latest</span>
         </li>
         <li><span class="li-required">gtp_tunnellimit</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">icap_localserver</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">icap_localserver_icapservice</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">icap_profile</span> - available versions:
         <span class="li-normal">v6.0.0->latest</span>
         </li>
         <li><span class="li-required">icap_profile_icapheaders</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">icap_profile_respmodforwardrules</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">icap_profile_respmodforwardrules_headergroup</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">icap_remoteserver</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">icap_remoteservergroup</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">icap_remoteservergroup_serverlist</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">icap_server</span> - available versions:
@@ -959,24 +1238,31 @@ Parameters
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">imageanalyzer_profile</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">ips_custom</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">ips_sensor</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">ips_sensor_entries</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">ips_sensor_entries_exemptip</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">isolator_profile</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">isolator_profile_entries</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">loadbalance_flowrule</span> - available versions:
@@ -1007,6 +1293,7 @@ Parameters
         <span class="li-normal">v7.4.3->latest</span>
         </li>
         <li><span class="li-required">log_customfield</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">log_disk_filter_freestyle</span> - available versions:
@@ -1058,9 +1345,11 @@ Parameters
         <span class="li-normal">v7.4.3->latest</span>
         </li>
         <li><span class="li-required">log_npuserver_servergroup</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">log_npuserver_serverinfo</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">log_nulldevice_filter_freestyle</span> - available versions:
@@ -1080,6 +1369,7 @@ Parameters
         <span class="li-normal">v7.4.3->latest</span>
         </li>
         <li><span class="li-required">log_syslogd2_overridesetting_logtemplates</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">log_syslogd2_setting_customfieldname</span> - available versions:
@@ -1087,6 +1377,7 @@ Parameters
         <span class="li-normal">v7.4.3->latest</span>
         </li>
         <li><span class="li-required">log_syslogd2_setting_logtemplates</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">log_syslogd3_filter_freestyle</span> - available versions:
@@ -1102,6 +1393,7 @@ Parameters
         <span class="li-normal">v7.4.3->latest</span>
         </li>
         <li><span class="li-required">log_syslogd3_overridesetting_logtemplates</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">log_syslogd3_setting_customfieldname</span> - available versions:
@@ -1109,6 +1401,7 @@ Parameters
         <span class="li-normal">v7.4.3->latest</span>
         </li>
         <li><span class="li-required">log_syslogd3_setting_logtemplates</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">log_syslogd4_filter_freestyle</span> - available versions:
@@ -1124,6 +1417,7 @@ Parameters
         <span class="li-normal">v7.4.3->latest</span>
         </li>
         <li><span class="li-required">log_syslogd4_overridesetting_logtemplates</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">log_syslogd4_setting_customfieldname</span> - available versions:
@@ -1131,6 +1425,7 @@ Parameters
         <span class="li-normal">v7.4.3->latest</span>
         </li>
         <li><span class="li-required">log_syslogd4_setting_logtemplates</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">log_syslogd_filter_freestyle</span> - available versions:
@@ -1146,6 +1441,7 @@ Parameters
         <span class="li-normal">v7.4.3->latest</span>
         </li>
         <li><span class="li-required">log_syslogd_overridesetting_logtemplates</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">log_syslogd_setting_customfieldname</span> - available versions:
@@ -1153,15 +1449,19 @@ Parameters
         <span class="li-normal">v7.4.3->latest</span>
         </li>
         <li><span class="li-required">log_syslogd_setting_logtemplates</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">log_threatweight_application</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">log_threatweight_geolocation</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">log_threatweight_web</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">log_webtrends_filter_freestyle</span> - available versions:
@@ -1245,21 +1545,27 @@ Parameters
         <span class="li-normal">v7.4.3->latest</span>
         </li>
         <li><span class="li-required">router_accesslist</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">router_accesslist6</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">router_accesslist6_rule</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">router_accesslist_rule</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">router_aspathlist</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">router_aspathlist_rule</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">router_authpath</span> - available versions:
@@ -1359,9 +1665,11 @@ Parameters
         <span class="li-normal">v7.4.3->latest</span>
         </li>
         <li><span class="li-required">router_communitylist</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">router_communitylist_rule</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">router_extcommunitylist</span> - available versions:
@@ -1519,15 +1827,19 @@ Parameters
         <span class="li-normal">v7.4.3->latest</span>
         </li>
         <li><span class="li-required">router_prefixlist</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">router_prefixlist6</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">router_prefixlist6_rule</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">router_prefixlist_rule</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">router_rip_distance</span> - available versions:
@@ -1586,6 +1898,7 @@ Parameters
         <span class="li-normal">v7.0.2->latest</span>
         </li>
         <li><span class="li-required">router_routemap_rule</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">router_static</span> - available versions:
@@ -1597,15 +1910,55 @@ Parameters
         <span class="li-normal">v7.4.3->latest</span>
         </li>
         <li><span class="li-required">sctpfilter_profile</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">sctpfilter_profile_ppidfilters</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
+        </li>
+        <li><span class="li-required">spamfilter_bwl</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>
+        </li>
+        <li><span class="li-required">spamfilter_bwl_entries</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>
+        </li>
+        <li><span class="li-required">spamfilter_bword</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>
+        </li>
+        <li><span class="li-required">spamfilter_bword_entries</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>
+        </li>
+        <li><span class="li-required">spamfilter_dnsbl</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>
+        </li>
+        <li><span class="li-required">spamfilter_dnsbl_entries</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>
+        </li>
+        <li><span class="li-required">spamfilter_iptrust</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>
+        </li>
+        <li><span class="li-required">spamfilter_iptrust_entries</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>
+        </li>
+        <li><span class="li-required">spamfilter_mheader</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>
+        </li>
+        <li><span class="li-required">spamfilter_mheader_entries</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>
+        </li>
+        <li><span class="li-required">spamfilter_profile</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>
         </li>
         <li><span class="li-required">sshfilter_profile</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
+        <li><span class="li-required">sshfilter_profile_filefilter_entries</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>
+        </li>
         <li><span class="li-required">sshfilter_profile_shellcommands</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">switchcontroller_acl_group</span> - available versions:
@@ -1904,6 +2257,7 @@ Parameters
         <span class="li-normal">v7.4.3->latest</span>
         </li>
         <li><span class="li-required">system_admin_trusthosts</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">system_affinityinterrupt</span> - available versions:
@@ -1942,7 +2296,7 @@ Parameters
         <span class="li-normal">v7.4.3->latest</span>
         </li>
         <li><span class="li-required">system_automationcondition</span> - available versions:
-        <span class="li-normal">v7.4.6->v7.4.7</span>,
+        <span class="li-normal">v7.4.6->v7.4.8</span>,
         <span class="li-normal">v7.6.2->latest</span>
         </li>
         <li><span class="li-required">system_automationdestination</span> - available versions:
@@ -2001,6 +2355,7 @@ Parameters
         <span class="li-normal">v7.4.3->latest</span>
         </li>
         <li><span class="li-required">system_customlanguage</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">system_ddns</span> - available versions:
@@ -2033,18 +2388,23 @@ Parameters
         <span class="li-normal">v7.4.3->latest</span>
         </li>
         <li><span class="li-required">system_dhcp_server</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">system_dhcp_server_excluderange</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">system_dhcp_server_iprange</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">system_dhcp_server_options</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">system_dhcp_server_reservedaddress</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">system_dnsdatabase</span> - available versions:
@@ -2067,6 +2427,7 @@ Parameters
         <span class="li-normal">v7.4.3->latest</span>
         </li>
         <li><span class="li-required">system_externalresource</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">system_fabricvpn_advertisedsubnets</span> - available versions:
@@ -2089,15 +2450,19 @@ Parameters
         <span class="li-normal">v7.4.3->latest</span>
         </li>
         <li><span class="li-required">system_geoipcountry</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">system_geoipoverride</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">system_geoipoverride_ip6range</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">system_geoipoverride_iprange</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">system_gretunnel</span> - available versions:
@@ -2117,6 +2482,7 @@ Parameters
         <span class="li-normal">v7.4.3->latest</span>
         </li>
         <li><span class="li-required">system_halic</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">system_healthcheckfortiguard</span> - available versions:
@@ -2268,15 +2634,19 @@ Parameters
         <span class="li-normal">v7.6.0->latest</span>
         </li>
         <li><span class="li-required">system_nethsm_hagroups</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">system_nethsm_partitions</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">system_nethsm_servers</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">system_nethsm_slots</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">system_np6</span> - available versions:
@@ -2288,39 +2658,51 @@ Parameters
         <span class="li-normal">v7.4.3->latest</span>
         </li>
         <li><span class="li-required">system_npu_dswdtsprofile</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">system_npu_dswqueuedtsprofile</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">system_npu_npqueues_ethernettype</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">system_npu_npqueues_ipprotocol</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">system_npu_npqueues_ipservice</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">system_npu_npqueues_profile</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">system_npu_npqueues_scheduler</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">system_npu_nputcam</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">system_npu_portcpumap</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">system_npu_portnpumap</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">system_npu_tcptimeoutprofile</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">system_npu_udptimeoutprofile</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">system_npupost_portnpumap</span> - available versions:
@@ -2334,7 +2716,11 @@ Parameters
         <span class="li-normal">v7.2.6->v7.2.11</span>,
         <span class="li-normal">v7.4.3->latest</span>
         </li>
+        <li><span class="li-required">system_objecttag</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>
+        </li>
         <li><span class="li-required">system_objecttagging</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">system_pcpserver_pools</span> - available versions:
@@ -2357,63 +2743,101 @@ Parameters
         <span class="li-normal">v7.4.3->latest</span>
         </li>
         <li><span class="li-required">system_replacemsggroup</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">system_replacemsggroup_admin</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">system_replacemsggroup_alertmail</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">system_replacemsggroup_auth</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">system_replacemsggroup_automation</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">system_replacemsggroup_custommessage</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">system_replacemsggroup_devicedetectionportal</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
+        <li><span class="li-required">system_replacemsggroup_ec</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>
+        </li>
         <li><span class="li-required">system_replacemsggroup_fortiguardwf</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">system_replacemsggroup_ftp</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">system_replacemsggroup_http</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">system_replacemsggroup_icap</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">system_replacemsggroup_mail</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
+        <li><span class="li-required">system_replacemsggroup_mm1</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>
+        </li>
+        <li><span class="li-required">system_replacemsggroup_mm3</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>
+        </li>
+        <li><span class="li-required">system_replacemsggroup_mm4</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>
+        </li>
+        <li><span class="li-required">system_replacemsggroup_mm7</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>
+        </li>
+        <li><span class="li-required">system_replacemsggroup_mms</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>
+        </li>
         <li><span class="li-required">system_replacemsggroup_nacquar</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">system_replacemsggroup_nntp</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">system_replacemsggroup_spam</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">system_replacemsggroup_sslvpn</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">system_replacemsggroup_trafficquota</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">system_replacemsggroup_utm</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">system_replacemsggroup_webproxy</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">system_replacemsgimage</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">system_saml_serviceproviders</span> - available versions:
@@ -2425,42 +2849,55 @@ Parameters
         <span class="li-normal">v7.4.3->latest</span>
         </li>
         <li><span class="li-required">system_sdnconnector</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">system_sdnconnector_compartmentlist</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">system_sdnconnector_externalaccountlist</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">system_sdnconnector_externalip</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">system_sdnconnector_forwardingrule</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">system_sdnconnector_gcpprojectlist</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">system_sdnconnector_nic</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">system_sdnconnector_nic_ip</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">system_sdnconnector_ociregionlist</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">system_sdnconnector_route</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">system_sdnconnector_routetable</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">system_sdnconnector_routetable_route</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">system_sdnproxy</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">system_sdnvpn</span> - available versions:
@@ -2527,6 +2964,7 @@ Parameters
         <span class="li-normal">v7.4.3->latest</span>
         </li>
         <li><span class="li-required">system_smsserver</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">system_snmp_community</span> - available versions:
@@ -2553,6 +2991,7 @@ Parameters
         <span class="li-normal">v7.4.3->latest</span>
         </li>
         <li><span class="li-required">system_spanport</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">system_speedtestschedule</span> - available versions:
@@ -2666,6 +3105,7 @@ Parameters
         <span class="li-normal">v7.4.3->v7.6.2</span>
         </li>
         <li><span class="li-required">system_virtualwirepair</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">system_vneinterface</span> - available versions:
@@ -2710,51 +3150,67 @@ Parameters
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">user_adgrp</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">user_certificate</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">user_domaincontroller</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">user_domaincontroller_extraserver</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">user_exchange</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">user_externalidentityprovider</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">user_fortitoken</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">user_fsso</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">user_fssopolling</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">user_fssopolling_adgrp</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">user_group</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">user_group_guest</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">user_group_match</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">user_krbkeytab</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">user_ldap</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">user_local</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">user_nacpolicy</span> - available versions:
@@ -2765,15 +3221,19 @@ Parameters
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">user_passwordpolicy</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">user_peer</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">user_peergrp</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">user_pop3</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">user_quarantine_targets</span> - available versions:
@@ -2785,12 +3245,15 @@ Parameters
         <span class="li-normal">v7.4.3->latest</span>
         </li>
         <li><span class="li-required">user_radius</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">user_radius_accountingserver</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">user_saml</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">user_scim</span> - available versions:
@@ -2798,9 +3261,11 @@ Parameters
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">user_securityexemptlist</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">user_securityexemptlist_rule</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">user_setting_authports</span> - available versions:
@@ -2808,43 +3273,56 @@ Parameters
         <span class="li-normal">v7.4.3->latest</span>
         </li>
         <li><span class="li-required">user_tacacs</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">videofilter_keyword</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">videofilter_keyword_word</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">videofilter_profile</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">videofilter_profile_filters</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">videofilter_profile_fortiguardcategory_filters</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">videofilter_youtubechannelfilter</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">videofilter_youtubechannelfilter_entries</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">videofilter_youtubekey</span> - available versions:
         <span class="li-normal">v7.2.6->v7.2.11</span>,
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">virtualpatch_profile</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">virtualpatch_profile_exemption</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">voip_profile</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">vpn_certificate_ca</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">vpn_certificate_crl</span> - available versions:
@@ -2859,9 +3337,11 @@ Parameters
         <span class="li-normal">v7.4.3->latest</span>
         </li>
         <li><span class="li-required">vpn_certificate_ocspserver</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">vpn_certificate_remote</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">vpn_ipsec_concentrator</span> - available versions:
@@ -2869,9 +3349,11 @@ Parameters
         <span class="li-normal">v7.4.3->latest</span>
         </li>
         <li><span class="li-required">vpn_ipsec_fec</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">vpn_ipsec_fec_mappings</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">vpn_ipsec_forticlient</span> - available versions:
@@ -2948,33 +3430,43 @@ Parameters
         <span class="li-normal">v6.4.2->latest</span>
         </li>
         <li><span class="li-required">vpnsslweb_hostchecksoftware</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">vpnsslweb_hostchecksoftware_checkitemlist</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">vpnsslweb_portal</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">vpnsslweb_portal_bookmarkgroup</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">vpnsslweb_portal_bookmarkgroup_bookmarks</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">vpnsslweb_portal_bookmarkgroup_bookmarks_formdata</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">vpnsslweb_portal_landingpage_formdata</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">vpnsslweb_portal_macaddrcheckrule</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">vpnsslweb_portal_splitdns</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">vpnsslweb_realm</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">vpnsslweb_userbookmark</span> - available versions:
@@ -3002,33 +3494,43 @@ Parameters
         <span class="li-normal">v7.4.3->latest</span>
         </li>
         <li><span class="li-required">waf_mainclass</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">waf_profile</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">waf_profile_constraint_exception</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">waf_profile_method_methodpolicy</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">waf_profile_signature_customsignature</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">waf_profile_urlaccess</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">waf_profile_urlaccess_accesspattern</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">waf_signature</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">waf_subclass</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">wanopt_authgroup</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">wanopt_cacheservice_dstpeer</span> - available versions:
@@ -3056,54 +3558,71 @@ Parameters
         <span class="li-normal">v7.4.3->latest</span>
         </li>
         <li><span class="li-required">wanopt_peer</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">wanopt_profile</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">webcache_prefetch</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">webcache_reversecacheprefetchurl</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">webcache_reversecacheserver</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">webcache_useragent</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">webfilter_categories</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">webfilter_content</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">webfilter_content_entries</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">webfilter_contentheader</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">webfilter_contentheader_entries</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">webfilter_domainlist</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">webfilter_domainlist_entries</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">webfilter_ftgdlocalcat</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">webfilter_ftgdlocalrating</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">webfilter_ftgdlocalrisk</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.2->latest</span>
         </li>
         <li><span class="li-required">webfilter_ftgdrisklevel</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.2->latest</span>
         </li>
         <li><span class="li-required">webfilter_override</span> - available versions:
@@ -3111,24 +3630,34 @@ Parameters
         <span class="li-normal">v7.4.3->latest</span>
         </li>
         <li><span class="li-required">webfilter_profile</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">webfilter_profile_antiphish_custompatterns</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">webfilter_profile_antiphish_inspectionentries</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
+        <li><span class="li-required">webfilter_profile_filefilter_entries</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>
+        </li>
         <li><span class="li-required">webfilter_profile_ftgdwf_filters</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">webfilter_profile_ftgdwf_quota</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">webfilter_profile_ftgdwf_risk</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">webfilter_profile_youtubechannelfilter</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">webfilter_searchengine</span> - available versions:
@@ -3136,71 +3665,93 @@ Parameters
         <span class="li-normal">v7.4.3->latest</span>
         </li>
         <li><span class="li-required">webfilter_urlfilter</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">webfilter_urlfilter_entries</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">webfilter_urllist</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">webfilter_urllist_entries</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">webproxy_debugurl</span> - available versions:
         <span class="li-normal">v7.2.6->v7.2.11</span>,
         <span class="li-normal">v7.4.3->latest</span>
         </li>
+        <li><span class="li-required">webproxy_explicit</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>
+        </li>
         <li><span class="li-required">webproxy_explicit_pacpolicy</span> - available versions:
         <span class="li-normal">v7.2.6->v7.2.11</span>,
         <span class="li-normal">v7.4.3->latest</span>
         </li>
         <li><span class="li-required">webproxy_explicitproxy</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">webproxy_fastfallback</span> - available versions:
         <span class="li-normal">v7.4.3->latest</span>
         </li>
         <li><span class="li-required">webproxy_forwardserver</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">webproxy_forwardservergroup</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">webproxy_forwardservergroup_serverlist</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">webproxy_implicitproxyrule</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">webproxy_implicitproxyrule_proxyservers</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">webproxy_implicitproxysetting</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">webproxy_isolatorserver</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">webproxy_pacpolicy</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">webproxy_profile</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">webproxy_profile_headers</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">webproxy_redirectprofile</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">webproxy_redirectprofile_entries</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">webproxy_urllist</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">webproxy_urllist_entries</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">webproxy_urlmatch</span> - available versions:
@@ -3208,6 +3759,7 @@ Parameters
         <span class="li-normal">v7.4.3->latest</span>
         </li>
         <li><span class="li-required">webproxy_wisp</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">wireless_accesscontrollist</span> - available versions:
@@ -3223,9 +3775,11 @@ Parameters
         <span class="li-normal">v7.4.3->latest</span>
         </li>
         <li><span class="li-required">wireless_address</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">wireless_addrgrp</span> - available versions:
+        <span class="li-normal">v7.4.8->v7.4.8</span>,
         <span class="li-normal">v7.6.4->latest</span>
         </li>
         <li><span class="li-required">wireless_apcfgprofile</span> - available versions:
@@ -3450,7 +4004,7 @@ Parameters
         </li>
         <li><span class="li-required">wireless_vap_ip6prefixlist</span> - available versions:
         <span class="li-normal">v7.2.10->v7.2.11</span>,
-        <span class="li-normal">v7.4.7->v7.4.7</span>,
+        <span class="li-normal">v7.4.7->v7.4.8</span>,
         <span class="li-normal">v7.6.3->latest</span>
         </li>
         <li><span class="li-required">wireless_vap_macfilterlist</span> - available versions:
@@ -3572,6 +4126,32 @@ Parameters
         <ul class="ul-self">
             <li><span class="li-normal">device</span></li>
             <li><span class="li-normal">exempt-list</span></li>
+            <li><span class="li-normal">vdom</span></li>
+        </ul>
+        <li><span class="li-normal">params for antivirus_mmschecksum:</span></li>
+        <ul class="ul-self">
+            <li><span class="li-normal">device</span></li>
+            <li><span class="li-normal">mms-checksum</span></li>
+            <li><span class="li-normal">vdom</span></li>
+        </ul>
+        <li><span class="li-normal">params for antivirus_mmschecksum_entries:</span></li>
+        <ul class="ul-self">
+            <li><span class="li-normal">device</span></li>
+            <li><span class="li-normal">entries</span></li>
+            <li><span class="li-normal">mms-checksum</span></li>
+            <li><span class="li-normal">vdom</span></li>
+        </ul>
+        <li><span class="li-normal">params for antivirus_notification:</span></li>
+        <ul class="ul-self">
+            <li><span class="li-normal">device</span></li>
+            <li><span class="li-normal">notification</span></li>
+            <li><span class="li-normal">vdom</span></li>
+        </ul>
+        <li><span class="li-normal">params for antivirus_notification_entries:</span></li>
+        <ul class="ul-self">
+            <li><span class="li-normal">device</span></li>
+            <li><span class="li-normal">entries</span></li>
+            <li><span class="li-normal">notification</span></li>
             <li><span class="li-normal">vdom</span></li>
         </ul>
         <li><span class="li-normal">params for antivirus_profile:</span></li>
@@ -3831,19 +4411,47 @@ Parameters
             <li><span class="li-normal">user-activity</span></li>
             <li><span class="li-normal">vdom</span></li>
         </ul>
+        <li><span class="li-normal">params for certificate_ca:</span></li>
+        <ul class="ul-self">
+            <li><span class="li-normal">ca</span></li>
+            <li><span class="li-normal">device</span></li>
+        </ul>
+        <li><span class="li-normal">params for certificate_crl:</span></li>
+        <ul class="ul-self">
+            <li><span class="li-normal">crl</span></li>
+            <li><span class="li-normal">device</span></li>
+        </ul>
         <li><span class="li-normal">params for certificate_hsmlocal:</span></li>
         <ul class="ul-self">
             <li><span class="li-normal">device</span></li>
             <li><span class="li-normal">hsm-local</span></li>
+        </ul>
+        <li><span class="li-normal">params for certificate_local:</span></li>
+        <ul class="ul-self">
+            <li><span class="li-normal">device</span></li>
+            <li><span class="li-normal">local</span></li>
         </ul>
         <li><span class="li-normal">params for certificate_remote:</span></li>
         <ul class="ul-self">
             <li><span class="li-normal">device</span></li>
             <li><span class="li-normal">remote</span></li>
         </ul>
+        <li><span class="li-normal">params for cifs_domaincontroller:</span></li>
+        <ul class="ul-self">
+            <li><span class="li-normal">device</span></li>
+            <li><span class="li-normal">domain-controller</span></li>
+            <li><span class="li-normal">vdom</span></li>
+        </ul>
         <li><span class="li-normal">params for cifs_profile:</span></li>
         <ul class="ul-self">
             <li><span class="li-normal">device</span></li>
+            <li><span class="li-normal">profile</span></li>
+            <li><span class="li-normal">vdom</span></li>
+        </ul>
+        <li><span class="li-normal">params for cifs_profile_filefilter_entries:</span></li>
+        <ul class="ul-self">
+            <li><span class="li-normal">device</span></li>
+            <li><span class="li-normal">entries</span></li>
             <li><span class="li-normal">profile</span></li>
             <li><span class="li-normal">vdom</span></li>
         </ul>
@@ -3915,6 +4523,12 @@ Parameters
         <ul class="ul-self">
             <li><span class="li-normal">device</span></li>
             <li><span class="li-normal">fp-doc-source</span></li>
+            <li><span class="li-normal">vdom</span></li>
+        </ul>
+        <li><span class="li-normal">params for dlp_fpsensitivity:</span></li>
+        <ul class="ul-self">
+            <li><span class="li-normal">device</span></li>
+            <li><span class="li-normal">fp-sensitivity</span></li>
             <li><span class="li-normal">vdom</span></li>
         </ul>
         <li><span class="li-normal">params for dlp_label:</span></li>
@@ -4083,6 +4697,13 @@ Parameters
         <li><span class="li-normal">params for emailfilter_profile:</span></li>
         <ul class="ul-self">
             <li><span class="li-normal">device</span></li>
+            <li><span class="li-normal">profile</span></li>
+            <li><span class="li-normal">vdom</span></li>
+        </ul>
+        <li><span class="li-normal">params for emailfilter_profile_filefilter_entries:</span></li>
+        <ul class="ul-self">
+            <li><span class="li-normal">device</span></li>
+            <li><span class="li-normal">entries</span></li>
             <li><span class="li-normal">profile</span></li>
             <li><span class="li-normal">vdom</span></li>
         </ul>
@@ -4462,10 +5083,29 @@ Parameters
             <li><span class="li-normal">tagging</span></li>
             <li><span class="li-normal">vdom</span></li>
         </ul>
+        <li><span class="li-normal">params for firewall_carrierendpointbwl:</span></li>
+        <ul class="ul-self">
+            <li><span class="li-normal">carrier-endpoint-bwl</span></li>
+            <li><span class="li-normal">device</span></li>
+            <li><span class="li-normal">vdom</span></li>
+        </ul>
+        <li><span class="li-normal">params for firewall_carrierendpointbwl_entries:</span></li>
+        <ul class="ul-self">
+            <li><span class="li-normal">carrier-endpoint-bwl</span></li>
+            <li><span class="li-normal">device</span></li>
+            <li><span class="li-normal">entries</span></li>
+            <li><span class="li-normal">vdom</span></li>
+        </ul>
         <li><span class="li-normal">params for firewall_centralsnatmap:</span></li>
         <ul class="ul-self">
             <li><span class="li-normal">central-snat-map</span></li>
             <li><span class="li-normal">device</span></li>
+            <li><span class="li-normal">vdom</span></li>
+        </ul>
+        <li><span class="li-normal">params for firewall_consolidated_policy:</span></li>
+        <ul class="ul-self">
+            <li><span class="li-normal">device</span></li>
+            <li><span class="li-normal">policy</span></li>
             <li><span class="li-normal">vdom</span></li>
         </ul>
         <li><span class="li-normal">params for firewall_decryptedtrafficmirror:</span></li>
@@ -4580,6 +5220,12 @@ Parameters
             <li><span class="li-normal">hyperscale-policy46</span></li>
             <li><span class="li-normal">vdom</span></li>
         </ul>
+        <li><span class="li-normal">params for firewall_hyperscalepolicy6:</span></li>
+        <ul class="ul-self">
+            <li><span class="li-normal">device</span></li>
+            <li><span class="li-normal">hyperscale-policy6</span></li>
+            <li><span class="li-normal">vdom</span></li>
+        </ul>
         <li><span class="li-normal">params for firewall_hyperscalepolicy64:</span></li>
         <ul class="ul-self">
             <li><span class="li-normal">device</span></li>
@@ -4611,6 +5257,11 @@ Parameters
             <li><span class="li-normal">interface-policy6</span></li>
             <li><span class="li-normal">vdom</span></li>
         </ul>
+        <li><span class="li-normal">params for firewall_internetservice_entry:</span></li>
+        <ul class="ul-self">
+            <li><span class="li-normal">device</span></li>
+            <li><span class="li-normal">entry</span></li>
+        </ul>
         <li><span class="li-normal">params for firewall_internetserviceaddition:</span></li>
         <ul class="ul-self">
             <li><span class="li-normal">device</span></li>
@@ -4633,6 +5284,21 @@ Parameters
         <ul class="ul-self">
             <li><span class="li-normal">device</span></li>
             <li><span class="li-normal">internet-service-custom</span></li>
+            <li><span class="li-normal">vdom</span></li>
+        </ul>
+        <li><span class="li-normal">params for firewall_internetservicecustom_disableentry:</span></li>
+        <ul class="ul-self">
+            <li><span class="li-normal">device</span></li>
+            <li><span class="li-normal">disable-entry</span></li>
+            <li><span class="li-normal">internet-service-custom</span></li>
+            <li><span class="li-normal">vdom</span></li>
+        </ul>
+        <li><span class="li-normal">params for firewall_internetservicecustom_disableentry_iprange:</span></li>
+        <ul class="ul-self">
+            <li><span class="li-normal">device</span></li>
+            <li><span class="li-normal">disable-entry</span></li>
+            <li><span class="li-normal">internet-service-custom</span></li>
+            <li><span class="li-normal">ip-range</span></li>
             <li><span class="li-normal">vdom</span></li>
         </ul>
         <li><span class="li-normal">params for firewall_internetservicecustom_entry:</span></li>
@@ -4804,6 +5470,19 @@ Parameters
             <li><span class="li-normal">local-in-policy6</span></li>
             <li><span class="li-normal">vdom</span></li>
         </ul>
+        <li><span class="li-normal">params for firewall_mmsprofile:</span></li>
+        <ul class="ul-self">
+            <li><span class="li-normal">device</span></li>
+            <li><span class="li-normal">mms-profile</span></li>
+            <li><span class="li-normal">vdom</span></li>
+        </ul>
+        <li><span class="li-normal">params for firewall_mmsprofile_notifmsisdn:</span></li>
+        <ul class="ul-self">
+            <li><span class="li-normal">device</span></li>
+            <li><span class="li-normal">mms-profile</span></li>
+            <li><span class="li-normal">notif-msisdn</span></li>
+            <li><span class="li-normal">vdom</span></li>
+        </ul>
         <li><span class="li-normal">params for firewall_multicastaddress:</span></li>
         <ul class="ul-self">
             <li><span class="li-normal">device</span></li>
@@ -4870,6 +5549,12 @@ Parameters
         <ul class="ul-self">
             <li><span class="li-normal">device</span></li>
             <li><span class="li-normal">policy46</span></li>
+            <li><span class="li-normal">vdom</span></li>
+        </ul>
+        <li><span class="li-normal">params for firewall_policy6:</span></li>
+        <ul class="ul-self">
+            <li><span class="li-normal">device</span></li>
+            <li><span class="li-normal">policy6</span></li>
             <li><span class="li-normal">vdom</span></li>
         </ul>
         <li><span class="li-normal">params for firewall_policy64:</span></li>
@@ -6459,9 +7144,87 @@ Parameters
             <li><span class="li-normal">profile</span></li>
             <li><span class="li-normal">vdom</span></li>
         </ul>
+        <li><span class="li-normal">params for spamfilter_bwl:</span></li>
+        <ul class="ul-self">
+            <li><span class="li-normal">bwl</span></li>
+            <li><span class="li-normal">device</span></li>
+            <li><span class="li-normal">vdom</span></li>
+        </ul>
+        <li><span class="li-normal">params for spamfilter_bwl_entries:</span></li>
+        <ul class="ul-self">
+            <li><span class="li-normal">bwl</span></li>
+            <li><span class="li-normal">device</span></li>
+            <li><span class="li-normal">entries</span></li>
+            <li><span class="li-normal">vdom</span></li>
+        </ul>
+        <li><span class="li-normal">params for spamfilter_bword:</span></li>
+        <ul class="ul-self">
+            <li><span class="li-normal">bword</span></li>
+            <li><span class="li-normal">device</span></li>
+            <li><span class="li-normal">vdom</span></li>
+        </ul>
+        <li><span class="li-normal">params for spamfilter_bword_entries:</span></li>
+        <ul class="ul-self">
+            <li><span class="li-normal">bword</span></li>
+            <li><span class="li-normal">device</span></li>
+            <li><span class="li-normal">entries</span></li>
+            <li><span class="li-normal">vdom</span></li>
+        </ul>
+        <li><span class="li-normal">params for spamfilter_dnsbl:</span></li>
+        <ul class="ul-self">
+            <li><span class="li-normal">device</span></li>
+            <li><span class="li-normal">dnsbl</span></li>
+            <li><span class="li-normal">vdom</span></li>
+        </ul>
+        <li><span class="li-normal">params for spamfilter_dnsbl_entries:</span></li>
+        <ul class="ul-self">
+            <li><span class="li-normal">device</span></li>
+            <li><span class="li-normal">dnsbl</span></li>
+            <li><span class="li-normal">entries</span></li>
+            <li><span class="li-normal">vdom</span></li>
+        </ul>
+        <li><span class="li-normal">params for spamfilter_iptrust:</span></li>
+        <ul class="ul-self">
+            <li><span class="li-normal">device</span></li>
+            <li><span class="li-normal">iptrust</span></li>
+            <li><span class="li-normal">vdom</span></li>
+        </ul>
+        <li><span class="li-normal">params for spamfilter_iptrust_entries:</span></li>
+        <ul class="ul-self">
+            <li><span class="li-normal">device</span></li>
+            <li><span class="li-normal">entries</span></li>
+            <li><span class="li-normal">iptrust</span></li>
+            <li><span class="li-normal">vdom</span></li>
+        </ul>
+        <li><span class="li-normal">params for spamfilter_mheader:</span></li>
+        <ul class="ul-self">
+            <li><span class="li-normal">device</span></li>
+            <li><span class="li-normal">mheader</span></li>
+            <li><span class="li-normal">vdom</span></li>
+        </ul>
+        <li><span class="li-normal">params for spamfilter_mheader_entries:</span></li>
+        <ul class="ul-self">
+            <li><span class="li-normal">device</span></li>
+            <li><span class="li-normal">entries</span></li>
+            <li><span class="li-normal">mheader</span></li>
+            <li><span class="li-normal">vdom</span></li>
+        </ul>
+        <li><span class="li-normal">params for spamfilter_profile:</span></li>
+        <ul class="ul-self">
+            <li><span class="li-normal">device</span></li>
+            <li><span class="li-normal">profile</span></li>
+            <li><span class="li-normal">vdom</span></li>
+        </ul>
         <li><span class="li-normal">params for sshfilter_profile:</span></li>
         <ul class="ul-self">
             <li><span class="li-normal">device</span></li>
+            <li><span class="li-normal">profile</span></li>
+            <li><span class="li-normal">vdom</span></li>
+        </ul>
+        <li><span class="li-normal">params for sshfilter_profile_filefilter_entries:</span></li>
+        <ul class="ul-self">
+            <li><span class="li-normal">device</span></li>
+            <li><span class="li-normal">entries</span></li>
             <li><span class="li-normal">profile</span></li>
             <li><span class="li-normal">vdom</span></li>
         </ul>
@@ -7620,6 +8383,12 @@ Parameters
             <li><span class="li-normal">device</span></li>
             <li><span class="li-normal">ntpserver</span></li>
         </ul>
+        <li><span class="li-normal">params for system_objecttag:</span></li>
+        <ul class="ul-self">
+            <li><span class="li-normal">device</span></li>
+            <li><span class="li-normal">object-tag</span></li>
+            <li><span class="li-normal">vdom</span></li>
+        </ul>
         <li><span class="li-normal">params for system_objecttagging:</span></li>
         <ul class="ul-self">
             <li><span class="li-normal">device</span></li>
@@ -7702,6 +8471,13 @@ Parameters
             <li><span class="li-normal">replacemsg-group</span></li>
             <li><span class="li-normal">vdom</span></li>
         </ul>
+        <li><span class="li-normal">params for system_replacemsggroup_ec:</span></li>
+        <ul class="ul-self">
+            <li><span class="li-normal">device</span></li>
+            <li><span class="li-normal">ec</span></li>
+            <li><span class="li-normal">replacemsg-group</span></li>
+            <li><span class="li-normal">vdom</span></li>
+        </ul>
         <li><span class="li-normal">params for system_replacemsggroup_fortiguardwf:</span></li>
         <ul class="ul-self">
             <li><span class="li-normal">device</span></li>
@@ -7734,6 +8510,41 @@ Parameters
         <ul class="ul-self">
             <li><span class="li-normal">device</span></li>
             <li><span class="li-normal">mail</span></li>
+            <li><span class="li-normal">replacemsg-group</span></li>
+            <li><span class="li-normal">vdom</span></li>
+        </ul>
+        <li><span class="li-normal">params for system_replacemsggroup_mm1:</span></li>
+        <ul class="ul-self">
+            <li><span class="li-normal">device</span></li>
+            <li><span class="li-normal">mm1</span></li>
+            <li><span class="li-normal">replacemsg-group</span></li>
+            <li><span class="li-normal">vdom</span></li>
+        </ul>
+        <li><span class="li-normal">params for system_replacemsggroup_mm3:</span></li>
+        <ul class="ul-self">
+            <li><span class="li-normal">device</span></li>
+            <li><span class="li-normal">mm3</span></li>
+            <li><span class="li-normal">replacemsg-group</span></li>
+            <li><span class="li-normal">vdom</span></li>
+        </ul>
+        <li><span class="li-normal">params for system_replacemsggroup_mm4:</span></li>
+        <ul class="ul-self">
+            <li><span class="li-normal">device</span></li>
+            <li><span class="li-normal">mm4</span></li>
+            <li><span class="li-normal">replacemsg-group</span></li>
+            <li><span class="li-normal">vdom</span></li>
+        </ul>
+        <li><span class="li-normal">params for system_replacemsggroup_mm7:</span></li>
+        <ul class="ul-self">
+            <li><span class="li-normal">device</span></li>
+            <li><span class="li-normal">mm7</span></li>
+            <li><span class="li-normal">replacemsg-group</span></li>
+            <li><span class="li-normal">vdom</span></li>
+        </ul>
+        <li><span class="li-normal">params for system_replacemsggroup_mms:</span></li>
+        <ul class="ul-self">
+            <li><span class="li-normal">device</span></li>
+            <li><span class="li-normal">mms</span></li>
             <li><span class="li-normal">replacemsg-group</span></li>
             <li><span class="li-normal">vdom</span></li>
         </ul>
@@ -8879,11 +9690,13 @@ Parameters
         <ul class="ul-self">
             <li><span class="li-normal">device</span></li>
             <li><span class="li-normal">dst-peer</span></li>
+            <li><span class="li-normal">vdom</span></li>
         </ul>
         <li><span class="li-normal">params for wanopt_cacheservice_srcpeer:</span></li>
         <ul class="ul-self">
             <li><span class="li-normal">device</span></li>
             <li><span class="li-normal">src-peer</span></li>
+            <li><span class="li-normal">vdom</span></li>
         </ul>
         <li><span class="li-normal">params for wanopt_contentdeliverynetworkrule:</span></li>
         <ul class="ul-self">
@@ -9041,6 +9854,13 @@ Parameters
             <li><span class="li-normal">profile</span></li>
             <li><span class="li-normal">vdom</span></li>
         </ul>
+        <li><span class="li-normal">params for webfilter_profile_filefilter_entries:</span></li>
+        <ul class="ul-self">
+            <li><span class="li-normal">device</span></li>
+            <li><span class="li-normal">entries</span></li>
+            <li><span class="li-normal">profile</span></li>
+            <li><span class="li-normal">vdom</span></li>
+        </ul>
         <li><span class="li-normal">params for webfilter_profile_ftgdwf_filters:</span></li>
         <ul class="ul-self">
             <li><span class="li-normal">device</span></li>
@@ -9105,6 +9925,12 @@ Parameters
         <ul class="ul-self">
             <li><span class="li-normal">debug-url</span></li>
             <li><span class="li-normal">device</span></li>
+            <li><span class="li-normal">vdom</span></li>
+        </ul>
+        <li><span class="li-normal">params for webproxy_explicit:</span></li>
+        <ul class="ul-self">
+            <li><span class="li-normal">device</span></li>
+            <li><span class="li-normal">explicit</span></li>
             <li><span class="li-normal">vdom</span></li>
         </ul>
         <li><span class="li-normal">params for webproxy_explicit_pacpolicy:</span></li>
@@ -9839,6 +10665,30 @@ Parameters
             <li><span class="li-normal">required primary key: <b>name</b> </span></li>
             <li><span class="li-normal">optional params list: <a href="docgen/fmgd_antivirus_exemptlist.html#parameters">fmgd_antivirus_exemptlist</a> </span></li>
         </ul>
+        <li><span class="li-normal">params for antivirus_mmschecksum:</span></li>
+        <ul class="ul-self">
+            
+            <li><span class="li-normal">required primary key: <b>id</b> </span></li>
+            <li><span class="li-normal">optional params list: <a href="docgen/fmgd_antivirus_mmschecksum.html#parameters">fmgd_antivirus_mmschecksum</a> </span></li>
+        </ul>
+        <li><span class="li-normal">params for antivirus_mmschecksum_entries:</span></li>
+        <ul class="ul-self">
+            
+            <li><span class="li-normal">required primary key: <b>name</b> </span></li>
+            <li><span class="li-normal">optional params list: <a href="docgen/fmgd_antivirus_mmschecksum_entries.html#parameters">fmgd_antivirus_mmschecksum_entries</a> </span></li>
+        </ul>
+        <li><span class="li-normal">params for antivirus_notification:</span></li>
+        <ul class="ul-self">
+            
+            <li><span class="li-normal">required primary key: <b>id</b> </span></li>
+            <li><span class="li-normal">optional params list: <a href="docgen/fmgd_antivirus_notification.html#parameters">fmgd_antivirus_notification</a> </span></li>
+        </ul>
+        <li><span class="li-normal">params for antivirus_notification_entries:</span></li>
+        <ul class="ul-self">
+            
+            <li><span class="li-normal">required primary key: <b>name</b> </span></li>
+            <li><span class="li-normal">optional params list: <a href="docgen/fmgd_antivirus_notification_entries.html#parameters">fmgd_antivirus_notification_entries</a> </span></li>
+        </ul>
         <li><span class="li-normal">params for antivirus_profile:</span></li>
         <ul class="ul-self">
             
@@ -10061,11 +10911,29 @@ Parameters
             <li><span class="li-normal">required primary key: <b>id</b> </span></li>
             <li><span class="li-normal">optional params list: <a href="docgen/fmgd_casb_useractivity_match_tenantextraction_filters.html#parameters">fmgd_casb_useractivity_match_tenantextraction_filters</a> </span></li>
         </ul>
+        <li><span class="li-normal">params for certificate_ca:</span></li>
+        <ul class="ul-self">
+            
+            <li><span class="li-normal">required primary key: <b>name</b> </span></li>
+            <li><span class="li-normal">optional params list: <a href="docgen/fmgd_certificate_ca.html#parameters">fmgd_certificate_ca</a> </span></li>
+        </ul>
+        <li><span class="li-normal">params for certificate_crl:</span></li>
+        <ul class="ul-self">
+            
+            <li><span class="li-normal">required primary key: <b>name</b> </span></li>
+            <li><span class="li-normal">optional params list: <a href="docgen/fmgd_certificate_crl.html#parameters">fmgd_certificate_crl</a> </span></li>
+        </ul>
         <li><span class="li-normal">params for certificate_hsmlocal:</span></li>
         <ul class="ul-self">
             
             <li><span class="li-normal">required primary key: <b>name</b> </span></li>
             <li><span class="li-normal">optional params list: <a href="docgen/fmgd_certificate_hsmlocal.html#parameters">fmgd_certificate_hsmlocal</a> </span></li>
+        </ul>
+        <li><span class="li-normal">params for certificate_local:</span></li>
+        <ul class="ul-self">
+            
+            <li><span class="li-normal">required primary key: <b>name</b> </span></li>
+            <li><span class="li-normal">optional params list: <a href="docgen/fmgd_certificate_local.html#parameters">fmgd_certificate_local</a> </span></li>
         </ul>
         <li><span class="li-normal">params for certificate_remote:</span></li>
         <ul class="ul-self">
@@ -10073,11 +10941,21 @@ Parameters
             <li><span class="li-normal">required primary key: <b>name</b> </span></li>
             <li><span class="li-normal">optional params list: <a href="docgen/fmgd_certificate_remote.html#parameters">fmgd_certificate_remote</a> </span></li>
         </ul>
+        <li><span class="li-normal">params for cifs_domaincontroller:</span></li>
+        <ul class="ul-self">
+            
+            <li><span class="li-normal">optional params list: <a href="docgen/fmgd_cifs_domaincontroller.html#parameters">fmgd_cifs_domaincontroller</a> </span></li>
+        </ul>
         <li><span class="li-normal">params for cifs_profile:</span></li>
         <ul class="ul-self">
             
             <li><span class="li-normal">required primary key: <b>name</b> </span></li>
             <li><span class="li-normal">optional params list: <a href="docgen/fmgd_cifs_profile.html#parameters">fmgd_cifs_profile</a> </span></li>
+        </ul>
+        <li><span class="li-normal">params for cifs_profile_filefilter_entries:</span></li>
+        <ul class="ul-self">
+            
+            <li><span class="li-normal">optional params list: <a href="docgen/fmgd_cifs_profile_filefilter_entries.html#parameters">fmgd_cifs_profile_filefilter_entries</a> </span></li>
         </ul>
         <li><span class="li-normal">params for cifs_profile_serverkeytab:</span></li>
         <ul class="ul-self">
@@ -10140,6 +11018,12 @@ Parameters
             
             <li><span class="li-normal">required primary key: <b>name</b> </span></li>
             <li><span class="li-normal">optional params list: <a href="docgen/fmgd_dlp_fpdocsource.html#parameters">fmgd_dlp_fpdocsource</a> </span></li>
+        </ul>
+        <li><span class="li-normal">params for dlp_fpsensitivity:</span></li>
+        <ul class="ul-self">
+            
+            <li><span class="li-normal">required primary key: <b>name</b> </span></li>
+            <li><span class="li-normal">optional params list: <a href="docgen/fmgd_dlp_fpsensitivity.html#parameters">fmgd_dlp_fpsensitivity</a> </span></li>
         </ul>
         <li><span class="li-normal">params for dlp_label:</span></li>
         <ul class="ul-self">
@@ -10296,6 +11180,11 @@ Parameters
             
             <li><span class="li-normal">required primary key: <b>name</b> </span></li>
             <li><span class="li-normal">optional params list: <a href="docgen/fmgd_emailfilter_profile.html#parameters">fmgd_emailfilter_profile</a> </span></li>
+        </ul>
+        <li><span class="li-normal">params for emailfilter_profile_filefilter_entries:</span></li>
+        <ul class="ul-self">
+            
+            <li><span class="li-normal">optional params list: <a href="docgen/fmgd_emailfilter_profile_filefilter_entries.html#parameters">fmgd_emailfilter_profile_filefilter_entries</a> </span></li>
         </ul>
         <li><span class="li-normal">params for endpointcontrol_fctems:</span></li>
         <ul class="ul-self">
@@ -10627,11 +11516,29 @@ Parameters
             <li><span class="li-normal">required primary key: <b>name</b> </span></li>
             <li><span class="li-normal">optional params list: <a href="docgen/fmgd_firewall_addrgrp_tagging.html#parameters">fmgd_firewall_addrgrp_tagging</a> </span></li>
         </ul>
+        <li><span class="li-normal">params for firewall_carrierendpointbwl:</span></li>
+        <ul class="ul-self">
+            
+            <li><span class="li-normal">required primary key: <b>id</b> </span></li>
+            <li><span class="li-normal">optional params list: <a href="docgen/fmgd_firewall_carrierendpointbwl.html#parameters">fmgd_firewall_carrierendpointbwl</a> </span></li>
+        </ul>
+        <li><span class="li-normal">params for firewall_carrierendpointbwl_entries:</span></li>
+        <ul class="ul-self">
+            
+            <li><span class="li-normal">required primary key: <b>carrier-endpoint</b> </span></li>
+            <li><span class="li-normal">optional params list: <a href="docgen/fmgd_firewall_carrierendpointbwl_entries.html#parameters">fmgd_firewall_carrierendpointbwl_entries</a> </span></li>
+        </ul>
         <li><span class="li-normal">params for firewall_centralsnatmap:</span></li>
         <ul class="ul-self">
             
             <li><span class="li-normal">required primary key: <b>policyid</b> </span></li>
             <li><span class="li-normal">optional params list: <a href="docgen/fmgd_firewall_centralsnatmap.html#parameters">fmgd_firewall_centralsnatmap</a> </span></li>
+        </ul>
+        <li><span class="li-normal">params for firewall_consolidated_policy:</span></li>
+        <ul class="ul-self">
+            
+            <li><span class="li-normal">required primary key: <b>policyid</b> </span></li>
+            <li><span class="li-normal">optional params list: <a href="docgen/fmgd_firewall_consolidated_policy.html#parameters">fmgd_firewall_consolidated_policy</a> </span></li>
         </ul>
         <li><span class="li-normal">params for firewall_decryptedtrafficmirror:</span></li>
         <ul class="ul-self">
@@ -10735,6 +11642,12 @@ Parameters
             <li><span class="li-normal">required primary key: <b>policyid</b> </span></li>
             <li><span class="li-normal">optional params list: <a href="docgen/fmgd_firewall_hyperscalepolicy46.html#parameters">fmgd_firewall_hyperscalepolicy46</a> </span></li>
         </ul>
+        <li><span class="li-normal">params for firewall_hyperscalepolicy6:</span></li>
+        <ul class="ul-self">
+            
+            <li><span class="li-normal">required primary key: <b>policyid</b> </span></li>
+            <li><span class="li-normal">optional params list: <a href="docgen/fmgd_firewall_hyperscalepolicy6.html#parameters">fmgd_firewall_hyperscalepolicy6</a> </span></li>
+        </ul>
         <li><span class="li-normal">params for firewall_hyperscalepolicy64:</span></li>
         <ul class="ul-self">
             
@@ -10765,6 +11678,12 @@ Parameters
             <li><span class="li-normal">required primary key: <b>policyid</b> </span></li>
             <li><span class="li-normal">optional params list: <a href="docgen/fmgd_firewall_interfacepolicy6.html#parameters">fmgd_firewall_interfacepolicy6</a> </span></li>
         </ul>
+        <li><span class="li-normal">params for firewall_internetservice_entry:</span></li>
+        <ul class="ul-self">
+            
+            <li><span class="li-normal">required primary key: <b>id</b> </span></li>
+            <li><span class="li-normal">optional params list: <a href="docgen/fmgd_firewall_internetservice_entry.html#parameters">fmgd_firewall_internetservice_entry</a> </span></li>
+        </ul>
         <li><span class="li-normal">params for firewall_internetserviceaddition:</span></li>
         <ul class="ul-self">
             
@@ -10788,6 +11707,18 @@ Parameters
             
             <li><span class="li-normal">required primary key: <b>name</b> </span></li>
             <li><span class="li-normal">optional params list: <a href="docgen/fmgd_firewall_internetservicecustom.html#parameters">fmgd_firewall_internetservicecustom</a> </span></li>
+        </ul>
+        <li><span class="li-normal">params for firewall_internetservicecustom_disableentry:</span></li>
+        <ul class="ul-self">
+            
+            <li><span class="li-normal">required primary key: <b>id</b> </span></li>
+            <li><span class="li-normal">optional params list: <a href="docgen/fmgd_firewall_internetservicecustom_disableentry.html#parameters">fmgd_firewall_internetservicecustom_disableentry</a> </span></li>
+        </ul>
+        <li><span class="li-normal">params for firewall_internetservicecustom_disableentry_iprange:</span></li>
+        <ul class="ul-self">
+            
+            <li><span class="li-normal">required primary key: <b>id</b> </span></li>
+            <li><span class="li-normal">optional params list: <a href="docgen/fmgd_firewall_internetservicecustom_disableentry_iprange.html#parameters">fmgd_firewall_internetservicecustom_disableentry_iprange</a> </span></li>
         </ul>
         <li><span class="li-normal">params for firewall_internetservicecustom_entry:</span></li>
         <ul class="ul-self">
@@ -10944,6 +11875,18 @@ Parameters
             <li><span class="li-normal">required primary key: <b>policyid</b> </span></li>
             <li><span class="li-normal">optional params list: <a href="docgen/fmgd_firewall_localinpolicy6.html#parameters">fmgd_firewall_localinpolicy6</a> </span></li>
         </ul>
+        <li><span class="li-normal">params for firewall_mmsprofile:</span></li>
+        <ul class="ul-self">
+            
+            <li><span class="li-normal">required primary key: <b>name</b> </span></li>
+            <li><span class="li-normal">optional params list: <a href="docgen/fmgd_firewall_mmsprofile.html#parameters">fmgd_firewall_mmsprofile</a> </span></li>
+        </ul>
+        <li><span class="li-normal">params for firewall_mmsprofile_notifmsisdn:</span></li>
+        <ul class="ul-self">
+            
+            <li><span class="li-normal">required primary key: <b>msisdn</b> </span></li>
+            <li><span class="li-normal">optional params list: <a href="docgen/fmgd_firewall_mmsprofile_notifmsisdn.html#parameters">fmgd_firewall_mmsprofile_notifmsisdn</a> </span></li>
+        </ul>
         <li><span class="li-normal">params for firewall_multicastaddress:</span></li>
         <ul class="ul-self">
             
@@ -11009,6 +11952,12 @@ Parameters
             
             <li><span class="li-normal">required primary key: <b>policyid</b> </span></li>
             <li><span class="li-normal">optional params list: <a href="docgen/fmgd_firewall_policy46.html#parameters">fmgd_firewall_policy46</a> </span></li>
+        </ul>
+        <li><span class="li-normal">params for firewall_policy6:</span></li>
+        <ul class="ul-self">
+            
+            <li><span class="li-normal">required primary key: <b>policyid</b> </span></li>
+            <li><span class="li-normal">optional params list: <a href="docgen/fmgd_firewall_policy6.html#parameters">fmgd_firewall_policy6</a> </span></li>
         </ul>
         <li><span class="li-normal">params for firewall_policy64:</span></li>
         <ul class="ul-self">
@@ -12515,11 +13464,82 @@ Parameters
             <li><span class="li-normal">required primary key: <b>id</b> </span></li>
             <li><span class="li-normal">optional params list: <a href="docgen/fmgd_sctpfilter_profile_ppidfilters.html#parameters">fmgd_sctpfilter_profile_ppidfilters</a> </span></li>
         </ul>
+        <li><span class="li-normal">params for spamfilter_bwl:</span></li>
+        <ul class="ul-self">
+            
+            <li><span class="li-normal">required primary key: <b>id</b> </span></li>
+            <li><span class="li-normal">optional params list: <a href="docgen/fmgd_spamfilter_bwl.html#parameters">fmgd_spamfilter_bwl</a> </span></li>
+        </ul>
+        <li><span class="li-normal">params for spamfilter_bwl_entries:</span></li>
+        <ul class="ul-self">
+            
+            <li><span class="li-normal">required primary key: <b>id</b> </span></li>
+            <li><span class="li-normal">optional params list: <a href="docgen/fmgd_spamfilter_bwl_entries.html#parameters">fmgd_spamfilter_bwl_entries</a> </span></li>
+        </ul>
+        <li><span class="li-normal">params for spamfilter_bword:</span></li>
+        <ul class="ul-self">
+            
+            <li><span class="li-normal">required primary key: <b>id</b> </span></li>
+            <li><span class="li-normal">optional params list: <a href="docgen/fmgd_spamfilter_bword.html#parameters">fmgd_spamfilter_bword</a> </span></li>
+        </ul>
+        <li><span class="li-normal">params for spamfilter_bword_entries:</span></li>
+        <ul class="ul-self">
+            
+            <li><span class="li-normal">required primary key: <b>id</b> </span></li>
+            <li><span class="li-normal">optional params list: <a href="docgen/fmgd_spamfilter_bword_entries.html#parameters">fmgd_spamfilter_bword_entries</a> </span></li>
+        </ul>
+        <li><span class="li-normal">params for spamfilter_dnsbl:</span></li>
+        <ul class="ul-self">
+            
+            <li><span class="li-normal">required primary key: <b>id</b> </span></li>
+            <li><span class="li-normal">optional params list: <a href="docgen/fmgd_spamfilter_dnsbl.html#parameters">fmgd_spamfilter_dnsbl</a> </span></li>
+        </ul>
+        <li><span class="li-normal">params for spamfilter_dnsbl_entries:</span></li>
+        <ul class="ul-self">
+            
+            <li><span class="li-normal">required primary key: <b>id</b> </span></li>
+            <li><span class="li-normal">optional params list: <a href="docgen/fmgd_spamfilter_dnsbl_entries.html#parameters">fmgd_spamfilter_dnsbl_entries</a> </span></li>
+        </ul>
+        <li><span class="li-normal">params for spamfilter_iptrust:</span></li>
+        <ul class="ul-self">
+            
+            <li><span class="li-normal">required primary key: <b>id</b> </span></li>
+            <li><span class="li-normal">optional params list: <a href="docgen/fmgd_spamfilter_iptrust.html#parameters">fmgd_spamfilter_iptrust</a> </span></li>
+        </ul>
+        <li><span class="li-normal">params for spamfilter_iptrust_entries:</span></li>
+        <ul class="ul-self">
+            
+            <li><span class="li-normal">required primary key: <b>id</b> </span></li>
+            <li><span class="li-normal">optional params list: <a href="docgen/fmgd_spamfilter_iptrust_entries.html#parameters">fmgd_spamfilter_iptrust_entries</a> </span></li>
+        </ul>
+        <li><span class="li-normal">params for spamfilter_mheader:</span></li>
+        <ul class="ul-self">
+            
+            <li><span class="li-normal">required primary key: <b>id</b> </span></li>
+            <li><span class="li-normal">optional params list: <a href="docgen/fmgd_spamfilter_mheader.html#parameters">fmgd_spamfilter_mheader</a> </span></li>
+        </ul>
+        <li><span class="li-normal">params for spamfilter_mheader_entries:</span></li>
+        <ul class="ul-self">
+            
+            <li><span class="li-normal">required primary key: <b>id</b> </span></li>
+            <li><span class="li-normal">optional params list: <a href="docgen/fmgd_spamfilter_mheader_entries.html#parameters">fmgd_spamfilter_mheader_entries</a> </span></li>
+        </ul>
+        <li><span class="li-normal">params for spamfilter_profile:</span></li>
+        <ul class="ul-self">
+            
+            <li><span class="li-normal">required primary key: <b>name</b> </span></li>
+            <li><span class="li-normal">optional params list: <a href="docgen/fmgd_spamfilter_profile.html#parameters">fmgd_spamfilter_profile</a> </span></li>
+        </ul>
         <li><span class="li-normal">params for sshfilter_profile:</span></li>
         <ul class="ul-self">
             
             <li><span class="li-normal">required primary key: <b>name</b> </span></li>
             <li><span class="li-normal">optional params list: <a href="docgen/fmgd_sshfilter_profile.html#parameters">fmgd_sshfilter_profile</a> </span></li>
+        </ul>
+        <li><span class="li-normal">params for sshfilter_profile_filefilter_entries:</span></li>
+        <ul class="ul-self">
+            
+            <li><span class="li-normal">optional params list: <a href="docgen/fmgd_sshfilter_profile_filefilter_entries.html#parameters">fmgd_sshfilter_profile_filefilter_entries</a> </span></li>
         </ul>
         <li><span class="li-normal">params for sshfilter_profile_shellcommands:</span></li>
         <ul class="ul-self">
@@ -13658,6 +14678,12 @@ Parameters
             <li><span class="li-normal">required primary key: <b>id</b> </span></li>
             <li><span class="li-normal">optional params list: <a href="docgen/fmgd_system_ntp_ntpserver.html#parameters">fmgd_system_ntp_ntpserver</a> </span></li>
         </ul>
+        <li><span class="li-normal">params for system_objecttag:</span></li>
+        <ul class="ul-self">
+            
+            <li><span class="li-normal">required primary key: <b>name</b> </span></li>
+            <li><span class="li-normal">optional params list: <a href="docgen/fmgd_system_objecttag.html#parameters">fmgd_system_objecttag</a> </span></li>
+        </ul>
         <li><span class="li-normal">params for system_objecttagging:</span></li>
         <ul class="ul-self">
             
@@ -13735,6 +14761,12 @@ Parameters
             <li><span class="li-normal">required primary key: <b>msg-type</b> </span></li>
             <li><span class="li-normal">optional params list: <a href="docgen/fmgd_system_replacemsggroup_devicedetectionportal.html#parameters">fmgd_system_replacemsggroup_devicedetectionportal</a> </span></li>
         </ul>
+        <li><span class="li-normal">params for system_replacemsggroup_ec:</span></li>
+        <ul class="ul-self">
+            
+            <li><span class="li-normal">required primary key: <b>msg-type</b> </span></li>
+            <li><span class="li-normal">optional params list: <a href="docgen/fmgd_system_replacemsggroup_ec.html#parameters">fmgd_system_replacemsggroup_ec</a> </span></li>
+        </ul>
         <li><span class="li-normal">params for system_replacemsggroup_fortiguardwf:</span></li>
         <ul class="ul-self">
             
@@ -13764,6 +14796,36 @@ Parameters
             
             <li><span class="li-normal">required primary key: <b>msg-type</b> </span></li>
             <li><span class="li-normal">optional params list: <a href="docgen/fmgd_system_replacemsggroup_mail.html#parameters">fmgd_system_replacemsggroup_mail</a> </span></li>
+        </ul>
+        <li><span class="li-normal">params for system_replacemsggroup_mm1:</span></li>
+        <ul class="ul-self">
+            
+            <li><span class="li-normal">required primary key: <b>msg-type</b> </span></li>
+            <li><span class="li-normal">optional params list: <a href="docgen/fmgd_system_replacemsggroup_mm1.html#parameters">fmgd_system_replacemsggroup_mm1</a> </span></li>
+        </ul>
+        <li><span class="li-normal">params for system_replacemsggroup_mm3:</span></li>
+        <ul class="ul-self">
+            
+            <li><span class="li-normal">required primary key: <b>msg-type</b> </span></li>
+            <li><span class="li-normal">optional params list: <a href="docgen/fmgd_system_replacemsggroup_mm3.html#parameters">fmgd_system_replacemsggroup_mm3</a> </span></li>
+        </ul>
+        <li><span class="li-normal">params for system_replacemsggroup_mm4:</span></li>
+        <ul class="ul-self">
+            
+            <li><span class="li-normal">required primary key: <b>msg-type</b> </span></li>
+            <li><span class="li-normal">optional params list: <a href="docgen/fmgd_system_replacemsggroup_mm4.html#parameters">fmgd_system_replacemsggroup_mm4</a> </span></li>
+        </ul>
+        <li><span class="li-normal">params for system_replacemsggroup_mm7:</span></li>
+        <ul class="ul-self">
+            
+            <li><span class="li-normal">required primary key: <b>msg-type</b> </span></li>
+            <li><span class="li-normal">optional params list: <a href="docgen/fmgd_system_replacemsggroup_mm7.html#parameters">fmgd_system_replacemsggroup_mm7</a> </span></li>
+        </ul>
+        <li><span class="li-normal">params for system_replacemsggroup_mms:</span></li>
+        <ul class="ul-self">
+            
+            <li><span class="li-normal">required primary key: <b>msg-type</b> </span></li>
+            <li><span class="li-normal">optional params list: <a href="docgen/fmgd_system_replacemsggroup_mms.html#parameters">fmgd_system_replacemsggroup_mms</a> </span></li>
         </ul>
         <li><span class="li-normal">params for system_replacemsggroup_nacquar:</span></li>
         <ul class="ul-self">
@@ -15017,6 +16079,11 @@ Parameters
             <li><span class="li-normal">required primary key: <b>name</b> </span></li>
             <li><span class="li-normal">optional params list: <a href="docgen/fmgd_webfilter_profile_antiphish_inspectionentries.html#parameters">fmgd_webfilter_profile_antiphish_inspectionentries</a> </span></li>
         </ul>
+        <li><span class="li-normal">params for webfilter_profile_filefilter_entries:</span></li>
+        <ul class="ul-self">
+            
+            <li><span class="li-normal">optional params list: <a href="docgen/fmgd_webfilter_profile_filefilter_entries.html#parameters">fmgd_webfilter_profile_filefilter_entries</a> </span></li>
+        </ul>
         <li><span class="li-normal">params for webfilter_profile_ftgdwf_filters:</span></li>
         <ul class="ul-self">
             
@@ -15075,6 +16142,12 @@ Parameters
             
             <li><span class="li-normal">required primary key: <b>name</b> </span></li>
             <li><span class="li-normal">optional params list: <a href="docgen/fmgd_webproxy_debugurl.html#parameters">fmgd_webproxy_debugurl</a> </span></li>
+        </ul>
+        <li><span class="li-normal">params for webproxy_explicit:</span></li>
+        <ul class="ul-self">
+            
+            <li><span class="li-normal">required primary key: <b>name</b> </span></li>
+            <li><span class="li-normal">optional params list: <a href="docgen/fmgd_webproxy_explicit.html#parameters">fmgd_webproxy_explicit</a> </span></li>
         </ul>
         <li><span class="li-normal">params for webproxy_explicit_pacpolicy:</span></li>
         <ul class="ul-self">

@@ -228,7 +228,7 @@ Parameters
  <li><span class="li-head">switch_on_deauth</span> <b>(Alias name: switch-on-deauth)</b>  No-operation/factory-reset the managed fortiswitch on deauthorization. <span class="li-normal">type: str</span> <span class="li-normal">choices: [no-op, factory-reset]</span> 
  <a id='label56' href="javascript:ContentClick('label57', 'label56');" onmouseover="ContentPreview('label57');" onmouseout="ContentUnpreview('label57');" title="click to collapse or expand..."> more... </a>
  <div id="label57" style="display:none">
- <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.4.6 -> v7.4.7</code>, <code class="docutils literal notranslate">v7.6.2 -> latest</code></p>
+ <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.4.6 -> v7.4.8</code>, <code class="docutils literal notranslate">v7.6.2 -> latest</code></p>
  </div>
  </li>
  <li><span class="li-head">firewall_auth_user_hold_period</span> <b>(Alias name: firewall-auth-user-hold-period)</b>  Time period in minutes to hold firewall authenticated mac users (5 - 1440, default = 5, disable = 0). <span class="li-normal">type: int</span>

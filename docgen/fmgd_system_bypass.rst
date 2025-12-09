@@ -78,10 +78,10 @@ Parameters
  <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.2.6 -> v7.2.11</code>, <code class="docutils literal notranslate">v7.4.3 -> latest</code></p>
  </div>
  </li>
- <li><span class="li-head">bypass_mode</span> <b>(Alias name: bypass-mode)</b>  Bypass mode. <span class="li-normal">type: str</span> <span class="li-normal">choices: [off, powerup, powerdown, both]</span> 
+ <li><span class="li-head">bypass_mode</span> <b>(Alias name: bypass-mode)</b>  Set bypass interface mode <span class="li-normal">type: str</span> <span class="li-normal">choices: [off, powerup, powerdown, both]</span> 
  <a id='label8' href="javascript:ContentClick('label9', 'label8');" onmouseover="ContentPreview('label9');" onmouseout="ContentUnpreview('label9');" title="click to collapse or expand..."> more... </a>
  <div id="label9" style="display:none">
- <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.6.4 -> latest</code></p>
+ <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.4.8 -> v7.4.8</code>, <code class="docutils literal notranslate">v7.6.4 -> latest</code></p>
  </div>
  </li>
  </ul>

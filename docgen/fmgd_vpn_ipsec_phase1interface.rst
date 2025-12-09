@@ -1302,25 +1302,25 @@ Parameters
  <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.6.3 -> latest</code></p>
  </div>
  </li>
- <li><span class="li-head">peer_egress_shaping</span> <b>(Alias name: peer-egress-shaping)</b>  Enable/disable peer egress shaping. <span class="li-normal">type: str</span> <span class="li-normal">choices: [disable, enable]</span> 
+ <li><span class="li-head">mobike</span> Mobike. <span class="li-normal">type: str</span> <span class="li-normal">choices: [disable, enable]</span> 
  <a id='label414' href="javascript:ContentClick('label415', 'label414');" onmouseover="ContentPreview('label415');" onmouseout="ContentUnpreview('label415');" title="click to collapse or expand..."> more... </a>
  <div id="label415" style="display:none">
- <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.6.4 -> latest</code></p>
+ <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.4.8 -> v7.4.8</code>, <code class="docutils literal notranslate">v7.6.4 -> latest</code></p>
  </div>
  </li>
- <li><span class="li-head">dns_suffix_search</span> <b>(Alias name: dns-suffix-search)</b>  One or more dns domain name suffixes in quotes separated by spaces. <span class="li-normal">type: list</span>
+ <li><span class="li-head">peer_egress_shaping</span> <b>(Alias name: peer-egress-shaping)</b>  Enable/disable peer egress shaping. <span class="li-normal">type: str</span> <span class="li-normal">choices: [disable, enable]</span> 
  <a id='label416' href="javascript:ContentClick('label417', 'label416');" onmouseover="ContentPreview('label417');" onmouseout="ContentUnpreview('label417');" title="click to collapse or expand..."> more... </a>
  <div id="label417" style="display:none">
  <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.6.4 -> latest</code></p>
  </div>
  </li>
- <li><span class="li-head">peer_egress_shaping_value</span> <b>(Alias name: peer-egress-shaping-value)</b>  Configure outbound bandwidth to use for peer egress shaping in kbps (0 - 100000000, default = 0). <span class="li-normal">type: int</span>
+ <li><span class="li-head">dns_suffix_search</span> <b>(Alias name: dns-suffix-search)</b>  One or more dns domain name suffixes in quotes separated by spaces. <span class="li-normal">type: list</span>
  <a id='label418' href="javascript:ContentClick('label419', 'label418');" onmouseover="ContentPreview('label419');" onmouseout="ContentUnpreview('label419');" title="click to collapse or expand..."> more... </a>
  <div id="label419" style="display:none">
  <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.6.4 -> latest</code></p>
  </div>
  </li>
- <li><span class="li-head">mobike</span> Mobike. <span class="li-normal">type: str</span> <span class="li-normal">choices: [disable, enable]</span> 
+ <li><span class="li-head">peer_egress_shaping_value</span> <b>(Alias name: peer-egress-shaping-value)</b>  Configure outbound bandwidth to use for peer egress shaping in kbps (0 - 100000000, default = 0). <span class="li-normal">type: int</span>
  <a id='label420' href="javascript:ContentClick('label421', 'label420');" onmouseover="ContentPreview('label421');" onmouseout="ContentUnpreview('label421');" title="click to collapse or expand..."> more... </a>
  <div id="label421" style="display:none">
  <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.6.4 -> latest</code></p>
@@ -1704,10 +1704,10 @@ Examples
             # shared_idle_timeout: <value in [disable, enable]>
             # auto_discovery_dialup_placeholder: <value in [disable, enable]>
             # qkd_hybrid: <value in [disable, require, allow]>
+            # mobike: <value in [disable, enable]>
             # peer_egress_shaping: <value in [disable, enable]>
             # dns_suffix_search: <list or string>
             # peer_egress_shaping_value: <integer>
-            # mobike: <value in [disable, enable]>
 
 
 Return Values

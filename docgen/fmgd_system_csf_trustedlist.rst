@@ -103,16 +103,16 @@ Parameters
  <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.2.6 -> v7.2.11</code>, <code class="docutils literal notranslate">v7.4.3 -> latest</code></p>
  </div>
  </li>
- <li><span class="li-head">preferred_seats</span> <b>(Alias name: preferred-seats)</b>  Preferred seats. <span class="li-normal">type: int</span>
+ <li><span class="li-head">guaranteed_seats</span> <b>(Alias name: guaranteed-seats)</b>  Guaranteed seats. <span class="li-normal">type: int</span>
  <a id='label16' href="javascript:ContentClick('label17', 'label16');" onmouseover="ContentPreview('label17');" onmouseout="ContentUnpreview('label17');" title="click to collapse or expand..."> more... </a>
  <div id="label17" style="display:none">
- <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.6.4 -> latest</code></p>
+ <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.4.8 -> v7.4.8</code>, <code class="docutils literal notranslate">v7.6.4 -> latest</code></p>
  </div>
  </li>
- <li><span class="li-head">guaranteed_seats</span> <b>(Alias name: guaranteed-seats)</b>  Guaranteed seats. <span class="li-normal">type: int</span>
+ <li><span class="li-head">preferred_seats</span> <b>(Alias name: preferred-seats)</b>  Preferred seats. <span class="li-normal">type: int</span>
  <a id='label18' href="javascript:ContentClick('label19', 'label18');" onmouseover="ContentPreview('label19');" onmouseout="ContentUnpreview('label19');" title="click to collapse or expand..."> more... </a>
  <div id="label19" style="display:none">
- <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.6.4 -> latest</code></p>
+ <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.4.8 -> v7.4.8</code>, <code class="docutils literal notranslate">v7.6.4 -> latest</code></p>
  </div>
  </li>
  </ul>
@@ -160,8 +160,8 @@ Examples
             # ha_members: <list or string>
             # index: <integer>
             # serial: <string>
-            # preferred_seats: <integer>
             # guaranteed_seats: <integer>
+            # preferred_seats: <integer>
 
 
 Return Values

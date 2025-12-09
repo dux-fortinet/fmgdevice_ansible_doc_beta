@@ -162,7 +162,7 @@ Parameters
  <li><span class="li-head">http_transaction</span> <b>(Alias name: http-transaction)</b>  Enable/disable log http transaction messages. <span class="li-normal">type: str</span> <span class="li-normal">choices: [disable, enable]</span> 
  <a id='label34' href="javascript:ContentClick('label35', 'label34');" onmouseover="ContentPreview('label35');" onmouseout="ContentUnpreview('label35');" title="click to collapse or expand..."> more... </a>
  <div id="label35" style="display:none">
- <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.6.0 -> latest</code></p>
+ <p>Supported Version Ranges: <code class="docutils literal notranslate">v7.4.8 -> latest</code></p>
  </div>
  </li>
  <li><span class="li-head">debug</span> Enable/disable debug logging. <span class="li-normal">type: str</span> <span class="li-normal">choices: [disable, enable]</span> 
